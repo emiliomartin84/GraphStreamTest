@@ -8,26 +8,41 @@
 import org.graphstream.graph.*;
 import org.graphstream.graph.implementations.MultiGraph;
 import org.graphstream.graph.implementations.SingleGraph;
+import org.graphstream.ui.spriteManager.Sprite;
+import org.graphstream.ui.spriteManager.SpriteManager;
 import org.graphstream.ui.swingViewer.Viewer;
 
 public class TestGraph {
-    public static void main (String [] args)
-    {
+    public static void main (String [] args) throws InterruptedException {
         //Graph graph = new SingleGraph("Tutorial 1");
-        Graph graph = new MultiGraph("embedded");
-        Viewer viewer = new Viewer(graph, Viewer.ThreadingModel.GRAPH_IN_ANOTHER_THREAD);
-        graph.addAttribute("ui.stylesheet", "graph { fill-color: red; }");
-        graph.setAutoCreate( true );
+        System.setProperty("gs.ui.renderer", "org.graphstream.ui.j2dviewer.J2DGraphRenderer");
+        Graph graph = new MultiGraph("Live long and proser");
+        SpriteManager sman = new SpriteManager(graph);
+        Sprite s = sman.addSprite("S1");
 
+
+        Viewer viewer = graph.display();
+
+        viewer.disableAutoLayout();
         graph.addNode("A");
+        graph.getNode("A").setAttribute("xyz", 1, 0, 0);
+
         graph.addNode("B");
+        graph.getNode("B").setAttribute("x",1);
+        graph.getNode("B").setAttribute("xyz",2,20,3);
+
+
         graph.addNode("C");
-        graph.addEdge("AB", "A", "B");
-        graph.addEdge("BC", "B", "C");
+        graph.getNode("C").setAttribute("x",1);
+        graph.getNode("C").setAttribute("xyz",3,0,0);
+           graph.addEdge("AB", "A", "B");
+
+        graph.addEdge("BC", "B", "C", true);
         graph.addEdge("CA", "C", "A");
 
-        graph.display(true);
 
+        s.attachToEdge("BC");
+        s.setPosition(0.5);
         for(Node n:graph) {
             System.out.println(n.getId());
         }
