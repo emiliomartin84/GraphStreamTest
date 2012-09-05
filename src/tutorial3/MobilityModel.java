@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class MobilityModel {
     protected ArrayList<MobileDevice> devices;// Set of mobile devices.
-    protected int deviceCount = 1000;          // N devices.
+    protected int deviceCount = 5000;          // N devices.
     protected int steps = 100000000;              // Simulate N steps.
     protected Graph graph;                    // The dyn. ad-hoc net.
 
