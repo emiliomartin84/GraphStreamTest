@@ -25,7 +25,7 @@ public class MobileDevice {
     protected Node node;                // The node for this device.
     private static final double MIN_DISTANCE_TO_STABLSIH_CONNECTION = 350;
     private static final double MIN_DISTANCE_TO_TARGET =0.1 ;
-    private static final double PAUSE_TIME = 4;
+    private static final double PAUSE_TIME = 0;
     private static final double MAX_SPEED = 0.05;
     private static final double MAX_Y = 10000;
     private static final double MAX_X = 10000;

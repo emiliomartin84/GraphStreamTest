@@ -22,13 +22,9 @@ public class TestVRP {
     private static boolean reading_depot;
 
     protected static final String styleSheet = "node.depot {\n" +
-            "size: 10px, 15px;" +
-            "shape: box;"+
-            "        fill-mode: plain;   /* Default.          */\n" +
-            "        fill-color: red;    /* Default is black. */\n" +
-            "        stroke-mode: plain; /* Default is none.  */\n" +
-            "        stroke-color: blue; /* Default is black. */\n" +
-            "    }"+
+            "shape: box;" +
+            "size: 15px, 15px;" +
+            "}" +
     "node { size-mode: dyn-size; size: 10px;}";
     public static void main (String args[])
     {
@@ -37,7 +33,7 @@ public class TestVRP {
         g.addAttribute("ui.quality");
         g.addAttribute("ui.antialias");
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/A-VRP/A-n33-k5.vrp"));
+            BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/A-VRP/A-n80-k10.vrp"));
             String strLine;
             try {
                 while ((strLine = reader.readLine()) != null)   {
@@ -78,14 +74,15 @@ public class TestVRP {
             int y = Integer.parseInt(str.nextToken()) ;
             g.addNode(id);
             g.getNode(id).setAttribute("xyz",x,y,0);
-            if(!id.equals("1"))
-                g.addEdge("1"+id,"1",id);
+            //if(!id.equals("1"))
+              //  g.addEdge("1"+id,"1",id);
         }else if (reading_demands){
             StringTokenizer str = new StringTokenizer(strLine," \t",false);
             String id = str.nextToken();
             int capacity = Integer.parseInt(str.nextToken());
             g.getNode(id).setAttribute("capacity", capacity);
-            //g.getNode(id).addAttribute("ui.size", capacity);
+            if(!id.equals("1"))
+            g.getNode(id).addAttribute("ui.size", capacity);
 
         }else if (reading_depot){
             StringTokenizer str = new StringTokenizer(strLine," \t",false);
