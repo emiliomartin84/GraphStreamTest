@@ -1,50 +1,46 @@
-package CVRP;
+package utils;
 
-
-import org.graphstream.graph.EdgeRejectedException;
 import org.graphstream.graph.Graph;
-import org.graphstream.graph.Node;
 import org.graphstream.graph.implementations.DefaultGraph;
-import sun.net.www.content.text.plain;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.StringTokenizer;
-
-import static org.graphstream.ui.graphicGraph.GraphPosLengthUtils.nodePosition;
 
 /**
  * Created with IntelliJ IDEA.
  * User: emilio
- * Date: 23/08/12
- * Time: 16:36
+ * Date: 12/11/12
+ * Time: 19:48
  * To change this template use File | Settings | File Templates.
  */
-public class TestVRP {
-
+public class SolomonTWReader {
     private static int capacity;
     private static boolean reading_coordinates;
+    private static String styleSheet;
+    private static boolean reading_demand;
     private static boolean reading_demands;
     private static boolean reading_depot;
+    private BufferedReader reader;
 
-    protected static final String styleSheet = "node {\n" +
-            "shape: square;" +
-            "size: 15px, 15px;" +
-            "text-color: yellow; " +
-            "text-size: 100; " +
-            "text-style: bold; " +
-            "text-background-mode: rounded-box; " +
-            "text-background-color: #222C; " +
-            "text-padding: 5px, 4px; " +
-            "text-offset: 0px, 5px;" +
-            "}";
+    public SolomonTWReader (String path, String file){
+        try{
+            BufferedReader reader = new BufferedReader(new FileReader(path+file));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
     public static void main (String args[])
     {
         Graph g = new DefaultGraph("g");
-        //g.addAttribute("ui.stylesheet", styleSheet);
+        g.addAttribute("ui.stylesheet", styleSheet);
         g.addAttribute("ui.quality");
         g.addAttribute("ui.antialias");
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/A-VRP/prueba.vrp"));
+            BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/A-VRP/A-n80-k10.vrp"));
             String strLine;
             try {
                 while ((strLine = reader.readLine()) != null)   {
@@ -58,11 +54,6 @@ public class TestVRP {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
         g.display(false);
-        for (Node node : g) {
-            node.addAttribute("ui.label", node.getId());
-        }
-        addDistances(g);
-
     }
 
     private static void proccesLine(Graph g, String strLine) {
@@ -76,6 +67,8 @@ public class TestVRP {
             reading_coordinates = true;
         else if (strLine.startsWith("DEMAND_SECTION")){
             reading_coordinates = false;
+
+
             reading_demands = true;
         }else if (strLine.startsWith("DEPOT_SECTION"))
         {
@@ -90,18 +83,15 @@ public class TestVRP {
             int y = Integer.parseInt(str.nextToken()) ;
             g.addNode(id);
             g.getNode(id).setAttribute("xyz",x,y,0);
-            //if(!id.equals("1"))
-              //  g.addEdge("1"+id,"1",id);
+            if(!id.equals("1"))
+                g.addEdge("1"+id,"1",id);
         }else if (reading_demands){
             StringTokenizer str = new StringTokenizer(strLine," \t",false);
             String id = str.nextToken();
             int capacity = Integer.parseInt(str.nextToken());
             g.getNode(id).setAttribute("capacity", capacity);
-            if(!id.equals("1"))                 {
-            g.getNode(id).addAttribute("ui.size", capacity);
-                g.getNode(id).setAttribute("ui.class","normal");
-            }
-           // g.getNode(id).addAttribute("ui.text", id);
+            if(!id.equals("1"))
+                g.getNode(id).addAttribute("ui.size", capacity);
 
         }else if (reading_depot){
             StringTokenizer str = new StringTokenizer(strLine," \t",false);
@@ -109,33 +99,11 @@ public class TestVRP {
             g.getNode(id).setAttribute("ui.class","depot");
             reading_depot = false;
         }
-
-    }
-
-    public static void addDistances(Graph g){
-        for ( Node n : g){
-            for ( Node m : g){
-                if(!m.equals(n)) {
-                    Object a = n.getAttribute("xyz");
-                    double distance = Math.sqrt(
-                            Math.pow( nodePosition(n)[0] - nodePosition(m)[0],2 ) +
-                            Math.pow( nodePosition(n)[1] - nodePosition(m)[1],2 )
-                            );
-                    try{
-
-                    g.addEdge(n.getId()+"-"+m.getId(),n.getId(),m.getId(),false);
-                        g.getEdge(n.getId()+"-"+m.getId()).setAttribute("ui.label", String.valueOf(distance).substring(0,3));
-                    }catch(EdgeRejectedException e)
-                        {
-
-                        }
-
-
-                }
-            }
-        }
     }
 
 
+    private void proccesLine()
+    {
 
+    }
 }
