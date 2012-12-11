@@ -32,7 +32,10 @@ public class SolomonTWReader {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
     }
-
+    public static Graph loadFile(String path)
+    {
+          return null;
+    }
     public static void main (String args[])
     {
         Graph g = new DefaultGraph("g");

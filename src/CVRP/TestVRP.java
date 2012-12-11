@@ -27,10 +27,10 @@ public class TestVRP {
     private static boolean reading_depot;
 
     protected static final String styleSheet = "node {\n" +
-            "shape: square;" +
+            "shape: box;" +
             "size: 15px, 15px;" +
-            "text-color: yellow; " +
-            "text-size: 100; " +
+            "text-color: red; " +
+            "text-size: 40; " +
             "text-style: bold; " +
             "text-background-mode: rounded-box; " +
             "text-background-color: #222C; " +
@@ -40,7 +40,7 @@ public class TestVRP {
     public static void main (String args[])
     {
         Graph g = new DefaultGraph("g");
-        //g.addAttribute("ui.stylesheet", styleSheet);
+        g.addAttribute("ui.stylesheet", styleSheet);
         g.addAttribute("ui.quality");
         g.addAttribute("ui.antialias");
         try {
