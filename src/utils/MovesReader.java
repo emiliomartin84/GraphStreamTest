@@ -1,15 +1,14 @@
 package utils;
 
-import com.jhlabs.map.proj.MercatorProjection;
 import com.jhlabs.map.proj.TransverseMercatorProjection;
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.implementations.DefaultGraph;
 
-import javax.imageio.ImageIO;
 import java.awt.geom.Point2D;
-import java.awt.image.BufferedImage;
-import java.io.*;
-import java.net.URL;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Vector;
 
 /**
@@ -24,10 +23,9 @@ public class MovesReader {
     private static boolean reading_coordinates;
     protected static final String styleSheet = "node {\n" +
             "shape: box;" +
-            "size: 15px, 15px;" +
+            "size: 5px, 5px;" +
             "text-color: red; " +
             "text-size: 40; " +
-            "text-style: bold; " +
             "text-background-mode: rounded-box; " +
             "text-background-color: #222C; " +
             "text-padding: 5px, 4px; " +
@@ -40,7 +38,8 @@ public class MovesReader {
     private BufferedReader reader;
 
 
-    private static Vector<Point2D> vector;  public MovesReader(String path, String file){
+    private static Vector<Point2D> vector;
+    public MovesReader(String path, String file){
         try{
             BufferedReader reader = new BufferedReader(new FileReader(path+file));
         } catch (FileNotFoundException e) {
