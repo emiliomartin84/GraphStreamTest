@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771840dd-80da-403d-81d3-435e725a3c6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visualizer/html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/TestMoves.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MovesReader.java" afterPath="$PROJECT_DIR$/src/utils/MovesReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" afterPath="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" />
     </list>
     <ignored path="GraphStreamTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +38,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" line="229" class="visualizer.JavaFX_GoogleMaps" package="visualizer">
+      <breakpoint url="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" line="232" class="visualizer.JavaFX_GoogleMaps" package="visualizer">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -52,6 +52,19 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" line="121" class="visualizer.JavaFX_GoogleMaps" package="visualizer">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="113" class="utils.clustering.ClusterWert" package="utils.clustering">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -105,33 +118,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestVRP.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CVRP/TestVRP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="2" selection-start="719" selection-end="1138" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolomonTWReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/SolomonTWReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="21" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaFX_GoogleMaps.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JavaFX_GoogleMaps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="131" selection-start="2506" selection-end="2526" vertical-scroll-proportion="0.6365639">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="67" column="54" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +130,7 @@
       <file leaf-file-name="html.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/visualizer/html.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="698" column="91" selection-start="18901" selection-end="18901" vertical-scroll-proportion="-9.708333">
+            <state line="698" column="91" selection-start="18901" selection-end="18901" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,10 +139,39 @@
       <file leaf-file-name="MovesReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/MovesReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
+            <state line="172" column="51" selection-start="5523" selection-end="5523" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClusterWert.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="25" selection-start="3694" selection-end="3694" vertical-scroll-proportion="0.16666667">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#442#450#0" expanded="true" />
+                <element signature="e#1433#1441#0" expanded="true" />
+                <element signature="e#1778#1798#0" expanded="true" />
+                <element signature="e#2127#2136#0" expanded="true" />
+                <element signature="e#2919#2939#0" expanded="true" />
+                <element signature="e#3045#3054#0" expanded="true" />
+                <element signature="e#3110#3119#0" expanded="true" />
+                <element signature="e#3254#3263#0" expanded="true" />
+                <element signature="e#3656#3665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMoves.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestMoves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="37" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +197,7 @@
       <file leaf-file-name="Proj.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/Proj.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.2">
+            <state line="3" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,7 +206,7 @@
       <file leaf-file-name="MercatorProjection.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/com/jhlabs/map/proj/MercatorProjection.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="-2.4">
+            <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,8 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MobilityModel.java" />
-        <option value="$PROJECT_DIR$/src/MobileDevice.java" />
         <option value="$PROJECT_DIR$/src/tutorial3/Tutorial3.java" />
         <option value="$PROJECT_DIR$/src/tutorial4/Tutorial4.java" />
         <option value="$PROJECT_DIR$/src/tutorial4/Segregation.java" />
@@ -231,8 +249,10 @@
         <option value="$PROJECT_DIR$/files/export_lunes_c11.txt" />
         <option value="$PROJECT_DIR$/src/visualizer/clase.java" />
         <option value="$PROJECT_DIR$/src/visualizer/html.html" />
-        <option value="$PROJECT_DIR$/src/utils/MovesReader.java" />
         <option value="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestMoves.java" />
+        <option value="$PROJECT_DIR$/src/utils/MovesReader.java" />
+        <option value="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
       </list>
     </option>
   </component>
@@ -280,16 +300,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="GraphStreamTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -390,8 +400,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clustering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraphStreamTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraphStreamTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraphStreamTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraphStreamTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -401,13 +461,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="141" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/UbiGraph-alpha-0.2.4-MacOSX10.4Intel/examples/Python" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
@@ -428,11 +489,11 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -451,39 +512,7 @@
       <recent name="$PROJECT_DIR$/A-VRP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaFX_GoogleMaps">
-    <configuration default="false" name="Segregation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="tutorial4.Segregation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GraphStreamTest" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LeHavre" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="eccs2011.LeHavre" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GraphStreamTest" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ClusterWert">
     <configuration default="false" name="TestVRP" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="CVRP.TestVRP" />
       <option name="VM_PARAMETERS" />
@@ -550,6 +579,44 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TestMoves" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestMoves" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GraphStreamTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ClusterWert" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="utils.clustering.ClusterWert" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GraphStreamTest" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -570,24 +637,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -616,6 +665,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -690,12 +757,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.Segregation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LeHavre" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestVRP" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MobilityModel" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MovesReader" />
-      <item index="5" class="java.lang.String" itemvalue="Application.JavaFX_GoogleMaps" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestVRP" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MobilityModel" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MovesReader" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JavaFX_GoogleMaps" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestMoves" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ClusterWert" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -752,7 +819,11 @@
       <created>1355260534239</created>
       <updated>1355260534239</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Veeeenga&#10;">
+      <created>1355348540679</created>
+      <updated>1355348540679</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -776,13 +847,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13545817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -793,10 +863,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2593391" sideWeight="0.685259" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31474105" sideWeight="0.9949713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2593391" sideWeight="0.72775567" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27224436" sideWeight="0.9949713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -838,7 +909,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="New test&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Veeeenga&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -852,6 +923,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="New test&#10;" />
+    <MESSAGE value="Veeeenga&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -861,116 +933,109 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tutorial3/Tutorial3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/StringTokenizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A-VRP/prueba.vrp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="8" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A-VRP/A-n32-k5.vrp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="1" selection-start="719" selection-end="719" vertical-scroll-proportion="2.4836602">
-          <folding />
-        </state>
+        <state line="76" column="1" selection-start="719" selection-end="719" vertical-scroll-proportion="2.4836602" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A-VRP/solomon_25-1/RC101.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/com/jhlabs/map/proj/TransverseMercatorProjection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.21377672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/Proj.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/com/jhlabs/map/proj/MercatorProjection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="-2.4">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.21377672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CVRP/TestVRP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="2" selection-start="719" selection-end="1138" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="39" column="2" selection-start="719" selection-end="1138" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/export_lunes_c11.txt">
+    <entry file="file://$PROJECT_DIR$/src/utils/SolomonTWReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="651" column="51" selection-start="35138" selection-end="35138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="63" column="21" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/StringTokenizer.java">
+    <entry file="file://$PROJECT_DIR$/src/visualizer/html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="698" column="91" selection-start="18901" selection-end="18901" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/application/Application.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+        <state line="12" column="23" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/export_lunes_c11.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="651" column="51" selection-start="35138" selection-end="35138" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/Proj.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SolomonTWReader.java">
+    <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/com/jhlabs/map/proj/MercatorProjection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualizer/html.html">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/StringTokenizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="698" column="91" selection-start="18901" selection-end="18901" vertical-scroll-proportion="-9.708333">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="54" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestMoves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="37" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/MovesReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
+        <state line="172" column="51" selection-start="5523" selection-end="5523" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="131" selection-start="2506" selection-end="2526" vertical-scroll-proportion="0.6365639">
+        <state line="99" column="25" selection-start="3694" selection-end="3694" vertical-scroll-proportion="0.16666667">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#442#450#0" expanded="true" />
+            <element signature="e#1433#1441#0" expanded="true" />
+            <element signature="e#1778#1798#0" expanded="true" />
+            <element signature="e#2127#2136#0" expanded="true" />
+            <element signature="e#2919#2939#0" expanded="true" />
+            <element signature="e#3045#3054#0" expanded="true" />
+            <element signature="e#3110#3119#0" expanded="true" />
+            <element signature="e#3254#3263#0" expanded="true" />
+            <element signature="e#3656#3665#0" expanded="true" />
           </folding>
         </state>
       </provider>

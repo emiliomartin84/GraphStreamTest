@@ -40,7 +40,7 @@ public class JavaFX_GoogleMaps extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("java-buddy.blogspot.com");
+        primaryStage.setTitle("moves");
 
 
         myBrowser = new MyBrowser();
@@ -96,7 +96,7 @@ public class JavaFX_GoogleMaps extends Application {
     {
         try{
 
-        BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/files/export_lunes_c11.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/files/export_lunes.txt"));
         String strLine;
         vector = new Vector<String[]>();
         try {
@@ -120,9 +120,12 @@ public class JavaFX_GoogleMaps extends Application {
     private void generateHtml()
     {
         URL resourceUrl = getClass().getResource("html.html");
+
         File file = null;
         try {
             file = new File(resourceUrl.toURI());
+            String [] aux = {resourceUrl.toURI().toString()};
+           // navega(aux);
             FileWriter writer = new FileWriter(file,false);
             BufferedWriter output = new BufferedWriter(writer);
             output.write(genHtml());

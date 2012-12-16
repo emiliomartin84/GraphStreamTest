@@ -21,6 +21,7 @@ import java.util.Vector;
 public class MovesReader {
     private static int capacity;
     private static boolean reading_coordinates;
+    private Graph g;
     protected static final String styleSheet = "node {\n" +
             "shape: box;" +
             "size: 5px, 5px;" +
@@ -36,44 +37,40 @@ public class MovesReader {
     private static boolean reading_services;
     private static boolean reading_depot;
     private BufferedReader reader;
-
-
     private static Vector<Point2D> vector;
-    public MovesReader(String path, String file){
+
+    public MovesReader(){
+        setG(new DefaultGraph("g"));
+        getG().addAttribute("ui.stylesheet", styleSheet);
+        getG().addAttribute("ui.quality");
+        getG().addAttribute("ui.antialias");
+
+    }
+
+    public boolean load(String file) {
         try{
-            BufferedReader reader = new BufferedReader(new FileReader(path+file));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
-    }
-    public static Graph loadFile(String path)
-    {
-          return null;
-    }
-    public static void main (String args[])
-    {
-        Graph g = new DefaultGraph("g");
-        g.addAttribute("ui.stylesheet", styleSheet);
-        g.addAttribute("ui.quality");
-        g.addAttribute("ui.antialias");
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/files/export_lunes.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader(file));
             String strLine;
             vector = new Vector<Point2D>();
             try {
                 while ((strLine = reader.readLine()) != null)   {
                     // Print the content on the console
-                    proccesLine (g, strLine);
-                    System.out.println(strLine);
+                    proccesLine (getG(), strLine);
+                    //System.out.println(strLine);
                 }
-                writeImage();
+                //writeImage();
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-        g.display(false);
+        return true;
+    }
+
+    public static Graph loadFile(String path)
+    {
+        return null;
     }
 
     private static void proccesLine(Graph g, String strLine) {
@@ -83,8 +80,9 @@ public class MovesReader {
             reading_services = true;
         }else if (reading_services)
         {
-            String [] datos = strLine.split(",");
+            //# customer, serviceReference, dayOfWeek, minHour, minMinute, maxHour, maxMinute, duration, latitude, longitude
 
+            String [] datos = strLine.split(",");
             String id = datos[1];
             double lat = Double.parseDouble(datos[8]);
             Double longi = Double.parseDouble(datos[9]);
@@ -94,48 +92,42 @@ public class MovesReader {
             longi *= Math.PI /180.0;
             TransverseMercatorProjection projection = new TransverseMercatorProjection();
             Point2D.Double punto = projection.project(lat, longi, new Point2D.Double());
-
             vector.add(p);
             try{
-            g.addNode(id);
-            g.getNode(id).setAttribute("xyz",punto.y,punto.x,0);
+                g.addNode(id);
+                g.getNode(id).setAttribute("xyz",punto.y,punto.x,0);
+                g.getNode(id).setAttribute("ini",datos[3]+":"+datos[4]);
+                g.getNode(id).setAttribute("end",datos[5]+":"+datos[6]);
+                g.getNode(id).setAttribute("duration"+datos[7]);
+
             }catch (Exception e)
             {
-
+                System.out.println(e.toString());
             }
-            //if(!id.equals("1"))
-              //  g.addEdge("1"+id,"1",id);
         }
     }
 
     private static  void writeImage()
     {
         try {
+            int limit =2000;
+            //Static google map apis doesn't allow to put more than certain number of markers.
             String url = "http://maps.google.com/maps/api/staticmap?&size=512x512&maptype=roadmap&sensor=false";
 
             for(int i=0;i<vector.size();i++)
             {
                 if(url.length()<2000)
-               url+= "&markers=color:green%7Clabel:G%7C" +
-                       String.valueOf(vector.get(i).getX())+","+String.valueOf(vector.get(i).getY());
+                    url+= "&markers=color:green%7Clabel:G%7C" +
+                            String.valueOf(vector.get(i).getX())+","+String.valueOf(vector.get(i).getY());
             }
-
-
-           // BufferedImage img = ImageIO.read(new URL("http://maps.googleapis.com/maps/api/staticmap?center=New+York,NY&zoom=13&size=600x300&key=AIzaSyCQXIE3yBRjyhTHjvZYNsJJKn2mfWxub_M"));
-
-           // File outputfile = new File("map.png");
-            //ImageIO.write(img, "png", outputfile);
-            //System.out.println("Saved!");
-            String [] aux = {url, "http://maps.googleapis.com/maps/api/staticmap?center=New+York,NY&zoom=13&sensor=false&size=600x300&key=AIzaSyCQXIE3yBRjyhTHjvZYNsJJKn2mfWxub_M"};
-            navega(aux);
-
+            String [] aux = {url};
         } catch (Exception ex) {
             System.out.println("Error!" + ex);
         }
     }
 
 
-    public static void navega(String [] args) {
+    public static void navega(String[] args) {
 
         if( !java.awt.Desktop.isDesktopSupported() ) {
 
@@ -160,7 +152,6 @@ public class MovesReader {
         for ( String arg : args ) {
 
             try {
-
                 java.net.URI uri = new java.net.URI( arg );
                 desktop.browse( uri );
             }
@@ -170,8 +161,12 @@ public class MovesReader {
             }
         }
     }
-    private void proccesLine()
-    {
 
+    public Graph getG() {
+        return g;
+    }
+
+    public void setG(Graph g) {
+        this.g = g;
     }
 }
