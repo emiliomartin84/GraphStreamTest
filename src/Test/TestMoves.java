@@ -15,5 +15,7 @@ public class TestMoves {
         MovesReader reader = new MovesReader();
         reader.load("/Users/emilio/Desktop/GraphStreamTest/files/export_lunes.txt");
         reader.getG().display(false);
+
+        //for(Node n in it)
     }
 }

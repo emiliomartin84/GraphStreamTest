@@ -1,6 +1,6 @@
 package utils;
 
-import com.jhlabs.map.proj.TransverseMercatorProjection;
+import com.jhlabs.map.proj.MercatorProjection;
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.implementations.DefaultGraph;
 
@@ -68,10 +68,7 @@ public class MovesReader {
         return true;
     }
 
-    public static Graph loadFile(String path)
-    {
-        return null;
-    }
+
 
     private static void proccesLine(Graph g, String strLine) {
         //To change body of created methods use File | Settings | File Templates.
@@ -85,20 +82,23 @@ public class MovesReader {
             String [] datos = strLine.split(",");
             String id = datos[1];
             double lat = Double.parseDouble(datos[8]);
-            Double longi = Double.parseDouble(datos[9]);
+            double longi = Double.parseDouble(datos[9]);
             Point2D p = new Point2D.Double();
             p.setLocation(lat,longi);
             lat *= Math.PI /180.0;
             longi *= Math.PI /180.0;
-            TransverseMercatorProjection projection = new TransverseMercatorProjection();
+            MercatorProjection projection = new MercatorProjection();
             Point2D.Double punto = projection.project(lat, longi, new Point2D.Double());
+
             vector.add(p);
             try{
                 g.addNode(id);
                 g.getNode(id).setAttribute("xyz",punto.y,punto.x,0);
                 g.getNode(id).setAttribute("ini",datos[3]+":"+datos[4]);
                 g.getNode(id).setAttribute("end",datos[5]+":"+datos[6]);
-                g.getNode(id).setAttribute("duration"+datos[7]);
+                g.getNode(id).setAttribute("duration",datos[7]);
+                g.getNode(id).setAttribute("latitude",Double.parseDouble(datos[8]));
+                g.getNode(id).setAttribute("longitude",Double.parseDouble(datos[9]));
 
             }catch (Exception e)
             {
@@ -114,11 +114,10 @@ public class MovesReader {
             //Static google map apis doesn't allow to put more than certain number of markers.
             String url = "http://maps.google.com/maps/api/staticmap?&size=512x512&maptype=roadmap&sensor=false";
 
-            for(int i=0;i<vector.size();i++)
-            {
-                if(url.length()<2000)
-                    url+= "&markers=color:green%7Clabel:G%7C" +
-                            String.valueOf(vector.get(i).getX())+","+String.valueOf(vector.get(i).getY());
+            for (Point2D aVector : vector) {
+                if (url.length() < 2000)
+                    url += "&markers=color:green%7Clabel:G%7C" +
+                            String.valueOf(aVector.getX()) + "," + String.valueOf(aVector.getY());
             }
             String [] aux = {url};
         } catch (Exception ex) {

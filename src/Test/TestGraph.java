@@ -1,13 +1,14 @@
-/**
+package Test; /**
  * Created with IntelliJ IDEA.
  * User: emilio
  * Date: 12/08/12
  * Time: 16:57
  * To change this template use File | Settings | File Templates.
  */
-import org.graphstream.graph.*;
+import org.graphstream.graph.Edge;
+import org.graphstream.graph.Graph;
+import org.graphstream.graph.Node;
 import org.graphstream.graph.implementations.MultiGraph;
-import org.graphstream.graph.implementations.SingleGraph;
 import org.graphstream.ui.spriteManager.Sprite;
 import org.graphstream.ui.spriteManager.SpriteManager;
 import org.graphstream.ui.swingViewer.Viewer;

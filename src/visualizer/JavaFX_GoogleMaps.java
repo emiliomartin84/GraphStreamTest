@@ -96,7 +96,7 @@ public class JavaFX_GoogleMaps extends Application {
     {
         try{
 
-        BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/files/export_lunes.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("/Users/emilio/Desktop/GraphStreamTest/files/export_lunes_c11.txt"));
         String strLine;
         vector = new Vector<String[]>();
         try {
@@ -162,6 +162,14 @@ public class JavaFX_GoogleMaps extends Application {
                 "    <script type=\"text/javascript\">\n" +
                 "\n" +
                 "        var map;\n" +
+                "function get_random_color() {\n" +
+                "    var letters = '0123456789ABCDEF'.split('');\n" +
+                "    var color = '';\n" +
+                "    for (var i = 0; i < 6; i++ ) {\n" +
+                "        color += letters[Math.round(Math.random() * 15)];\n" +
+                "    }\n" +
+                "    return color;\n" +
+                "}" +
                 "        function initialize() {\n" +
                 "\n" +
                 "\n" +
@@ -192,7 +200,7 @@ public class JavaFX_GoogleMaps extends Application {
                 "        var hotels = [\n");
                 for(int i=0;i<vector.size();i++)
                 {
-                    tHtml.append(" ['"+vector.get(i)[1]+"'," +vector.get(i)[8]+","+vector.get(i)[9]+",3]");
+                    tHtml.append(" ['"+vector.get(i)[1]+"'," +vector.get(i)[8]+","+vector.get(i)[9]+",3,get_random_color()]");
                     if(i!=vector.size()-1)
                         tHtml.append(",\n");
                 }
@@ -207,8 +215,14 @@ public class JavaFX_GoogleMaps extends Application {
                 "\n" +
 
                 "        var hotel = hotels [i]\n" +
-                "        var icon = new google.maps.MarkerImage(\"http://web4support.com/images/red_icon.png\"); \n" +
-                        "icon.scaledSize = new google.maps.Size(8,8);\n" +
+                        "var pinColor = hotel[4] ;\n" +
+                        "    var icon = new google.maps.MarkerImage(\"http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|\" + pinColor,\n" +
+                        "        new google.maps.Size(21, 34),\n" +
+                        "        new google.maps.Point(0,0),\n" +
+                        "        new google.maps.Point(10, 34));" +
+                        "icon.scaledSize = new google.maps.Size(12,18);\n" +
+          //      "        var icon = new google.maps.MarkerImage(\"http://web4support.com/images/red_icon.png\"); \n" +
+           //             "icon.scaledSize = new google.maps.Size(8,8);\n" +
                         "var marker = new google.maps.Marker({\n" +
                 "        position: new google.maps.LatLng (hotel[1], hotel[2]),\n" +
                 "        map: map,\n" +

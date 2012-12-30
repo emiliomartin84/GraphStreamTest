@@ -14,8 +14,8 @@ import java.util.ArrayList;
  */
 public class MobilityModel {
     protected ArrayList<MobileDevice> devices;// Set of mobile devices.
-    protected int deviceCount = 1500;          // N devices.
-    protected int steps = 100000000;              // Simulate N steps.
+    protected int deviceCount = 500;          // N devices.
+    protected int steps = 100000;              // Simulate N steps.
     protected Graph graph;                    // The dyn. ad-hoc net.
 
 
@@ -26,7 +26,7 @@ public class MobilityModel {
     public MobilityModel() {
         graph = new DefaultGraph("My graphs");     // The network.
         graph.display( false );
-        //System.setProperty("gs.ui.renderer", "org.graphstream.ui.j2dviewer.J2DGraphRenderer");
+        System.setProperty("gs.ui.renderer", "org.graphstream.ui.j2dviewer.J2DGraphRenderer");
         graph.addAttribute("ui.quality");
         graph.addAttribute("ui.antialias");
         graph.addAttribute("ui.stylesheet", styleSheet);

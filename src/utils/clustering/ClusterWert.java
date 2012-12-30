@@ -13,49 +13,143 @@ import java.util.Date;
 public class ClusterWert implements Comparable
 {
 
-    ArrayList<Service> services;
+    private ArrayList<Service> services;
+    private static final double MAX_DISTANCE = -1;
+    private double distance = MAX_DISTANCE;
 
-    static int contador =0;
 
-    ArrayList<String> permutationsOf(String s) {
-        ArrayList<String> result = new ArrayList<String>();
 
-        if (s.length() == 1) { // base case
-            // return a new ArrayList containing just s
-            result.add(s);
-            return result;
-        }
-        else {
-            // separate the first character from the rest
-            char first = s.charAt(0);
-            String rest = s.substring(1);
-            // get all permutationsOf the rest of the characters
-            ArrayList<String> simpler = permutationsOf(rest);  // recursive step
-            // for each permutation,
-            for (String permutation : simpler) { // extra work            // add the first character in all possible positions, and
-                ArrayList additions = insertAtAllPositions(first, permutation);            // put each result into a new ArrayList
-                result.addAll(additions);
+    public ClusterWert(){
+        services = new ArrayList<Service>();
+    }
+    public ClusterWert(Service miFirstService)
+    {
+        services = new ArrayList<Service>();
+        services.add(miFirstService);
+    }
+
+
+    public double peekService(Service s)
+    {
+        CachedDistance cache = CachedDistance.getInstance();
+        double distance = -1;
+        getServices().add((Service)s.clone());
+
+        if(services.size()<7)
+        {
+            String id = Service.getOrderedID(getServices());
+            if(!cache.getCache().containsKey(id))
+            {
+                ArrayList<ArrayList<Service>> permutations = getMyPermutation();
+                int best = 0;
+
+                double bestDistance = Double.MAX_VALUE;
+
+
+                for(int i =0; i<permutations.size();i++)
+                {
+                    double auxDistance = calculateDistance(permutations.get(i));
+
+                    if(auxDistance!=MAX_DISTANCE &&  auxDistance<bestDistance)
+                    {
+                        bestDistance = auxDistance;
+                        distance = auxDistance;
+                        best = i;
+                    }
+                }
+                if(distance!=MAX_DISTANCE)
+                {
+
+
+                    ArrayList<Service> copy = new ArrayList<Service>();
+                    ArrayList<Service> copyA = new ArrayList<Service>();
+                    for(int i=0;i<permutations.get(best).size();i++){
+                        copy.add((Service)permutations.get(best).get(i).clone());
+                        copyA.add((Service)permutations.get(best).get(i).clone());
+                    }
+
+                    id = Service.getOrderedID(permutations.get(best));
+                    setServices(copyA);
+                    calculateDistance(copy);
+                    if(copy.size() > 3)
+                    cache.getCache().put(id,copy);
+                    this.distance = calculateMyOwnDistance();
+                    for(Service sa: getServices())
+                    {
+                        Date h = sa.getH();
+                        Date fin = sa.getFin();
+                        if(h.after(fin))
+                            System.out.println("AA");
+                    }
+
+                    cache.setFallos(cache.getFallos()+1);
+                    distance = this.distance;
+                }
+            }else //
+            {
+                ArrayList<Service> copy = new ArrayList<Service>();
+                for(int i=0;i<cache.getCache().get(id).size();i++)
+                    copy.add((Service)cache.getCache().get(id).get(i).clone());
+                setServices(copy);
+                this.distance = calculateMyOwnDistance();
+
+                for(Service sa: getServices())
+                {
+                    Date h = sa.getH();
+                    Date fin = sa.getFin();
+                    if(h.after(fin))
+                        System.out.println("AA");
+                }
+                cache.setAciertos(cache.getAciertos()+1);
+                distance = this.distance;
             }
-            return result;
+
+        }else
+        {
+            //calculateMyOwnDistance();
+            this.distance = -1;
+
         }
+        return distance;
+
     }
 
-    private ArrayList insertAtAllPositions(char ch, String s) {
+    public double calculateMyOwnDistance() {
+        this.distance = calculateDistance(getServices());
+        return this.distance;
+    }
+    public double calculateDistance(ArrayList<Service> services) {
 
-        ArrayList<String> result = new ArrayList<String>();
-        for (int i = 0; i <= s.length(); i++) {
-            String inserted = s.substring(0, i) + ch + s.substring(i);
-            result.add(inserted);
+        double distance = 0;
+        Service previous = services.get(0);
+        previous.setH(previous.getIni());
+        for ( int i = 1;i<services.size() && distance!=MAX_DISTANCE;i++)
+        {
+            double aux =services.get(i).calculateDistanceFromToMe(previous);
+            if(aux == -1){
+                distance = -1;
+                break;
+            }else
+                distance+=aux;
+            previous = services.get(i);
         }
-        return result;
+        return distance;
+
     }
 
-    static ArrayList<ArrayList<Service>> permutationsOf(ArrayList<Service> s) {
+    public ArrayList<ArrayList<Service>> getMyPermutation()
+    {
+        return permutationsOf(this.getServices());
+    }
+
+    public static ArrayList<ArrayList<Service>> permutationsOf(ArrayList<Service> s) {
         ArrayList<ArrayList<Service>> result = new ArrayList<ArrayList<Service>>();
 
         if (s.size() == 1) { // base case
             // return a new ArrayList containing just s
-            result.add(s);
+            ArrayList<Service> aux = new ArrayList<Service>();
+            aux.add((Service)s.get(0).clone());
+            result.add(aux);
             return result;
         }
         else {
@@ -88,7 +182,6 @@ public class ClusterWert implements Comparable
     }
 
 
-
     @Override
     public int compareTo(Object o) {
         return 0;  //To change body of implemented methods use File | Settings | File Templates.
@@ -103,36 +196,46 @@ public class ClusterWert implements Comparable
         }
         ArrayList<ArrayList<Service>> permutation = permutationsOf(services1);
 
-        for(int i=0;i<permutation.size();i++){
+        for (ArrayList<Service> aPermutation : permutation) {
             String id = "";
-            for (int j = 0;j<permutation.get(i).size();j++)
-            {
-                 id+= permutation.get(i).get(j).getId() +"-";
+            String aux = Service.getOrderedID(aPermutation);
+            for (int j = 0; j < aPermutation.size(); j++) {
+                id += aPermutation.get(j).getId() + "-";
             }
-            System.out.println(id);
+
+            System.out.println("LOL " + aux);
         }
 
     }
 
-    public static class Service{
-        private String id;
-        double x;
-        double y;
-        double duration;
-        Date ini;
-        Date fin;
-        public Service(String d )
+    public ArrayList<Service> getServices() {
+        return services;
+    }
+
+    public void setServices(ArrayList<Service> services) {
+        this.services = services;
+    }
+
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(double distance) {
+        this.distance = distance;
+    }
+
+    public String toString()
+    {
+        String resultado = "";
+        resultado +=" Cluster "+String.valueOf(hashCode())+ "\n";
+        resultado +=" numServices "+services.size()+ "\n";
+        for (int i=0;i<services.size();i++)
         {
-            setId(d);
+            resultado+="\t"+services.get(i).toString()+"\n";
         }
+        return resultado;
 
-        public String getId() {
-            return id;
-        }
-
-        public void setId(String id) {
-            this.id = id;
-        }
     }
 }
 

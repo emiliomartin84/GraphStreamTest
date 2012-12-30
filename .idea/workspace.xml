@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="771840dd-80da-403d-81d3-435e725a3c6b" name="Default" comment="" />
+    <list default="true" id="771840dd-80da-403d-81d3-435e725a3c6b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/export_lunesCOPY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test/TestWert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/Distance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/GoogleMaps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/clustering/Service.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TestGraph.java" afterPath="$PROJECT_DIR$/src/Test/TestGraph.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Tutorial2.java" afterPath="$PROJECT_DIR$/src/Test/Tutorial2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial2.dgs" afterPath="$PROJECT_DIR$/src/Test/tutorial2.dgs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestMoves.java" afterPath="$PROJECT_DIR$/src/Test/TestMoves.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tutorial3/MobileDevice.java" afterPath="$PROJECT_DIR$/src/tutorial3/MobileDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tutorial3/MobilityModel.java" afterPath="$PROJECT_DIR$/src/tutorial3/MobilityModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MovesReader.java" afterPath="$PROJECT_DIR$/src/utils/MovesReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" afterPath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" afterPath="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" />
+    </list>
     <ignored path="GraphStreamTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +49,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" line="232" class="visualizer.JavaFX_GoogleMaps" package="visualizer">
+      <breakpoint url="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" line="246" class="visualizer.JavaFX_GoogleMaps" package="visualizer">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -58,7 +75,20 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="113" class="utils.clustering.ClusterWert" package="utils.clustering">
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="81" class="utils.clustering.ClusterWert" package="utils.clustering">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="100" class="utils.clustering.ClusterWert" package="utils.clustering">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -112,19 +142,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JavaFX_GoogleMaps.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
+      <file leaf-file-name="ClusterWert.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="54" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="88" column="43" selection-start="2809" selection-end="2809" vertical-scroll-proportion="-10.230769">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1717#1726#0" expanded="true" />
+                <element signature="e#1790#1799#0" expanded="true" />
+                <element signature="e#2865#2874#0" expanded="true" />
+                <element signature="e#4594#4614#0" expanded="true" />
+                <element signature="e#4767#4776#0" expanded="true" />
+                <element signature="e#5056#5065#0" expanded="true" />
+                <element signature="e#5848#5868#0" expanded="true" />
+                <element signature="e#5974#5983#0" expanded="true" />
+                <element signature="e#6039#6048#0" expanded="true" />
+                <element signature="e#6183#6192#0" expanded="true" />
+                <element signature="e#6584#6593#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/visualizer/html.html">
+      <file leaf-file-name="export_lunes.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/export_lunes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="698" column="91" selection-start="18901" selection-end="18901" vertical-scroll-proportion="0.0">
+            <state line="984" column="0" selection-start="52358" selection-end="52408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,7 +176,7 @@
       <file leaf-file-name="MovesReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/MovesReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="51" selection-start="5523" selection-end="5523" vertical-scroll-proportion="0.0">
+            <state line="72" column="24" selection-start="2304" selection-end="2304" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,76 +184,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClusterWert.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
+      <file leaf-file-name="Service.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="25" selection-start="3694" selection-end="3694" vertical-scroll-proportion="0.16666667">
+            <state line="218" column="25" selection-start="5644" selection-end="5644" vertical-scroll-proportion="-11.038462">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#442#450#0" expanded="true" />
-                <element signature="e#1433#1441#0" expanded="true" />
-                <element signature="e#1778#1798#0" expanded="true" />
-                <element signature="e#2127#2136#0" expanded="true" />
-                <element signature="e#2919#2939#0" expanded="true" />
-                <element signature="e#3045#3054#0" expanded="true" />
-                <element signature="e#3110#3119#0" expanded="true" />
-                <element signature="e#3254#3263#0" expanded="true" />
-                <element signature="e#3656#3665#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMoves.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/TestMoves.java">
+      <file leaf-file-name="StrictMath.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="37" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+            <state line="1366" column="25" selection-start="51965" selection-end="51965" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/application/Application.class">
+      <file leaf-file-name="TestWert.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestWert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="60" column="62" selection-start="1915" selection-end="1933" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#820#833#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="export_lunesCOPY.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/export_lunesCOPY.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="1" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="export_lunes_c11.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/export_lunes_c11.txt">
+      <file leaf-file-name="CachedDistance.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/CachedDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="651" column="51" selection-start="35138" selection-end="35138" vertical-scroll-proportion="0.0">
+            <state line="34" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="0.5084746">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Proj.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/Proj.class">
+      <file leaf-file-name="JavaFX_GoogleMaps.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+            <state line="98" column="127" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MercatorProjection.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/com/jhlabs/map/proj/MercatorProjection.class">
+      <file leaf-file-name="GoogleMaps.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/GoogleMaps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringTokenizer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/StringTokenizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="238" column="31" selection-start="9048" selection-end="9048" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,22 +269,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/tutorial3/Tutorial3.java" />
-        <option value="$PROJECT_DIR$/src/tutorial4/Tutorial4.java" />
-        <option value="$PROJECT_DIR$/src/tutorial4/Segregation.java" />
-        <option value="$PROJECT_DIR$/src/tutorial4/Window.java" />
-        <option value="$PROJECT_DIR$/src/tutorial3/MobileDevice.java" />
         <option value="$PROJECT_DIR$/src/tutorial3/MobilityModel.java" />
-        <option value="$PROJECT_DIR$/A-VRP/prueba.vrp" />
-        <option value="$PROJECT_DIR$/src/CVRP/TestVRP.java" />
-        <option value="$PROJECT_DIR$/src/utils/SolomonTWReader.java" />
-        <option value="$PROJECT_DIR$/files/export_lunes_c11.txt" />
-        <option value="$PROJECT_DIR$/src/visualizer/clase.java" />
-        <option value="$PROJECT_DIR$/src/visualizer/html.html" />
-        <option value="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" />
+        <option value="$PROJECT_DIR$/src/tutorial3/MobileDevice.java" />
+        <option value="$PROJECT_DIR$/src/Tutorial2.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestGraph.java" />
+        <option value="$PROJECT_DIR$/src/Test/Tutorial2.java" />
         <option value="$PROJECT_DIR$/src/Test/TestMoves.java" />
+        <option value="$PROJECT_DIR$/src/utils/Distance.java" />
         <option value="$PROJECT_DIR$/src/utils/MovesReader.java" />
+        <option value="$PROJECT_DIR$/out/production/GraphStreamTest/visualizer/html.html" />
+        <option value="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" />
+        <option value="$PROJECT_DIR$/files/export_lunesCOPY.txt" />
+        <option value="$PROJECT_DIR$/src/utils/GoogleMaps.java" />
         <option value="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
+        <option value="$PROJECT_DIR$/src/utils/clustering/Service.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestWert.java" />
+        <option value="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" />
       </list>
     </option>
   </component>
@@ -254,9 +292,10 @@
     <option name="jreName" value="1.6" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="1280" />
+    <option name="y" value="-135" />
     <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -298,6 +337,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,35 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,6 +440,20 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraphStreamTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraphStreamTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -440,36 +475,26 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="72" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="73" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="72" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/UbiGraph-alpha-0.2.4-MacOSX10.4Intel/examples/Python" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="938" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="938" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="144" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="141" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/GraphStreamTest/visualizer" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="75" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="441" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="441" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="75" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="73" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -477,17 +502,17 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -500,15 +525,35 @@
       <recent name="$PROJECT_DIR$/src/2011" />
       <recent name="$PROJECT_DIR$/src/tutorial4" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="utils.clustering" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Test" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/A-VRP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClusterWert">
-    <configuration default="false" name="TestVRP" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="CVRP.TestVRP" />
+  <component name="RunManager" selected="Application.TestWert">
+    <configuration default="false" name="TestGraph" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestGraph" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GraphStreamTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestMoves" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestMoves" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -529,8 +574,24 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MovesReader" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="utils.MovesReader" />
+    <configuration default="false" name="ClusterWert" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="utils.clustering.ClusterWert" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GraphStreamTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestWert" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestWert" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -563,51 +624,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="GraphStreamTest" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestMoves" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Test.TestMoves" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GraphStreamTest" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ClusterWert" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="utils.clustering.ClusterWert" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GraphStreamTest" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -631,6 +648,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -659,24 +694,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -751,12 +768,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestVRP" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MobilityModel" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MovesReader" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JavaFX_GoogleMaps" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestMoves" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ClusterWert" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MobilityModel" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestGraph" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestMoves" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ClusterWert" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestWert" />
+      <item index="5" class="java.lang.String" itemvalue="Application.JavaFX_GoogleMaps" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -764,6 +781,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -845,29 +867,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="1280" y="-135" width="1440" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13545817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.4827586" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49679077" sideWeight="0.87787354" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2554557" sideWeight="0.41594827" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.44827586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2593391" sideWeight="0.19654715" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2593391" sideWeight="0.72775567" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27224436" sideWeight="0.9949713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2593391" sideWeight="0.74454427" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2554557" sideWeight="0.579023" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.6113506" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -932,89 +954,72 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/A-VRP/prueba.vrp">
+    <entry file="file://$PROJECT_DIR$/src/utils/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A-VRP/A-n32-k5.vrp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="1" selection-start="719" selection-end="719" vertical-scroll-proportion="2.4836602" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A-VRP/solomon_25-1/RC101.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/com/jhlabs/map/proj/TransverseMercatorProjection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.21377672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CVRP/TestVRP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="2" selection-start="719" selection-end="1138" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SolomonTWReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualizer/html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="698" column="91" selection-start="18901" selection-end="18901" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/application/Application.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/TimeZone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/export_lunes_c11.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="651" column="51" selection-start="35138" selection-end="35138" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/Proj.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="733" column="0" selection-start="27168" selection-end="27168" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javaproj-1.0.6.jar!/com/jhlabs/map/proj/MercatorProjection.class">
+    <entry file="file://$PROJECT_DIR$/src/Test/TestGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/StringTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="54" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestMoves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MovesReader.java">
+    <entry file="file://$PROJECT_DIR$/src/visualizer/html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="51" selection-start="5523" selection-end="5523" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-25.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/GraphStreamTest/visualizer/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="719" column="14" selection-start="41740" selection-end="41740" vertical-scroll-proportion="-11.833333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="127" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1366" column="25" selection-start="51965" selection-end="51965" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/export_lunesCOPY.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="1" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/GoogleMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="31" selection-start="9048" selection-end="9048" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1023,19 +1028,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="25" selection-start="3694" selection-end="3694" vertical-scroll-proportion="0.16666667">
+        <state line="88" column="43" selection-start="2809" selection-end="2809" vertical-scroll-proportion="-10.230769">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#442#450#0" expanded="true" />
-            <element signature="e#1433#1441#0" expanded="true" />
-            <element signature="e#1778#1798#0" expanded="true" />
-            <element signature="e#2127#2136#0" expanded="true" />
-            <element signature="e#2919#2939#0" expanded="true" />
-            <element signature="e#3045#3054#0" expanded="true" />
-            <element signature="e#3110#3119#0" expanded="true" />
-            <element signature="e#3254#3263#0" expanded="true" />
-            <element signature="e#3656#3665#0" expanded="true" />
+            <element signature="e#1717#1726#0" expanded="true" />
+            <element signature="e#1790#1799#0" expanded="true" />
+            <element signature="e#2865#2874#0" expanded="true" />
+            <element signature="e#4594#4614#0" expanded="true" />
+            <element signature="e#4767#4776#0" expanded="true" />
+            <element signature="e#5056#5065#0" expanded="true" />
+            <element signature="e#5848#5868#0" expanded="true" />
+            <element signature="e#5974#5983#0" expanded="true" />
+            <element signature="e#6039#6048#0" expanded="true" />
+            <element signature="e#6183#6192#0" expanded="true" />
+            <element signature="e#6584#6593#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/export_lunes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="984" column="0" selection-start="52358" selection-end="52408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/MovesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="24" selection-start="2304" selection-end="2304" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/clustering/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="25" selection-start="5644" selection-end="5644" vertical-scroll-proportion="-11.038462">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestWert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="62" selection-start="1915" selection-end="1933" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#820#833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/clustering/CachedDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="0.5084746">
+          <folding />
         </state>
       </provider>
     </entry>
