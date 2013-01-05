@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="771840dd-80da-403d-81d3-435e725a3c6b" name="Default" comment="GoogleMaps helper created.&#10;Wert cluested created and tested.&#10;Cache must be redesigned in order to improve performance.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/Emilio.xml" />
+    <list default="true" id="771840dd-80da-403d-81d3-435e725a3c6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestWert.java" afterPath="$PROJECT_DIR$/src/Test/TestWert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/GoogleMaps.java" afterPath="$PROJECT_DIR$/src/utils/GoogleMaps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" afterPath="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" afterPath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
     </list>
     <ignored path="GraphStreamTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -801,7 +796,11 @@
       <created>1356880034563</created>
       <updated>1356880034563</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="GoogleMaps helper created.&#10;Wert cluested created and tested.&#10;Cache must be redesigned in order to improve performance.&#10;">
+      <created>1357386357195</created>
+      <updated>1357386357195</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">

@@ -1,0 +1,4566 @@
+1  Cluster 16815322
+ numServices 3
+	Service: 42608.0.19:40.60/0
+	x: 40.414
+	y: -3.6981
+	h: Sat Dec 29 19:40:05 CET 2012
+	ini: Sat Dec 29 19:40:05 CET 2012
+	fin: Sat Dec 29 19:40:05 CET 2012
+	duration: 60.0
+
+	Service: 34711.0.20:55.30/0
+	x: 40.411
+	y: -3.7037
+	h: Sat Dec 29 20:51:05 CET 2012
+	ini: Sat Dec 29 19:55:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+	Service: 34711.0.20:55.30/1
+	x: 40.411
+	y: -3.7037
+	h: Sat Dec 29 21:21:05 CET 2012
+	ini: Sat Dec 29 19:55:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+2  Cluster 694435564
+ numServices 4
+	Service: 2269.0.19:25.60/0
+	x: 40.407
+	y: -3.7032
+	h: Sat Dec 29 18:25:05 CET 2012
+	ini: Sat Dec 29 18:25:05 CET 2012
+	fin: Sat Dec 29 20:25:05 CET 2012
+	duration: 60.0
+
+	Service: 50107.0.19:10.30/0
+	x: 40.409
+	y: -3.7031
+	h: Sat Dec 29 19:29:05 CET 2012
+	ini: Sat Dec 29 18:10:05 CET 2012
+	fin: Sat Dec 29 20:10:05 CET 2012
+	duration: 30.0
+
+	Service: 12614.0.20:20.30/0
+	x: 40.41
+	y: -3.7036
+	h: Sat Dec 29 20:01:05 CET 2012
+	ini: Sat Dec 29 19:20:05 CET 2012
+	fin: Sat Dec 29 21:20:05 CET 2012
+	duration: 30.0
+
+	Service: 12614.0.20:20.30/1
+	x: 40.41
+	y: -3.7036
+	h: Sat Dec 29 20:31:05 CET 2012
+	ini: Sat Dec 29 19:20:05 CET 2012
+	fin: Sat Dec 29 21:20:05 CET 2012
+	duration: 30.0
+
+
+3  Cluster 1952386350
+ numServices 4
+	Service: 47855.0.19:30.60/0
+	x: 40.41
+	y: -3.7131
+	h: Sat Dec 29 18:30:05 CET 2012
+	ini: Sat Dec 29 18:30:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 60.0
+
+	Service: 29753.0.19:40.30/0
+	x: 40.41
+	y: -3.7133
+	h: Sat Dec 29 19:30:05 CET 2012
+	ini: Sat Dec 29 18:40:05 CET 2012
+	fin: Sat Dec 29 20:40:05 CET 2012
+	duration: 30.0
+
+	Service: 17587.0.20:40.30/0
+	x: 40.411
+	y: -3.7097
+	h: Sat Dec 29 20:06:05 CET 2012
+	ini: Sat Dec 29 19:40:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+	Service: 16278.0.19:40.30/0
+	x: 40.411
+	y: -3.7087
+	h: Sat Dec 29 20:37:05 CET 2012
+	ini: Sat Dec 29 18:40:05 CET 2012
+	fin: Sat Dec 29 20:40:05 CET 2012
+	duration: 30.0
+
+
+4  Cluster 207258290
+ numServices 4
+	Service: 36402.0.19:40.60/0
+	x: 40.407
+	y: -3.6955
+	h: Sat Dec 29 18:40:05 CET 2012
+	ini: Sat Dec 29 18:40:05 CET 2012
+	fin: Sat Dec 29 20:40:05 CET 2012
+	duration: 60.0
+
+	Service: 12543.0.20:00.30/0
+	x: 40.408
+	y: -3.6971
+	h: Sat Dec 29 19:43:05 CET 2012
+	ini: Sat Dec 29 19:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 30.0
+
+	Service: 32111.0.19:25.30/0
+	x: 40.41
+	y: -3.6962
+	h: Sat Dec 29 20:17:05 CET 2012
+	ini: Sat Dec 29 18:25:05 CET 2012
+	fin: Sat Dec 29 20:25:05 CET 2012
+	duration: 30.0
+
+	Service: 1478.0.20:50.30/0
+	x: 40.411
+	y: -3.6948
+	h: Sat Dec 29 20:50:05 CET 2012
+	ini: Sat Dec 29 19:50:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+5  Cluster 171604596
+ numServices 4
+	Service: 16676.0.19:00.60/0
+	x: 40.41
+	y: -3.7129
+	h: Sat Dec 29 19:00:05 CET 2012
+	ini: Sat Dec 29 19:00:05 CET 2012
+	fin: Sat Dec 29 19:00:05 CET 2012
+	duration: 60.0
+
+	Service: 32425.0.19:05.30/0
+	x: 40.409
+	y: -3.7119
+	h: Sat Dec 29 20:02:05 CET 2012
+	ini: Sat Dec 29 18:05:05 CET 2012
+	fin: Sat Dec 29 20:05:05 CET 2012
+	duration: 30.0
+
+	Service: 1090.0.21:30.30/0
+	x: 40.409
+	y: -3.7056
+	h: Sat Dec 29 20:42:05 CET 2012
+	ini: Sat Dec 29 20:30:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+	Service: 346.0.21:30.30/0
+	x: 40.409
+	y: -3.7056
+	h: Sat Dec 29 21:12:05 CET 2012
+	ini: Sat Dec 29 20:30:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+6  Cluster 87907051
+ numServices 4
+	Service: 1222.0.18:00.90/0
+	x: 40.412
+	y: -3.7016
+	h: Sat Dec 29 18:00:05 CET 2012
+	ini: Sat Dec 29 18:00:05 CET 2012
+	fin: Sat Dec 29 18:00:05 CET 2012
+	duration: 90.0
+
+	Service: 1027.0.19:45.30/0
+	x: 40.411
+	y: -3.7005
+	h: Sat Dec 29 19:32:05 CET 2012
+	ini: Sat Dec 29 18:45:05 CET 2012
+	fin: Sat Dec 29 20:45:05 CET 2012
+	duration: 30.0
+
+	Service: 33419.0.20:20.30/1
+	x: 40.413
+	y: -3.7133
+	h: Sat Dec 29 20:24:05 CET 2012
+	ini: Sat Dec 29 19:20:05 CET 2012
+	fin: Sat Dec 29 21:20:05 CET 2012
+	duration: 30.0
+
+	Service: 52423.0.21:30.30/0
+	x: 40.414
+	y: -3.7123
+	h: Sat Dec 29 20:56:05 CET 2012
+	ini: Sat Dec 29 20:30:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+7  Cluster 2132540668
+ numServices 4
+	Service: 22380.0.17:30.60/0
+	x: 40.413
+	y: -3.7069
+	h: Sat Dec 29 17:30:05 CET 2012
+	ini: Sat Dec 29 17:30:05 CET 2012
+	fin: Sat Dec 29 17:30:05 CET 2012
+	duration: 60.0
+
+	Service: 40192.0.19:00.30/0
+	x: 40.416
+	y: -3.7054
+	h: Sat Dec 29 18:37:05 CET 2012
+	ini: Sat Dec 29 18:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 30.0
+
+	Service: 1999.0.20:40.60/0
+	x: 40.406
+	y: -3.7001
+	h: Sat Dec 29 19:30:05 CET 2012
+	ini: Sat Dec 29 19:40:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 24257.0.21:30.30/0
+	x: 40.407
+	y: -3.6998
+	h: Sat Dec 29 20:42:05 CET 2012
+	ini: Sat Dec 29 20:30:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+8  Cluster 108938646
+ numServices 4
+	Service: 1238.0.07:45.120/0
+	x: 40.409
+	y: -3.7152
+	h: Sat Dec 29 07:45:05 CET 2012
+	ini: Sat Dec 29 07:45:05 CET 2012
+	fin: Sat Dec 29 07:45:05 CET 2012
+	duration: 120.0
+
+	Service: 16408.0.09:05.60/0
+	x: 40.409
+	y: -3.7153
+	h: Sat Dec 29 09:45:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 21995.0.09:55.60/0
+	x: 40.409
+	y: -3.7152
+	h: Sat Dec 29 10:45:05 CET 2012
+	ini: Sat Dec 29 08:55:05 CET 2012
+	fin: Sat Dec 29 10:55:05 CET 2012
+	duration: 60.0
+
+	Service: 14891.0.12:15.120/0
+	x: 40.409
+	y: -3.7153
+	h: Sat Dec 29 11:45:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+9  Cluster 1275756078
+ numServices 4
+	Service: 24865.0.08:30.120/0
+	x: 40.409
+	y: -3.707
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 44113.0.08:00.60/0
+	x: 40.409
+	y: -3.707
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 33499.0.09:10.60/0
+	x: 40.409
+	y: -3.7075
+	h: Sat Dec 29 10:00:05 CET 2012
+	ini: Sat Dec 29 08:10:05 CET 2012
+	fin: Sat Dec 29 10:10:05 CET 2012
+	duration: 60.0
+
+	Service: 2159.0.13:20.120/0
+	x: 40.409
+	y: -3.7086
+	h: Sat Dec 29 11:01:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+10  Cluster 1155671298
+ numServices 4
+	Service: 16278.0.08:00.60/0
+	x: 40.411
+	y: -3.7087
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 17587.0.08:00.60/0
+	x: 40.411
+	y: -3.7097
+	h: Sat Dec 29 08:01:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 121.0.08:30.120/0
+	x: 40.412
+	y: -3.7093
+	h: Sat Dec 29 09:03:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 120.0
+
+	Service: 40515.0.10:15.60/0
+	x: 40.412
+	y: -3.7103
+	h: Sat Dec 29 11:04:05 CET 2012
+	ini: Sat Dec 29 09:15:05 CET 2012
+	fin: Sat Dec 29 11:15:05 CET 2012
+	duration: 60.0
+
+
+11  Cluster 1525402018
+ numServices 4
+	Service: 44457.0.08:40.120/0
+	x: 40.411
+	y: -3.7017
+	h: Sat Dec 29 07:40:05 CET 2012
+	ini: Sat Dec 29 07:40:05 CET 2012
+	fin: Sat Dec 29 09:40:05 CET 2012
+	duration: 120.0
+
+	Service: 50387.0.10:00.60/0
+	x: 40.411
+	y: -3.7009
+	h: Sat Dec 29 09:41:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 11:00:05 CET 2012
+	duration: 60.0
+
+	Service: 50239.0.10:20.120/0
+	x: 40.413
+	y: -3.7006
+	h: Sat Dec 29 10:45:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 33876.0.11:40.60/0
+	x: 40.414
+	y: -3.7006
+	h: Sat Dec 29 12:47:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+12  Cluster 771938640
+ numServices 4
+	Service: 16195.0.08:00.120/0
+	x: 40.41
+	y: -3.7084
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 08:00:05 CET 2012
+	duration: 120.0
+
+	Service: 47727.0.10:45.60/0
+	x: 40.408
+	y: -3.7096
+	h: Sat Dec 29 10:04:05 CET 2012
+	ini: Sat Dec 29 09:45:05 CET 2012
+	fin: Sat Dec 29 11:45:05 CET 2012
+	duration: 60.0
+
+	Service: 728.0.12:15.90/0
+	x: 40.409
+	y: -3.7113
+	h: Sat Dec 29 11:07:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 8228.0.13:20.90/0
+	x: 40.409
+	y: -3.7119
+	h: Sat Dec 29 12:38:05 CET 2012
+	ini: Sat Dec 29 12:20:05 CET 2012
+	fin: Sat Dec 29 14:20:05 CET 2012
+	duration: 90.0
+
+
+13  Cluster 1024010953
+ numServices 4
+	Service: 18438.0.09:00.120/0
+	x: 40.41
+	y: -3.7004
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 47605.0.10:05.60/0
+	x: 40.41
+	y: -3.701
+	h: Sat Dec 29 10:01:05 CET 2012
+	ini: Sat Dec 29 09:05:05 CET 2012
+	fin: Sat Dec 29 11:05:05 CET 2012
+	duration: 60.0
+
+	Service: 16062.0.11:20.90/0
+	x: 40.413
+	y: -3.6985
+	h: Sat Dec 29 11:08:05 CET 2012
+	ini: Sat Dec 29 10:20:05 CET 2012
+	fin: Sat Dec 29 12:20:05 CET 2012
+	duration: 90.0
+
+	Service: 15626.0.12:45.90/0
+	x: 40.414
+	y: -3.6983
+	h: Sat Dec 29 12:40:05 CET 2012
+	ini: Sat Dec 29 11:45:05 CET 2012
+	fin: Sat Dec 29 13:45:05 CET 2012
+	duration: 90.0
+
+
+14  Cluster 618140013
+ numServices 4
+	Service: 1268.0.09:00.90/0
+	x: 40.41
+	y: -3.7063
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 90.0
+
+	Service: 37399.0.11:15.60/0
+	x: 40.41
+	y: -3.7053
+	h: Sat Dec 29 10:31:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 60.0
+
+	Service: 1999.0.12:35.120/0
+	x: 40.406
+	y: -3.7001
+	h: Sat Dec 29 11:43:05 CET 2012
+	ini: Sat Dec 29 11:35:05 CET 2012
+	fin: Sat Dec 29 13:35:05 CET 2012
+	duration: 120.0
+
+	Service: 46213.0.13:50.60/0
+	x: 40.406
+	y: -3.7011
+	h: Sat Dec 29 13:44:05 CET 2012
+	ini: Sat Dec 29 12:50:05 CET 2012
+	fin: Sat Dec 29 14:50:05 CET 2012
+	duration: 60.0
+
+
+15  Cluster 1700797952
+ numServices 4
+	Service: 595.0.13:05.120/0
+	x: 40.406
+	y: -3.7004
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 50110.0.09:10.60/0
+	x: 40.408
+	y: -3.7057
+	h: Sat Dec 29 09:10:05 CET 2012
+	ini: Sat Dec 29 09:10:05 CET 2012
+	fin: Sat Dec 29 09:10:05 CET 2012
+	duration: 60.0
+
+	Service: 49878.0.11:15.90/0
+	x: 40.409
+	y: -3.7087
+	h: Sat Dec 29 10:15:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 90.0
+
+	Service: 48351.0.11:45.90/0
+	x: 40.411
+	y: -3.7087
+	h: Sat Dec 29 11:49:05 CET 2012
+	ini: Sat Dec 29 10:45:05 CET 2012
+	fin: Sat Dec 29 12:45:05 CET 2012
+	duration: 90.0
+
+
+16  Cluster 156354047
+ numServices 4
+	Service: 15449.0.10:05.120/0
+	x: 40.41
+	y: -3.6992
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 18469.0.09:00.60/0
+	x: 40.41
+	y: -3.6989
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 36664.0.13:45.90/0
+	x: 40.41
+	y: -3.6991
+	h: Sat Dec 29 10:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 807.0.12:10.120/0
+	x: 40.41
+	y: -3.6983
+	h: Sat Dec 29 11:31:05 CET 2012
+	ini: Sat Dec 29 11:10:05 CET 2012
+	fin: Sat Dec 29 13:10:05 CET 2012
+	duration: 120.0
+
+
+17  Cluster 1469967648
+ numServices 4
+	Service: 47905.0.08:00.120/0
+	x: 40.411
+	y: -3.7081
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1056.0.09:30.60/0
+	x: 40.411
+	y: -3.7084
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 10:30:05 CET 2012
+	duration: 60.0
+
+	Service: 188.0.10:10.90/0
+	x: 40.411
+	y: -3.7115
+	h: Sat Dec 29 10:05:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 21485.0.11:40.120/0
+	x: 40.411
+	y: -3.7115
+	h: Sat Dec 29 11:35:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+18  Cluster 1094384848
+ numServices 4
+	Service: 2291.0.12:10.90/0
+	x: 40.412
+	y: -3.7106
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 19543.0.08:45.60/0
+	x: 40.41
+	y: -3.7074
+	h: Sat Dec 29 08:37:05 CET 2012
+	ini: Sat Dec 29 08:45:05 CET 2012
+	fin: Sat Dec 29 08:45:05 CET 2012
+	duration: 60.0
+
+	Service: 9524.0.09:00.90/0
+	x: 40.411
+	y: -3.708
+	h: Sat Dec 29 09:47:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 90.0
+
+	Service: 33408.0.10:15.120/0
+	x: 40.411
+	y: -3.7079
+	h: Sat Dec 29 11:17:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+19  Cluster 128703781
+ numServices 4
+	Service: 42830.0.08:40.180/0
+	x: 40.414
+	y: -3.697
+	h: Sat Dec 29 07:40:05 CET 2012
+	ini: Sat Dec 29 07:40:05 CET 2012
+	fin: Sat Dec 29 09:40:05 CET 2012
+	duration: 180.0
+
+	Service: 2233.0.11:10.60/0
+	x: 40.412
+	y: -3.7023
+	h: Sat Dec 29 10:50:05 CET 2012
+	ini: Sat Dec 29 11:10:05 CET 2012
+	fin: Sat Dec 29 11:10:05 CET 2012
+	duration: 60.0
+
+	Service: 1454.0.11:35.90/0
+	x: 40.412
+	y: -3.7011
+	h: Sat Dec 29 12:12:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 36451.0.11:05.120/0
+	x: 40.412
+	y: -3.7008
+	h: Sat Dec 29 13:42:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+20  Cluster 608414738
+ numServices 4
+	Service: 16676.0.07:30.60/0
+	x: 40.41
+	y: -3.7129
+	h: Sat Dec 29 07:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 07:30:05 CET 2012
+	duration: 60.0
+
+	Service: 36814.0.08:30.90/0
+	x: 40.41
+	y: -3.7129
+	h: Sat Dec 29 08:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1437.0.09:05.90/0
+	x: 40.411
+	y: -3.7114
+	h: Sat Dec 29 10:03:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 90.0
+
+	Service: 34156.0.14:00.120/0
+	x: 40.411
+	y: -3.711
+	h: Sat Dec 29 11:33:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+21  Cluster 1456858199
+ numServices 4
+	Service: 9998.0.08:30.180/0
+	x: 40.413
+	y: -3.6958
+	h: Sat Dec 29 07:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 180.0
+
+	Service: 1481.0.10:40.120/0
+	x: 40.413
+	y: -3.696
+	h: Sat Dec 29 10:30:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 120.0
+
+	Service: 2472.0.12:30.90/0
+	x: 40.414
+	y: -3.6949
+	h: Sat Dec 29 12:32:05 CET 2012
+	ini: Sat Dec 29 11:30:05 CET 2012
+	fin: Sat Dec 29 13:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1620.0.12:15.90/0
+	x: 40.412
+	y: -3.6947
+	h: Sat Dec 29 14:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+22  Cluster 1954691146
+ numServices 4
+	Service: 36816.0.10:05.120/0
+	x: 40.413
+	y: -3.7101
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 23213.0.09:05.90/0
+	x: 40.414
+	y: -3.7123
+	h: Sat Dec 29 09:04:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 90.0
+
+	Service: 35106.0.11:15.120/0
+	x: 40.41
+	y: -3.7131
+	h: Sat Dec 29 10:42:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 120.0
+
+	Service: 2287.0.11:45.90/0
+	x: 40.41
+	y: -3.7131
+	h: Sat Dec 29 12:42:05 CET 2012
+	ini: Sat Dec 29 10:45:05 CET 2012
+	fin: Sat Dec 29 12:45:05 CET 2012
+	duration: 90.0
+
+
+23  Cluster 289259016
+ numServices 5
+	Service: 158.0.09:00.120/0
+	x: 40.409
+	y: -3.7
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 24199.0.10:05.60/0
+	x: 40.408
+	y: -3.6997
+	h: Sat Dec 29 10:02:05 CET 2012
+	ini: Sat Dec 29 09:05:05 CET 2012
+	fin: Sat Dec 29 11:05:05 CET 2012
+	duration: 60.0
+
+	Service: 32745.0.10:05.30/0
+	x: 40.408
+	y: -3.6997
+	h: Sat Dec 29 11:02:05 CET 2012
+	ini: Sat Dec 29 09:05:05 CET 2012
+	fin: Sat Dec 29 11:05:05 CET 2012
+	duration: 30.0
+
+	Service: 23965.0.12:45.120/0
+	x: 40.408
+	y: -3.696
+	h: Sat Dec 29 11:38:05 CET 2012
+	ini: Sat Dec 29 11:45:05 CET 2012
+	fin: Sat Dec 29 13:45:05 CET 2012
+	duration: 120.0
+
+	Service: 31236.0.13:40.90/0
+	x: 40.407
+	y: -3.6955
+	h: Sat Dec 29 13:47:05 CET 2012
+	ini: Sat Dec 29 12:40:05 CET 2012
+	fin: Sat Dec 29 14:40:05 CET 2012
+	duration: 90.0
+
+
+24  Cluster 1820788751
+ numServices 7
+	Service: 24257.0.08:00.60/0
+	x: 40.407
+	y: -3.6998
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 37369.0.07:55.30/1
+	x: 40.406
+	y: -3.6997
+	h: Sat Dec 29 08:02:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 30.0
+
+	Service: 23965.0.08:30.30/0
+	x: 40.408
+	y: -3.696
+	h: Sat Dec 29 08:39:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 16570.0.08:20.60/0
+	x: 40.408
+	y: -3.6971
+	h: Sat Dec 29 09:10:05 CET 2012
+	ini: Sat Dec 29 07:20:05 CET 2012
+	fin: Sat Dec 29 09:20:05 CET 2012
+	duration: 60.0
+
+	Service: 37911.0.11:05.120/0
+	x: 40.406
+	y: -3.6995
+	h: Sat Dec 29 10:16:05 CET 2012
+	ini: Sat Dec 29 10:05:05 CET 2012
+	fin: Sat Dec 29 12:05:05 CET 2012
+	duration: 120.0
+
+	Service: 37369.0.12:00.30/0
+	x: 40.406
+	y: -3.6997
+	h: Sat Dec 29 12:16:05 CET 2012
+	ini: Sat Dec 29 11:00:05 CET 2012
+	fin: Sat Dec 29 13:00:05 CET 2012
+	duration: 30.0
+
+	Service: 37369.0.12:00.30/1
+	x: 40.406
+	y: -3.6997
+	h: Sat Dec 29 12:46:05 CET 2012
+	ini: Sat Dec 29 11:00:05 CET 2012
+	fin: Sat Dec 29 13:00:05 CET 2012
+	duration: 30.0
+
+
+25  Cluster 354568307
+ numServices 7
+	Service: 47852.0.09:25.120/0
+	x: 40.41
+	y: -3.7022
+	h: Sat Dec 29 08:25:05 CET 2012
+	ini: Sat Dec 29 08:25:05 CET 2012
+	fin: Sat Dec 29 10:25:05 CET 2012
+	duration: 120.0
+
+	Service: 33306.0.10:35.30/0
+	x: 40.41
+	y: -3.7022
+	h: Sat Dec 29 10:25:05 CET 2012
+	ini: Sat Dec 29 09:35:05 CET 2012
+	fin: Sat Dec 29 11:35:05 CET 2012
+	duration: 30.0
+
+	Service: 1569.0.11:05.30/0
+	x: 40.41
+	y: -3.7009
+	h: Sat Dec 29 10:57:05 CET 2012
+	ini: Sat Dec 29 10:05:05 CET 2012
+	fin: Sat Dec 29 12:05:05 CET 2012
+	duration: 30.0
+
+	Service: 1825.0.11:10.90/0
+	x: 40.41
+	y: -3.701
+	h: Sat Dec 29 11:27:05 CET 2012
+	ini: Sat Dec 29 10:10:05 CET 2012
+	fin: Sat Dec 29 12:10:05 CET 2012
+	duration: 90.0
+
+	Service: 1381.0.14:15.90/0
+	x: 40.412
+	y: -3.7037
+	h: Sat Dec 29 13:03:05 CET 2012
+	ini: Sat Dec 29 13:15:05 CET 2012
+	fin: Sat Dec 29 15:15:05 CET 2012
+	duration: 90.0
+
+	Service: 276.0.14:25.30/0
+	x: 40.412
+	y: -3.7032
+	h: Sat Dec 29 14:45:05 CET 2012
+	ini: Sat Dec 29 13:25:05 CET 2012
+	fin: Sat Dec 29 15:25:05 CET 2012
+	duration: 30.0
+
+	Service: 276.0.14:25.30/1
+	x: 40.412
+	y: -3.7032
+	h: Sat Dec 29 15:15:05 CET 2012
+	ini: Sat Dec 29 13:25:05 CET 2012
+	fin: Sat Dec 29 15:25:05 CET 2012
+	duration: 30.0
+
+
+26  Cluster 2109898971
+ numServices 4
+	Service: 1391.0.08:30.120/0
+	x: 40.412
+	y: -3.6967
+	h: Sat Dec 29 07:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 120.0
+
+	Service: 1578.0.09:00.120/0
+	x: 40.409
+	y: -3.7001
+	h: Sat Dec 29 09:38:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 49741.0.11:05.90/0
+	x: 40.412
+	y: -3.6995
+	h: Sat Dec 29 11:44:05 CET 2012
+	ini: Sat Dec 29 10:05:05 CET 2012
+	fin: Sat Dec 29 12:05:05 CET 2012
+	duration: 90.0
+
+	Service: 25135.0.09:05.90/0
+	x: 40.41
+	y: -3.6933
+	h: Sat Dec 29 13:25:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+27  Cluster 1822026333
+ numServices 4
+	Service: 53185.0.10:10.120/0
+	x: 40.41
+	y: -3.7127
+	h: Sat Dec 29 10:10:05 CET 2012
+	ini: Sat Dec 29 10:10:05 CET 2012
+	fin: Sat Dec 29 10:10:05 CET 2012
+	duration: 120.0
+
+	Service: 32527.0.11:45.90/0
+	x: 40.41
+	y: -3.7124
+	h: Sat Dec 29 12:10:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 17400.0.13:45.120/0
+	x: 40.407
+	y: -3.7048
+	h: Sat Dec 29 13:54:05 CET 2012
+	ini: Sat Dec 29 12:45:05 CET 2012
+	fin: Sat Dec 29 14:45:05 CET 2012
+	duration: 120.0
+
+	Service: 38135.0.15:50.90/0
+	x: 40.412
+	y: -3.7003
+	h: Sat Dec 29 16:07:05 CET 2012
+	ini: Sat Dec 29 14:50:05 CET 2012
+	fin: Sat Dec 29 16:50:05 CET 2012
+	duration: 90.0
+
+
+28  Cluster 1827256158
+ numServices 5
+	Service: 22380.0.08:00.30/0
+	x: 40.413
+	y: -3.7069
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 08:00:05 CET 2012
+	duration: 30.0
+
+	Service: 50427.0.08:00.30/0
+	x: 40.416
+	y: -3.7056
+	h: Sat Dec 29 08:37:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 30.0
+
+	Service: 53082.0.09:00.120/0
+	x: 40.411
+	y: -3.7074
+	h: Sat Dec 29 09:18:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1381.0.10:40.90/0
+	x: 40.412
+	y: -3.7037
+	h: Sat Dec 29 11:24:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 90.0
+
+	Service: 9217.0.14:50.60/0
+	x: 40.415
+	y: -3.7083
+	h: Sat Dec 29 13:04:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+29  Cluster 1678095406
+ numServices 7
+	Service: 13251.0.07:45.30/0
+	x: 40.408
+	y: -3.7044
+	h: Sat Dec 29 07:45:05 CET 2012
+	ini: Sat Dec 29 07:45:05 CET 2012
+	fin: Sat Dec 29 07:45:05 CET 2012
+	duration: 30.0
+
+	Service: 21604.0.07:45.30/0
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 08:22:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:45:05 CET 2012
+	duration: 30.0
+
+	Service: 37369.0.07:55.30/0
+	x: 40.406
+	y: -3.6997
+	h: Sat Dec 29 08:54:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 30.0
+
+	Service: 46213.0.08:55.30/0
+	x: 40.406
+	y: -3.7011
+	h: Sat Dec 29 09:26:05 CET 2012
+	ini: Sat Dec 29 07:55:05 CET 2012
+	fin: Sat Dec 29 09:55:05 CET 2012
+	duration: 30.0
+
+	Service: 842.0.12:30.90/0
+	x: 40.406
+	y: -3.701
+	h: Sat Dec 29 09:56:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 18446.0.11:40.90/0
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 11:28:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 30924.0.12:45.60/0
+	x: 40.406
+	y: -3.6997
+	h: Sat Dec 29 13:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+30  Cluster 846752591
+ numServices 7
+	Service: 494.0.11:15.120/0
+	x: 40.411
+	y: -3.7053
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 12493.0.09:05.30/0
+	x: 40.411
+	y: -3.7053
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 30.0
+
+	Service: 276.0.10:20.30/0
+	x: 40.412
+	y: -3.7032
+	h: Sat Dec 29 09:34:05 CET 2012
+	ini: Sat Dec 29 09:20:05 CET 2012
+	fin: Sat Dec 29 11:20:05 CET 2012
+	duration: 30.0
+
+	Service: 276.0.10:20.30/1
+	x: 40.412
+	y: -3.7032
+	h: Sat Dec 29 10:04:05 CET 2012
+	ini: Sat Dec 29 09:20:05 CET 2012
+	fin: Sat Dec 29 11:20:05 CET 2012
+	duration: 30.0
+
+	Service: 34080.0.10:30.60/0
+	x: 40.413
+	y: -3.7025
+	h: Sat Dec 29 10:36:05 CET 2012
+	ini: Sat Dec 29 09:30:05 CET 2012
+	fin: Sat Dec 29 11:30:05 CET 2012
+	duration: 60.0
+
+	Service: 30180.0.12:25.120/0
+	x: 40.41
+	y: -3.7074
+	h: Sat Dec 29 11:46:05 CET 2012
+	ini: Sat Dec 29 11:25:05 CET 2012
+	fin: Sat Dec 29 13:25:05 CET 2012
+	duration: 120.0
+
+	Service: 12409.0.13:30.60/0
+	x: 40.409
+	y: -3.7073
+	h: Sat Dec 29 13:48:05 CET 2012
+	ini: Sat Dec 29 12:30:05 CET 2012
+	fin: Sat Dec 29 14:30:05 CET 2012
+	duration: 60.0
+
+
+31  Cluster 2144151915
+ numServices 7
+	Service: 45322.0.08:30.30/0
+	x: 40.412
+	y: -3.696
+	h: Sat Dec 29 08:30:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 08:30:05 CET 2012
+	duration: 30.0
+
+	Service: 30805.0.08:30.30/0
+	x: 40.413
+	y: -3.6961
+	h: Sat Dec 29 09:02:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 37276.0.10:10.30/0
+	x: 40.413
+	y: -3.7069
+	h: Sat Dec 29 09:50:05 CET 2012
+	ini: Sat Dec 29 09:10:05 CET 2012
+	fin: Sat Dec 29 11:10:05 CET 2012
+	duration: 30.0
+
+	Service: 2177.0.10:40.30/0
+	x: 40.413
+	y: -3.707
+	h: Sat Dec 29 10:20:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 30.0
+
+	Service: 2460.0.10:15.60/0
+	x: 40.413
+	y: -3.7051
+	h: Sat Dec 29 10:53:05 CET 2012
+	ini: Sat Dec 29 09:15:05 CET 2012
+	fin: Sat Dec 29 11:15:05 CET 2012
+	duration: 60.0
+
+	Service: 777.0.13:20.120/0
+	x: 40.409
+	y: -3.707
+	h: Sat Dec 29 12:02:05 CET 2012
+	ini: Sat Dec 29 12:20:05 CET 2012
+	fin: Sat Dec 29 14:20:05 CET 2012
+	duration: 120.0
+
+	Service: 52841.0.14:40.30/0
+	x: 40.409
+	y: -3.7072
+	h: Sat Dec 29 14:20:05 CET 2012
+	ini: Sat Dec 29 13:40:05 CET 2012
+	fin: Sat Dec 29 15:40:05 CET 2012
+	duration: 30.0
+
+
+32  Cluster 1985638745
+ numServices 5
+	Service: 2227.0.07:00.120/0
+	x: 40.411
+	y: -3.7053
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 43790.0.09:15.30/0
+	x: 40.409
+	y: -3.7119
+	h: Sat Dec 29 09:12:05 CET 2012
+	ini: Sat Dec 29 09:15:05 CET 2012
+	fin: Sat Dec 29 09:15:05 CET 2012
+	duration: 30.0
+
+	Service: 38886.0.09:05.60/0
+	x: 40.412
+	y: -3.7105
+	h: Sat Dec 29 09:52:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 49998.0.18:00.120/0
+	x: 40.412
+	y: -3.7105
+	h: Sat Dec 29 10:52:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 13149.0.08:00.120/0
+	x: 40.412
+	y: -3.7104
+	h: Sat Dec 29 12:52:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+33  Cluster 734512835
+ numServices 7
+	Service: 215.0.09:45.120/0
+	x: 40.413
+	y: -3.713
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 33419.0.08:30.30/0
+	x: 40.413
+	y: -3.7133
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 33419.0.08:30.30/1
+	x: 40.413
+	y: -3.7133
+	h: Sat Dec 29 09:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 20675.0.09:00.60/0
+	x: 40.413
+	y: -3.713
+	h: Sat Dec 29 10:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 36615.0.08:15.90/0
+	x: 40.413
+	y: -3.7135
+	h: Sat Dec 29 11:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1183.0.13:45.90/0
+	x: 40.41
+	y: -3.7131
+	h: Sat Dec 29 12:36:05 CET 2012
+	ini: Sat Dec 29 12:45:05 CET 2012
+	fin: Sat Dec 29 14:45:05 CET 2012
+	duration: 90.0
+
+	Service: 1739.0.13:50.30/0
+	x: 40.41
+	y: -3.7131
+	h: Sat Dec 29 14:15:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+34  Cluster 1221214889
+ numServices 5
+	Service: 50644.0.09:30.150/0
+	x: 40.407
+	y: -3.6997
+	h: Sat Dec 29 08:30:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 10:30:05 CET 2012
+	duration: 150.0
+
+	Service: 1637.0.10:40.45/0
+	x: 40.411
+	y: -3.6996
+	h: Sat Dec 29 11:08:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 45.0
+
+	Service: 24095.0.11:35.60/0
+	x: 40.411
+	y: -3.6993
+	h: Sat Dec 29 11:53:05 CET 2012
+	ini: Sat Dec 29 10:35:05 CET 2012
+	fin: Sat Dec 29 12:35:05 CET 2012
+	duration: 60.0
+
+	Service: 42852.0.12:20.120/0
+	x: 40.41
+	y: -3.7003
+	h: Sat Dec 29 12:55:05 CET 2012
+	ini: Sat Dec 29 11:20:05 CET 2012
+	fin: Sat Dec 29 13:20:05 CET 2012
+	duration: 120.0
+
+	Service: 27970.0.09:00.120/0
+	x: 40.41
+	y: -3.7003
+	h: Sat Dec 29 14:55:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+35  Cluster 1457425044
+ numServices 5
+	Service: 1652.0.11:10.120/0
+	x: 40.407
+	y: -3.698
+	h: Sat Dec 29 10:10:05 CET 2012
+	ini: Sat Dec 29 10:10:05 CET 2012
+	fin: Sat Dec 29 12:10:05 CET 2012
+	duration: 120.0
+
+	Service: 35061.0.12:40.45/0
+	x: 40.408
+	y: -3.7026
+	h: Sat Dec 29 12:18:05 CET 2012
+	ini: Sat Dec 29 11:40:05 CET 2012
+	fin: Sat Dec 29 13:40:05 CET 2012
+	duration: 45.0
+
+	Service: 19990.0.12:10.60/0
+	x: 40.408
+	y: -3.7027
+	h: Sat Dec 29 13:03:05 CET 2012
+	ini: Sat Dec 29 11:10:05 CET 2012
+	fin: Sat Dec 29 13:10:05 CET 2012
+	duration: 60.0
+
+	Service: 2045.0.08:55.120/0
+	x: 40.409
+	y: -3.7009
+	h: Sat Dec 29 14:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 15409.0.11:00.120/0
+	x: 40.409
+	y: -3.7004
+	h: Sat Dec 29 16:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+36  Cluster 744236826
+ numServices 5
+	Service: 2325.0.10:00.120/0
+	x: 40.416
+	y: -3.7103
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 11:00:05 CET 2012
+	duration: 120.0
+
+	Service: 881.0.10:40.90/0
+	x: 40.408
+	y: -3.7149
+	h: Sat Dec 29 11:19:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 90.0
+
+	Service: 16800.0.08:00.60/0
+	x: 40.41
+	y: -3.7111
+	h: Sat Dec 29 12:56:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 16800.0.18:10.60/0
+	x: 40.41
+	y: -3.7111
+	h: Sat Dec 29 13:56:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 6624.0.10:45.120/0
+	x: 40.41
+	y: -3.7102
+	h: Sat Dec 29 14:57:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+37  Cluster 1443574454
+ numServices 7
+	Service: 2056.0.13:05.120/0
+	x: 40.41
+	y: -3.7015
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 13642.0.08:20.60/0
+	x: 40.41
+	y: -3.7016
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 07:20:05 CET 2012
+	fin: Sat Dec 29 09:20:05 CET 2012
+	duration: 60.0
+
+	Service: 1641.0.11:10.90/0
+	x: 40.408
+	y: -3.7026
+	h: Sat Dec 29 10:04:05 CET 2012
+	ini: Sat Dec 29 10:10:05 CET 2012
+	fin: Sat Dec 29 12:10:05 CET 2012
+	duration: 90.0
+
+	Service: 32163.0.11:20.30/0
+	x: 40.408
+	y: -3.7024
+	h: Sat Dec 29 11:40:05 CET 2012
+	ini: Sat Dec 29 10:20:05 CET 2012
+	fin: Sat Dec 29 12:20:05 CET 2012
+	duration: 30.0
+
+	Service: 23830.0.13:15.90/0
+	x: 40.412
+	y: -3.7009
+	h: Sat Dec 29 12:19:05 CET 2012
+	ini: Sat Dec 29 12:15:05 CET 2012
+	fin: Sat Dec 29 14:15:05 CET 2012
+	duration: 90.0
+
+	Service: 487.0.14:30.30/0
+	x: 40.411
+	y: -3.6995
+	h: Sat Dec 29 13:52:05 CET 2012
+	ini: Sat Dec 29 13:30:05 CET 2012
+	fin: Sat Dec 29 15:30:05 CET 2012
+	duration: 30.0
+
+	Service: 38641.0.10:00.30/0
+	x: 40.409
+	y: -3.703
+	h: Sat Dec 29 14:29:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+38  Cluster 2033088219
+ numServices 5
+	Service: 13531.0.07:50.60/0
+	x: 40.411
+	y: -3.6978
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:50:05 CET 2012
+	duration: 60.0
+
+	Service: 48460.0.08:20.60/0
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 08:09:05 CET 2012
+	ini: Sat Dec 29 08:20:05 CET 2012
+	fin: Sat Dec 29 08:20:05 CET 2012
+	duration: 60.0
+
+	Service: 38384.0.08:55.30/0
+	x: 40.411
+	y: -3.6978
+	h: Sat Dec 29 09:29:05 CET 2012
+	ini: Sat Dec 29 07:55:05 CET 2012
+	fin: Sat Dec 29 09:55:05 CET 2012
+	duration: 30.0
+
+	Service: 32471.0.12:30.120/0
+	x: 40.411
+	y: -3.6991
+	h: Sat Dec 29 10:01:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 13531.0.12:25.120/0
+	x: 40.411
+	y: -3.6978
+	h: Sat Dec 29 12:03:05 CET 2012
+	ini: Sat Dec 29 11:25:05 CET 2012
+	fin: Sat Dec 29 13:25:05 CET 2012
+	duration: 120.0
+
+
+39  Cluster 1501389316
+ numServices 7
+	Service: 53752.0.07:00.150/0
+	x: 40.409
+	y: -3.705
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 07:00:05 CET 2012
+	duration: 150.0
+
+	Service: 35061.0.08:40.45/0
+	x: 40.408
+	y: -3.7026
+	h: Sat Dec 29 09:34:05 CET 2012
+	ini: Sat Dec 29 07:40:05 CET 2012
+	fin: Sat Dec 29 09:40:05 CET 2012
+	duration: 45.0
+
+	Service: 21191.0.10:15.30/0
+	x: 40.409
+	y: -3.7049
+	h: Sat Dec 29 10:23:05 CET 2012
+	ini: Sat Dec 29 09:15:05 CET 2012
+	fin: Sat Dec 29 11:15:05 CET 2012
+	duration: 30.0
+
+	Service: 2226.0.10:50.60/0
+	x: 40.409
+	y: -3.7039
+	h: Sat Dec 29 10:54:05 CET 2012
+	ini: Sat Dec 29 09:50:05 CET 2012
+	fin: Sat Dec 29 11:50:05 CET 2012
+	duration: 60.0
+
+	Service: 48015.0.11:10.60/0
+	x: 40.409
+	y: -3.7035
+	h: Sat Dec 29 11:54:05 CET 2012
+	ini: Sat Dec 29 10:10:05 CET 2012
+	fin: Sat Dec 29 12:10:05 CET 2012
+	duration: 60.0
+
+	Service: 111.0.08:30.90/0
+	x: 40.408
+	y: -3.7026
+	h: Sat Dec 29 12:56:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 33906.0.10:35.60/0
+	x: 40.408
+	y: -3.71
+	h: Sat Dec 29 14:38:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+40  Cluster 917381762
+ numServices 5
+	Service: 20194.0.12:30.120/0
+	x: 40.415
+	y: -3.7081
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 33054.0.09:00.60/0
+	x: 40.414
+	y: -3.7108
+	h: Sat Dec 29 09:05:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 306.0.09:10.60/0
+	x: 40.414
+	y: -3.7108
+	h: Sat Dec 29 10:05:05 CET 2012
+	ini: Sat Dec 29 08:10:05 CET 2012
+	fin: Sat Dec 29 10:10:05 CET 2012
+	duration: 60.0
+
+	Service: 32530.0.11:45.120/0
+	x: 40.411
+	y: -3.7089
+	h: Sat Dec 29 11:12:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 34470.0.11:10.120/0
+	x: 40.41
+	y: -3.7083
+	h: Sat Dec 29 13:14:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+41  Cluster 1650172121
+ numServices 5
+	Service: 37414.0.07:50.120/0
+	x: 40.406
+	y: -3.6996
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:50:05 CET 2012
+	duration: 120.0
+
+	Service: 31855.0.09:00.30/0
+	x: 40.408
+	y: -3.7016
+	h: Sat Dec 29 09:05:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 30.0
+
+	Service: 1472.0.09:00.90/0
+	x: 40.408
+	y: -3.7024
+	h: Sat Dec 29 09:36:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 90.0
+
+	Service: 9023.0.09:00.120/0
+	x: 40.409
+	y: -3.7022
+	h: Sat Dec 29 11:08:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 30924.0.08:00.120/0
+	x: 40.406
+	y: -3.6997
+	h: Sat Dec 29 13:15:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+42  Cluster 1839020289
+ numServices 7
+	Service: 24698.0.09:40.120/0
+	x: 40.41
+	y: -3.7062
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 30773.0.09:40.60/0
+	x: 40.413
+	y: -3.7065
+	h: Sat Dec 29 09:06:05 CET 2012
+	ini: Sat Dec 29 08:40:05 CET 2012
+	fin: Sat Dec 29 10:40:05 CET 2012
+	duration: 60.0
+
+	Service: 37745.0.09:30.60/0
+	x: 40.413
+	y: -3.7065
+	h: Sat Dec 29 10:06:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 10:30:05 CET 2012
+	duration: 60.0
+
+	Service: 99.0.12:20.120/0
+	x: 40.409
+	y: -3.7049
+	h: Sat Dec 29 11:15:05 CET 2012
+	ini: Sat Dec 29 11:20:05 CET 2012
+	fin: Sat Dec 29 13:20:05 CET 2012
+	duration: 120.0
+
+	Service: 21191.0.13:30.30/0
+	x: 40.409
+	y: -3.7049
+	h: Sat Dec 29 13:20:05 CET 2012
+	ini: Sat Dec 29 12:30:05 CET 2012
+	fin: Sat Dec 29 14:30:05 CET 2012
+	duration: 30.0
+
+	Service: 33306.0.14:00.60/0
+	x: 40.41
+	y: -3.7022
+	h: Sat Dec 29 13:55:05 CET 2012
+	ini: Sat Dec 29 13:00:05 CET 2012
+	fin: Sat Dec 29 15:00:05 CET 2012
+	duration: 60.0
+
+	Service: 12614.0.15:00.30/0
+	x: 40.41
+	y: -3.7036
+	h: Sat Dec 29 14:57:05 CET 2012
+	ini: Sat Dec 29 14:00:05 CET 2012
+	fin: Sat Dec 29 16:00:05 CET 2012
+	duration: 30.0
+
+
+43  Cluster 1829349599
+ numServices 7
+	Service: 21604.0.07:45.30/1
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:45:05 CET 2012
+	duration: 30.0
+
+	Service: 22328.0.08:35.60/0
+	x: 40.408
+	y: -3.7043
+	h: Sat Dec 29 07:37:05 CET 2012
+	ini: Sat Dec 29 07:35:05 CET 2012
+	fin: Sat Dec 29 09:35:05 CET 2012
+	duration: 60.0
+
+	Service: 19510.0.08:55.30/0
+	x: 40.406
+	y: -3.698
+	h: Sat Dec 29 08:48:05 CET 2012
+	ini: Sat Dec 29 08:55:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 30.0
+
+	Service: 23280.0.08:55.30/0
+	x: 40.407
+	y: -3.6983
+	h: Sat Dec 29 09:27:05 CET 2012
+	ini: Sat Dec 29 07:55:05 CET 2012
+	fin: Sat Dec 29 09:55:05 CET 2012
+	duration: 30.0
+
+	Service: 8448.0.09:35.90/0
+	x: 40.407
+	y: -3.6989
+	h: Sat Dec 29 09:58:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 22194.0.10:35.90/0
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 11:30:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 24176.0.08:00.60/0
+	x: 40.408
+	y: -3.6979
+	h: Sat Dec 29 13:04:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+44  Cluster 355336294
+ numServices 7
+	Service: 20668.0.08:00.60/0
+	x: 40.409
+	y: -3.7029
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 12614.0.07:55.30/0
+	x: 40.41
+	y: -3.7036
+	h: Sat Dec 29 08:02:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 30.0
+
+	Service: 12614.0.07:55.30/1
+	x: 40.41
+	y: -3.7036
+	h: Sat Dec 29 08:32:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 30.0
+
+	Service: 1998.0.09:30.90/0
+	x: 40.41
+	y: -3.701
+	h: Sat Dec 29 09:06:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 10:30:05 CET 2012
+	duration: 90.0
+
+	Service: 37423.0.10:00.60/0
+	x: 40.41
+	y: -3.701
+	h: Sat Dec 29 10:36:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 11:00:05 CET 2012
+	duration: 60.0
+
+	Service: 3321.0.12:15.120/0
+	x: 40.407
+	y: -3.7023
+	h: Sat Dec 29 11:43:05 CET 2012
+	ini: Sat Dec 29 11:15:05 CET 2012
+	fin: Sat Dec 29 13:15:05 CET 2012
+	duration: 120.0
+
+	Service: 3321.0.14:15.60/0
+	x: 40.407
+	y: -3.7023
+	h: Sat Dec 29 13:43:05 CET 2012
+	ini: Sat Dec 29 13:15:05 CET 2012
+	fin: Sat Dec 29 15:15:05 CET 2012
+	duration: 60.0
+
+
+45  Cluster 2132554598
+ numServices 7
+	Service: 43215.0.11:05.120/0
+	x: 40.408
+	y: -3.7108
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 34112.0.09:00.30/0
+	x: 40.406
+	y: -3.7093
+	h: Sat Dec 29 09:05:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 30.0
+
+	Service: 618.0.09:05.90/0
+	x: 40.407
+	y: -3.7012
+	h: Sat Dec 29 09:48:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 90.0
+
+	Service: 20035.0.11:30.45/0
+	x: 40.407
+	y: -3.7021
+	h: Sat Dec 29 11:19:05 CET 2012
+	ini: Sat Dec 29 10:30:05 CET 2012
+	fin: Sat Dec 29 12:30:05 CET 2012
+	duration: 45.0
+
+	Service: 15595.0.11:30.90/0
+	x: 40.407
+	y: -3.7021
+	h: Sat Dec 29 12:04:05 CET 2012
+	ini: Sat Dec 29 10:30:05 CET 2012
+	fin: Sat Dec 29 12:30:05 CET 2012
+	duration: 90.0
+
+	Service: 478.0.10:35.60/0
+	x: 40.407
+	y: -3.7009
+	h: Sat Dec 29 13:36:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 29326.0.12:20.60/0
+	x: 40.407
+	y: -3.7082
+	h: Sat Dec 29 14:48:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+46  Cluster 343060156
+ numServices 7
+	Service: 32281.0.10:40.150/0
+	x: 40.415
+	y: -3.7069
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 19:30:05 CET 2012
+	duration: 150.0
+
+	Service: 40192.0.10:20.30/0
+	x: 40.416
+	y: -3.7054
+	h: Sat Dec 29 09:33:05 CET 2012
+	ini: Sat Dec 29 09:20:05 CET 2012
+	fin: Sat Dec 29 11:20:05 CET 2012
+	duration: 30.0
+
+	Service: 24236.0.10:45.30/0
+	x: 40.413
+	y: -3.7072
+	h: Sat Dec 29 10:10:05 CET 2012
+	ini: Sat Dec 29 09:45:05 CET 2012
+	fin: Sat Dec 29 11:45:05 CET 2012
+	duration: 30.0
+
+	Service: 30412.0.10:05.90/0
+	x: 40.414
+	y: -3.708
+	h: Sat Dec 29 10:42:05 CET 2012
+	ini: Sat Dec 29 09:05:05 CET 2012
+	fin: Sat Dec 29 11:05:05 CET 2012
+	duration: 90.0
+
+	Service: 36435.0.12:35.120/0
+	x: 40.416
+	y: -3.7074
+	h: Sat Dec 29 12:16:05 CET 2012
+	ini: Sat Dec 29 11:35:05 CET 2012
+	fin: Sat Dec 29 13:35:05 CET 2012
+	duration: 120.0
+
+	Service: 24034.0.14:20.60/0
+	x: 40.415
+	y: -3.7071
+	h: Sat Dec 29 14:18:05 CET 2012
+	ini: Sat Dec 29 13:20:05 CET 2012
+	fin: Sat Dec 29 15:20:05 CET 2012
+	duration: 60.0
+
+	Service: 24034.0.14:25.60/0
+	x: 40.415
+	y: -3.7071
+	h: Sat Dec 29 15:18:05 CET 2012
+	ini: Sat Dec 29 13:25:05 CET 2012
+	fin: Sat Dec 29 15:25:05 CET 2012
+	duration: 60.0
+
+
+47  Cluster 1965933344
+ numServices 7
+	Service: 32425.0.08:00.60/0
+	x: 40.409
+	y: -3.7119
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 8228.0.07:55.60/0
+	x: 40.409
+	y: -3.7119
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 60.0
+
+	Service: 48065.0.09:05.30/0
+	x: 40.408
+	y: -3.7111
+	h: Sat Dec 29 09:02:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 30.0
+
+	Service: 48065.0.09:05.30/1
+	x: 40.408
+	y: -3.7111
+	h: Sat Dec 29 09:32:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 30.0
+
+	Service: 2404.0.09:05.90/0
+	x: 40.408
+	y: -3.7113
+	h: Sat Dec 29 10:02:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 43932.0.11:20.120/0
+	x: 40.416
+	y: -3.7095
+	h: Sat Dec 29 11:50:05 CET 2012
+	ini: Sat Dec 29 10:20:05 CET 2012
+	fin: Sat Dec 29 12:20:05 CET 2012
+	duration: 120.0
+
+	Service: 34007.0.08:00.60/0
+	x: 40.416
+	y: -3.7096
+	h: Sat Dec 29 13:50:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+48  Cluster 258319866
+ numServices 7
+	Service: 351.0.08:35.120/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 07:35:05 CET 2012
+	ini: Sat Dec 29 07:35:05 CET 2012
+	fin: Sat Dec 29 09:35:05 CET 2012
+	duration: 120.0
+
+	Service: 15704.0.10:00.30/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 09:35:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 11:00:05 CET 2012
+	duration: 30.0
+
+	Service: 50523.0.11:05.30/0
+	x: 40.41
+	y: -3.6991
+	h: Sat Dec 29 10:07:05 CET 2012
+	ini: Sat Dec 29 10:05:05 CET 2012
+	fin: Sat Dec 29 12:05:05 CET 2012
+	duration: 30.0
+
+	Service: 47850.0.10:35.90/0
+	x: 40.41
+	y: -3.6998
+	h: Sat Dec 29 10:38:05 CET 2012
+	ini: Sat Dec 29 09:35:05 CET 2012
+	fin: Sat Dec 29 11:35:05 CET 2012
+	duration: 90.0
+
+	Service: 42939.0.13:10.120/0
+	x: 40.408
+	y: -3.7032
+	h: Sat Dec 29 12:15:05 CET 2012
+	ini: Sat Dec 29 12:10:05 CET 2012
+	fin: Sat Dec 29 14:10:05 CET 2012
+	duration: 120.0
+
+	Service: 13400.0.13:30.90/0
+	x: 40.408
+	y: -3.7026
+	h: Sat Dec 29 14:16:05 CET 2012
+	ini: Sat Dec 29 12:30:05 CET 2012
+	fin: Sat Dec 29 14:30:05 CET 2012
+	duration: 90.0
+
+	Service: 12543.0.15:20.30/0
+	x: 40.408
+	y: -3.6971
+	h: Sat Dec 29 15:55:05 CET 2012
+	ini: Sat Dec 29 14:20:05 CET 2012
+	fin: Sat Dec 29 16:20:05 CET 2012
+	duration: 30.0
+
+
+49  Cluster 1517537275
+ numServices 7
+	Service: 13000.0.09:00.120/0
+	x: 40.41
+	y: -3.6978
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 29497.0.10:05.30/0
+	x: 40.41
+	y: -3.6977
+	h: Sat Dec 29 10:00:05 CET 2012
+	ini: Sat Dec 29 09:05:05 CET 2012
+	fin: Sat Dec 29 11:05:05 CET 2012
+	duration: 30.0
+
+	Service: 12543.0.10:30.60/0
+	x: 40.408
+	y: -3.6971
+	h: Sat Dec 29 10:34:05 CET 2012
+	ini: Sat Dec 29 09:30:05 CET 2012
+	fin: Sat Dec 29 11:30:05 CET 2012
+	duration: 60.0
+
+	Service: 16570.0.10:50.60/0
+	x: 40.408
+	y: -3.6971
+	h: Sat Dec 29 11:34:05 CET 2012
+	ini: Sat Dec 29 09:50:05 CET 2012
+	fin: Sat Dec 29 11:50:05 CET 2012
+	duration: 60.0
+
+	Service: 52487.0.14:30.120/0
+	x: 40.413
+	y: -3.7101
+	h: Sat Dec 29 12:58:05 CET 2012
+	ini: Sat Dec 29 13:30:05 CET 2012
+	fin: Sat Dec 29 15:30:05 CET 2012
+	duration: 120.0
+
+	Service: 23213.0.14:35.30/0
+	x: 40.414
+	y: -3.7123
+	h: Sat Dec 29 15:34:05 CET 2012
+	ini: Sat Dec 29 13:35:05 CET 2012
+	fin: Sat Dec 29 15:35:05 CET 2012
+	duration: 30.0
+
+	Service: 16676.0.16:30.30/0
+	x: 40.41
+	y: -3.7129
+	h: Sat Dec 29 16:12:05 CET 2012
+	ini: Sat Dec 29 16:30:05 CET 2012
+	fin: Sat Dec 29 16:30:05 CET 2012
+	duration: 30.0
+
+
+50  Cluster 1733189153
+ numServices 6
+	Service: 1413.0.08:00.60/1
+	x: 40.403
+	y: -3.7013
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 08:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1565.0.08:30.60/0
+	x: 40.41
+	y: -3.6977
+	h: Sat Dec 29 09:16:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 60.0
+
+	Service: 52327.0.09:25.30/0
+	x: 40.41
+	y: -3.6956
+	h: Sat Dec 29 10:19:05 CET 2012
+	ini: Sat Dec 29 08:25:05 CET 2012
+	fin: Sat Dec 29 10:25:05 CET 2012
+	duration: 30.0
+
+	Service: 1572.0.11:45.120/0
+	x: 40.41
+	y: -3.6963
+	h: Sat Dec 29 10:50:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 47020.0.12:45.60/0
+	x: 40.41
+	y: -3.6978
+	h: Sat Dec 29 12:52:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 192.0.09:05.120/0
+	x: 40.404
+	y: -3.7015
+	h: Sat Dec 29 14:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+51  Cluster 1241906563
+ numServices 7
+	Service: 30122.0.10:40.150/0
+	x: 40.41
+	y: -3.6964
+	h: Sat Dec 29 09:40:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 150.0
+
+	Service: 47395.0.13:15.120/0
+	x: 40.41
+	y: -3.7104
+	h: Sat Dec 29 12:33:05 CET 2012
+	ini: Sat Dec 29 12:15:05 CET 2012
+	fin: Sat Dec 29 14:15:05 CET 2012
+	duration: 120.0
+
+	Service: 1402.0.13:45.60/0
+	x: 40.411
+	y: -3.7105
+	h: Sat Dec 29 14:35:05 CET 2012
+	ini: Sat Dec 29 12:45:05 CET 2012
+	fin: Sat Dec 29 14:45:05 CET 2012
+	duration: 60.0
+
+	Service: 37276.0.16:35.60/0
+	x: 40.413
+	y: -3.7069
+	h: Sat Dec 29 15:42:05 CET 2012
+	ini: Sat Dec 29 15:35:05 CET 2012
+	fin: Sat Dec 29 17:35:05 CET 2012
+	duration: 60.0
+
+	Service: 2460.0.16:50.30/0
+	x: 40.413
+	y: -3.7051
+	h: Sat Dec 29 16:45:05 CET 2012
+	ini: Sat Dec 29 15:50:05 CET 2012
+	fin: Sat Dec 29 17:50:05 CET 2012
+	duration: 30.0
+
+	Service: 13251.0.17:35.30/0
+	x: 40.408
+	y: -3.7044
+	h: Sat Dec 29 17:26:05 CET 2012
+	ini: Sat Dec 29 17:35:05 CET 2012
+	fin: Sat Dec 29 17:35:05 CET 2012
+	duration: 30.0
+
+	Service: 1572.0.10:45.60/0
+	x: 40.41
+	y: -3.6963
+	h: Sat Dec 29 18:19:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+52  Cluster 1330039148
+ numServices 7
+	Service: 346.0.08:30.90/0
+	x: 40.409
+	y: -3.7056
+	h: Sat Dec 29 07:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1090.0.08:30.30/0
+	x: 40.409
+	y: -3.7056
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 32332.0.09:05.60/0
+	x: 40.408
+	y: -3.71
+	h: Sat Dec 29 09:37:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 1150.0.10:40.60/0
+	x: 40.408
+	y: -3.71
+	h: Sat Dec 29 10:37:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 16039.0.00:00.60/0
+	x: 40.414
+	y: -3.7131
+	h: Sat Dec 29 11:51:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 13755.0.13:15.120/0
+	x: 40.419
+	y: -3.7109
+	h: Sat Dec 29 13:02:05 CET 2012
+	ini: Sat Dec 29 12:15:05 CET 2012
+	fin: Sat Dec 29 14:15:05 CET 2012
+	duration: 120.0
+
+	Service: 16039.0.08:00.60/0
+	x: 40.414
+	y: -3.7131
+	h: Sat Dec 29 15:13:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+53  Cluster 810678813
+ numServices 7
+	Service: 1344.0.07:45.60/0
+	x: 40.413
+	y: -3.7032
+	h: Sat Dec 29 07:45:05 CET 2012
+	ini: Sat Dec 29 07:45:05 CET 2012
+	fin: Sat Dec 29 07:45:05 CET 2012
+	duration: 60.0
+
+	Service: 34711.0.08:30.30/0
+	x: 40.411
+	y: -3.7037
+	h: Sat Dec 29 08:49:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 34711.0.08:30.30/1
+	x: 40.411
+	y: -3.7037
+	h: Sat Dec 29 09:19:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 45445.0.10:40.120/0
+	x: 40.403
+	y: -3.7013
+	h: Sat Dec 29 10:07:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 120.0
+
+	Service: 1027.0.13:00.60/0
+	x: 40.411
+	y: -3.7005
+	h: Sat Dec 29 12:24:05 CET 2012
+	ini: Sat Dec 29 12:00:05 CET 2012
+	fin: Sat Dec 29 14:00:05 CET 2012
+	duration: 60.0
+
+	Service: 487.0.12:45.60/0
+	x: 40.411
+	y: -3.6995
+	h: Sat Dec 29 13:25:05 CET 2012
+	ini: Sat Dec 29 11:45:05 CET 2012
+	fin: Sat Dec 29 13:45:05 CET 2012
+	duration: 60.0
+
+	Service: 21145.0.08:00.90/0
+	x: 40.41
+	y: -3.7057
+	h: Sat Dec 29 14:35:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+54  Cluster 1442553523
+ numServices 7
+	Service: 1025.0.12:10.90/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 160.0.07:55.60/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 08:30:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 60.0
+
+	Service: 45322.0.09:35.120/0
+	x: 40.412
+	y: -3.696
+	h: Sat Dec 29 09:34:05 CET 2012
+	ini: Sat Dec 29 09:35:05 CET 2012
+	fin: Sat Dec 29 09:35:05 CET 2012
+	duration: 120.0
+
+	Service: 40303.0.12:10.30/0
+	x: 40.412
+	y: -3.696
+	h: Sat Dec 29 11:35:05 CET 2012
+	ini: Sat Dec 29 11:10:05 CET 2012
+	fin: Sat Dec 29 13:10:05 CET 2012
+	duration: 30.0
+
+	Service: 781.0.13:20.90/0
+	x: 40.41
+	y: -3.7027
+	h: Sat Dec 29 12:17:05 CET 2012
+	ini: Sat Dec 29 12:20:05 CET 2012
+	fin: Sat Dec 29 14:20:05 CET 2012
+	duration: 90.0
+
+	Service: 34711.0.13:25.30/0
+	x: 40.411
+	y: -3.7037
+	h: Sat Dec 29 13:52:05 CET 2012
+	ini: Sat Dec 29 12:25:05 CET 2012
+	fin: Sat Dec 29 14:25:05 CET 2012
+	duration: 30.0
+
+	Service: 12777.0.08:30.90/0
+	x: 40.411
+	y: -3.6996
+	h: Sat Dec 29 14:28:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+55  Cluster 2054170078
+ numServices 7
+	Service: 37965.0.11:50.120/0
+	x: 40.411
+	y: -3.7057
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 49756.0.09:10.60/0
+	x: 40.411
+	y: -3.7057
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 08:10:05 CET 2012
+	fin: Sat Dec 29 10:10:05 CET 2012
+	duration: 60.0
+
+	Service: 53832.0.10:35.45/0
+	x: 40.411
+	y: -3.7043
+	h: Sat Dec 29 10:02:05 CET 2012
+	ini: Sat Dec 29 09:35:05 CET 2012
+	fin: Sat Dec 29 11:35:05 CET 2012
+	duration: 45.0
+
+	Service: 2191.0.10:40.90/0
+	x: 40.411
+	y: -3.7053
+	h: Sat Dec 29 10:48:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 90.0
+
+	Service: 8840.0.13:33.120/0
+	x: 40.409
+	y: -3.7102
+	h: Sat Dec 29 12:27:05 CET 2012
+	ini: Sat Dec 29 12:33:05 CET 2012
+	fin: Sat Dec 29 14:33:05 CET 2012
+	duration: 120.0
+
+	Service: 40515.0.14:30.60/0
+	x: 40.412
+	y: -3.7103
+	h: Sat Dec 29 14:39:05 CET 2012
+	ini: Sat Dec 29 13:30:05 CET 2012
+	fin: Sat Dec 29 15:30:05 CET 2012
+	duration: 60.0
+
+	Service: 53275.0.16:00.30/0
+	x: 40.409
+	y: -3.7077
+	h: Sat Dec 29 15:46:05 CET 2012
+	ini: Sat Dec 29 16:00:05 CET 2012
+	fin: Sat Dec 29 16:00:05 CET 2012
+	duration: 30.0
+
+
+56  Cluster 1489391774
+ numServices 7
+	Service: 1867.0.07:50.90/0
+	x: 40.412
+	y: -3.703
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:50:05 CET 2012
+	duration: 90.0
+
+	Service: 1647.0.09:10.45/0
+	x: 40.412
+	y: -3.7025
+	h: Sat Dec 29 08:30:05 CET 2012
+	ini: Sat Dec 29 08:10:05 CET 2012
+	fin: Sat Dec 29 10:10:05 CET 2012
+	duration: 45.0
+
+	Service: 38883.0.09:40.60/0
+	x: 40.411
+	y: -3.7105
+	h: Sat Dec 29 09:28:05 CET 2012
+	ini: Sat Dec 29 08:40:05 CET 2012
+	fin: Sat Dec 29 10:40:05 CET 2012
+	duration: 60.0
+
+	Service: 48830.0.09:50.60/0
+	x: 40.411
+	y: -3.7105
+	h: Sat Dec 29 10:28:05 CET 2012
+	ini: Sat Dec 29 08:50:05 CET 2012
+	fin: Sat Dec 29 10:50:05 CET 2012
+	duration: 60.0
+
+	Service: 37332.0.17:05.60/0
+	x: 40.411
+	y: -3.7133
+	h: Sat Dec 29 11:32:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 37047.0.13:05.120/0
+	x: 40.411
+	y: -3.7133
+	h: Sat Dec 29 12:32:05 CET 2012
+	ini: Sat Dec 29 12:05:05 CET 2012
+	fin: Sat Dec 29 14:05:05 CET 2012
+	duration: 120.0
+
+	Service: 102.0.10:05.90/0
+	x: 40.412
+	y: -3.7128
+	h: Sat Dec 29 14:34:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+57  Cluster 1138156186
+ numServices 7
+	Service: 2242.0.08:00.120/0
+	x: 40.408
+	y: -3.703
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 120.0
+
+	Service: 16302.0.08:30.30/0
+	x: 40.408
+	y: -3.7032
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 50549.0.10:45.60/0
+	x: 40.41
+	y: -3.6961
+	h: Sat Dec 29 09:42:05 CET 2012
+	ini: Sat Dec 29 09:45:05 CET 2012
+	fin: Sat Dec 29 11:45:05 CET 2012
+	duration: 60.0
+
+	Service: 15447.0.11:15.90/0
+	x: 40.41
+	y: -3.6956
+	h: Sat Dec 29 10:45:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 90.0
+
+	Service: 32111.0.12:40.90/0
+	x: 40.41
+	y: -3.6962
+	h: Sat Dec 29 12:16:05 CET 2012
+	ini: Sat Dec 29 11:40:05 CET 2012
+	fin: Sat Dec 29 13:40:05 CET 2012
+	duration: 90.0
+
+	Service: 1478.0.13:30.60/0
+	x: 40.411
+	y: -3.6948
+	h: Sat Dec 29 13:49:05 CET 2012
+	ini: Sat Dec 29 12:30:05 CET 2012
+	fin: Sat Dec 29 14:30:05 CET 2012
+	duration: 60.0
+
+	Service: 53089.0.09:35.90/0
+	x: 40.408
+	y: -3.7032
+	h: Sat Dec 29 15:04:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+58  Cluster 1354174273
+ numServices 7
+	Service: 29005.0.08:00.60/0
+	x: 40.408
+	y: -3.7152
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1402.0.07:55.60/0
+	x: 40.411
+	y: -3.7105
+	h: Sat Dec 29 08:10:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 60.0
+
+	Service: 34059.0.09:00.60/0
+	x: 40.41
+	y: -3.7131
+	h: Sat Dec 29 09:14:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1443.0.17:40.90/0
+	x: 40.41
+	y: -3.7131
+	h: Sat Dec 29 10:14:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 32343.0.11:10.90/0
+	x: 40.411
+	y: -3.7105
+	h: Sat Dec 29 11:48:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 38807.0.12:40.60/0
+	x: 40.408
+	y: -3.7152
+	h: Sat Dec 29 13:28:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 15430.0.13:00.60/0
+	x: 40.41
+	y: -3.7096
+	h: Sat Dec 29 14:38:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+59  Cluster 575315405
+ numServices 6
+	Service: 16399.0.13:00.90/0
+	x: 40.411
+	y: -3.7007
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1027.0.08:30.60/0
+	x: 40.411
+	y: -3.7005
+	h: Sat Dec 29 08:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 60.0
+
+	Service: 49763.0.09:00.60/0
+	x: 40.411
+	y: -3.7008
+	h: Sat Dec 29 09:30:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 2233.0.10:35.120/0
+	x: 40.412
+	y: -3.7023
+	h: Sat Dec 29 10:33:05 CET 2012
+	ini: Sat Dec 29 10:35:05 CET 2012
+	fin: Sat Dec 29 10:35:05 CET 2012
+	duration: 120.0
+
+	Service: 34150.0.08:40.120/0
+	x: 40.412
+	y: -3.7003
+	h: Sat Dec 29 12:38:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 9796.0.12:45.90/0
+	x: 40.411
+	y: -3.7
+	h: Sat Dec 29 14:40:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+60  Cluster 1354633041
+ numServices 7
+	Service: 13853.0.12:15.90/0
+	x: 40.408
+	y: -3.7024
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 46847.0.08:00.60/0
+	x: 40.408
+	y: -3.7026
+	h: Sat Dec 29 08:30:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 2080.0.09:00.90/0
+	x: 40.411
+	y: -3.7023
+	h: Sat Dec 29 09:36:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 90.0
+
+	Service: 22418.0.13:15.120/0
+	x: 40.411
+	y: -3.7023
+	h: Sat Dec 29 11:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 34997.0.11:05.60/0
+	x: 40.411
+	y: -3.7023
+	h: Sat Dec 29 13:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 17994.0.11:45.60/0
+	x: 40.411
+	y: -3.7026
+	h: Sat Dec 29 14:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 38382.0.09:10.60/0
+	x: 40.409
+	y: -3.703
+	h: Sat Dec 29 15:10:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+61  Cluster 1843378240
+ numServices 7
+	Service: 42684.0.11:15.120/0
+	x: 40.41
+	y: -3.6983
+	h: Sat Dec 29 10:15:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 120.0
+
+	Service: 53292.0.12:00.60/0
+	x: 40.41
+	y: -3.7
+	h: Sat Dec 29 12:17:05 CET 2012
+	ini: Sat Dec 29 11:00:05 CET 2012
+	fin: Sat Dec 29 13:00:05 CET 2012
+	duration: 60.0
+
+	Service: 2240.0.14:30.90/0
+	x: 40.407
+	y: -3.6953
+	h: Sat Dec 29 13:27:05 CET 2012
+	ini: Sat Dec 29 13:30:05 CET 2012
+	fin: Sat Dec 29 15:30:05 CET 2012
+	duration: 90.0
+
+	Service: 45789.0.15:30.30/0
+	x: 40.417
+	y: -3.7073
+	h: Sat Dec 29 15:30:05 CET 2012
+	ini: Sat Dec 29 15:30:05 CET 2012
+	fin: Sat Dec 29 15:30:05 CET 2012
+	duration: 30.0
+
+	Service: 1313.0.17:00.120/0
+	x: 40.409
+	y: -3.699
+	h: Sat Dec 29 16:22:05 CET 2012
+	ini: Sat Dec 29 16:00:05 CET 2012
+	fin: Sat Dec 29 18:00:05 CET 2012
+	duration: 120.0
+
+	Service: 36217.0.18:00.60/0
+	x: 40.408
+	y: -3.6994
+	h: Sat Dec 29 18:24:05 CET 2012
+	ini: Sat Dec 29 17:00:05 CET 2012
+	fin: Sat Dec 29 19:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1327.0.18:30.30/0
+	x: 40.407
+	y: -3.6998
+	h: Sat Dec 29 19:26:05 CET 2012
+	ini: Sat Dec 29 17:30:05 CET 2012
+	fin: Sat Dec 29 19:30:05 CET 2012
+	duration: 30.0
+
+
+62  Cluster 2058988058
+ numServices 7
+	Service: 12358.0.07:55.60/0
+	x: 40.41
+	y: -3.6992
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 60.0
+
+	Service: 37606.0.07:55.60/0
+	x: 40.407
+	y: -3.7013
+	h: Sat Dec 29 08:07:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 60.0
+
+	Service: 826.0.09:30.60/0
+	x: 40.408
+	y: -3.6995
+	h: Sat Dec 29 09:10:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 10:30:05 CET 2012
+	duration: 60.0
+
+	Service: 32626.0.09:30.90/0
+	x: 40.408
+	y: -3.6996
+	h: Sat Dec 29 10:10:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 10:30:05 CET 2012
+	duration: 90.0
+
+	Service: 22594.0.11:40.90/0
+	x: 40.407
+	y: -3.6998
+	h: Sat Dec 29 11:42:05 CET 2012
+	ini: Sat Dec 29 10:40:05 CET 2012
+	fin: Sat Dec 29 12:40:05 CET 2012
+	duration: 90.0
+
+	Service: 13888.0.12:35.60/0
+	x: 40.407
+	y: -3.7012
+	h: Sat Dec 29 13:14:05 CET 2012
+	ini: Sat Dec 29 11:35:05 CET 2012
+	fin: Sat Dec 29 13:35:05 CET 2012
+	duration: 60.0
+
+	Service: 936.0.10:10.90/0
+	x: 40.407
+	y: -3.7013
+	h: Sat Dec 29 14:14:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+63  Cluster 860803048
+ numServices 7
+	Service: 411.0.11:20.90/0
+	x: 40.407
+	y: -3.714
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 37230.0.07:55.60/0
+	x: 40.408
+	y: -3.7138
+	h: Sat Dec 29 08:32:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 60.0
+
+	Service: 29835.0.09:05.60/0
+	x: 40.41
+	y: -3.7127
+	h: Sat Dec 29 09:36:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 7796.0.12:15.90/0
+	x: 40.41
+	y: -3.7129
+	h: Sat Dec 29 10:36:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 821.0.11:15.120/0
+	x: 40.411
+	y: -3.713
+	h: Sat Dec 29 12:08:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 897.0.08:15.60/0
+	x: 40.411
+	y: -3.7128
+	h: Sat Dec 29 14:08:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1760.0.12:05.90/0
+	x: 40.411
+	y: -3.7135
+	h: Sat Dec 29 15:09:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+64  Cluster 2066981544
+ numServices 7
+	Service: 36748.0.07:50.60/0
+	x: 40.413
+	y: -3.7088
+	h: Sat Dec 29 07:50:05 CET 2012
+	ini: Sat Dec 29 07:50:05 CET 2012
+	fin: Sat Dec 29 07:50:05 CET 2012
+	duration: 60.0
+
+	Service: 37280.0.09:05.60/0
+	x: 40.413
+	y: -3.7088
+	h: Sat Dec 29 08:50:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 26923.0.10:10.90/0
+	x: 40.418
+	y: -3.7085
+	h: Sat Dec 29 10:01:05 CET 2012
+	ini: Sat Dec 29 09:10:05 CET 2012
+	fin: Sat Dec 29 11:10:05 CET 2012
+	duration: 90.0
+
+	Service: 36831.0.09:40.60/0
+	x: 40.418
+	y: -3.7082
+	h: Sat Dec 29 11:31:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 18125.0.18:15.30/0
+	x: 40.418
+	y: -3.7078
+	h: Sat Dec 29 12:31:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+	Service: 13020.0.09:00.120/0
+	x: 40.407
+	y: -3.6993
+	h: Sat Dec 29 13:29:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1335.0.11:10.90/0
+	x: 40.407
+	y: -3.699
+	h: Sat Dec 29 15:29:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+65  Cluster 2063336136
+ numServices 7
+	Service: 492.0.10:35.120/0
+	x: 40.411
+	y: -3.6988
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 752.0.08:30.90/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 90.0
+
+	Service: 2375.0.09:35.60/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 10:30:05 CET 2012
+	ini: Sat Dec 29 08:35:05 CET 2012
+	fin: Sat Dec 29 10:35:05 CET 2012
+	duration: 60.0
+
+	Service: 492.0.17:40.60/0
+	x: 40.411
+	y: -3.6988
+	h: Sat Dec 29 11:30:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 38607.0.09:10.120/0
+	x: 40.414
+	y: -3.6989
+	h: Sat Dec 29 12:36:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 24348.0.12:20.120/0
+	x: 40.415
+	y: -3.6985
+	h: Sat Dec 29 14:38:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1506.0.10:05.30/0
+	x: 40.413
+	y: -3.6984
+	h: Sat Dec 29 16:42:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
+66  Cluster 924505996
+ numServices 7
+	Service: 42960.0.08:00.60/0
+	x: 40.407
+	y: -3.6953
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 36402.0.08:00.60/0
+	x: 40.407
+	y: -3.6955
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 9247.0.08:50.60/0
+	x: 40.409
+	y: -3.6985
+	h: Sat Dec 29 09:06:05 CET 2012
+	ini: Sat Dec 29 07:50:05 CET 2012
+	fin: Sat Dec 29 09:50:05 CET 2012
+	duration: 60.0
+
+	Service: 12353.0.08:30.120/0
+	x: 40.409
+	y: -3.6988
+	h: Sat Dec 29 10:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 2246.0.10:05.90/0
+	x: 40.409
+	y: -3.6993
+	h: Sat Dec 29 12:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 19850.0.11:15.60/0
+	x: 40.409
+	y: -3.6994
+	h: Sat Dec 29 13:36:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1563.0.13:15.90/0
+	x: 40.407
+	y: -3.6955
+	h: Sat Dec 29 14:43:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+67  Cluster 1128088727
+ numServices 7
+	Service: 3321.0.08:00.60/0
+	x: 40.407
+	y: -3.7023
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1258.0.08:40.90/0
+	x: 40.409
+	y: -3.7077
+	h: Sat Dec 29 08:10:05 CET 2012
+	ini: Sat Dec 29 07:40:05 CET 2012
+	fin: Sat Dec 29 09:40:05 CET 2012
+	duration: 90.0
+
+	Service: 25129.0.09:05.60/0
+	x: 40.409
+	y: -3.7077
+	h: Sat Dec 29 09:40:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 1358.0.14:30.60/0
+	x: 40.409
+	y: -3.7077
+	h: Sat Dec 29 10:40:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 25746.0.09:10.90/0
+	x: 40.409
+	y: -3.7077
+	h: Sat Dec 29 11:40:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 2267.0.09:35.120/0
+	x: 40.407
+	y: -3.7021
+	h: Sat Dec 29 13:20:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 31481.0.13:45.60/0
+	x: 40.407
+	y: -3.7032
+	h: Sat Dec 29 15:21:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+68  Cluster 1801598973
+ numServices 7
+	Service: 37107.0.09:05.120/0
+	x: 40.41
+	y: -3.7049
+	h: Sat Dec 29 08:05:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 120.0
+
+	Service: 48406.0.10:40.60/0
+	x: 40.411
+	y: -3.7054
+	h: Sat Dec 29 10:07:05 CET 2012
+	ini: Sat Dec 29 09:40:05 CET 2012
+	fin: Sat Dec 29 11:40:05 CET 2012
+	duration: 60.0
+
+	Service: 34500.0.11:15.90/0
+	x: 40.411
+	y: -3.7057
+	h: Sat Dec 29 11:07:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 90.0
+
+	Service: 28855.0.12:10.60/0
+	x: 40.411
+	y: -3.707
+	h: Sat Dec 29 12:39:05 CET 2012
+	ini: Sat Dec 29 11:10:05 CET 2012
+	fin: Sat Dec 29 13:10:05 CET 2012
+	duration: 60.0
+
+	Service: 1327.0.14:30.60/0
+	x: 40.407
+	y: -3.6998
+	h: Sat Dec 29 13:54:05 CET 2012
+	ini: Sat Dec 29 13:30:05 CET 2012
+	fin: Sat Dec 29 15:30:05 CET 2012
+	duration: 60.0
+
+	Service: 36619.0.14:00.120/0
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 14:54:05 CET 2012
+	ini: Sat Dec 29 13:00:05 CET 2012
+	fin: Sat Dec 29 15:00:05 CET 2012
+	duration: 120.0
+
+	Service: 36217.0.16:25.90/0
+	x: 40.408
+	y: -3.6994
+	h: Sat Dec 29 16:56:05 CET 2012
+	ini: Sat Dec 29 15:25:05 CET 2012
+	fin: Sat Dec 29 17:25:05 CET 2012
+	duration: 90.0
+
+
+69  Cluster 2102000158
+ numServices 7
+	Service: 9434.0.10:20.105/0
+	x: 40.412
+	y: -3.6937
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:15:05 CET 2012
+	duration: 105.0
+
+	Service: 1539.0.08:00.60/0
+	x: 40.412
+	y: -3.6976
+	h: Sat Dec 29 08:51:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 15704.0.10:05.120/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 09:53:05 CET 2012
+	ini: Sat Dec 29 09:05:05 CET 2012
+	fin: Sat Dec 29 11:05:05 CET 2012
+	duration: 120.0
+
+	Service: 2375.0.11:15.60/0
+	x: 40.411
+	y: -3.6986
+	h: Sat Dec 29 11:53:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 60.0
+
+	Service: 16255.0.12:40.90/0
+	x: 40.407
+	y: -3.6955
+	h: Sat Dec 29 13:03:05 CET 2012
+	ini: Sat Dec 29 11:40:05 CET 2012
+	fin: Sat Dec 29 13:40:05 CET 2012
+	duration: 90.0
+
+	Service: 42960.0.13:35.60/0
+	x: 40.407
+	y: -3.6953
+	h: Sat Dec 29 14:33:05 CET 2012
+	ini: Sat Dec 29 12:35:05 CET 2012
+	fin: Sat Dec 29 14:35:05 CET 2012
+	duration: 60.0
+
+	Service: 8852.0.08:30.90/0
+	x: 40.411
+	y: -3.6957
+	h: Sat Dec 29 15:41:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+70  Cluster 63178709
+ numServices 7
+	Service: 30966.0.07:50.120/0
+	x: 40.41
+	y: -3.7015
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:50:05 CET 2012
+	duration: 120.0
+
+	Service: 33722.0.08:15.60/0
+	x: 40.409
+	y: -3.7014
+	h: Sat Dec 29 09:02:05 CET 2012
+	ini: Sat Dec 29 07:15:05 CET 2012
+	fin: Sat Dec 29 09:15:05 CET 2012
+	duration: 60.0
+
+	Service: 52473.0.10:00.60/0
+	x: 40.409
+	y: -3.701
+	h: Sat Dec 29 10:02:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 11:00:05 CET 2012
+	duration: 60.0
+
+	Service: 35960.0.12:45.120/0
+	x: 40.409
+	y: -3.701
+	h: Sat Dec 29 11:02:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1307.0.10:05.90/0
+	x: 40.409
+	y: -3.7017
+	h: Sat Dec 29 13:03:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 33178.0.13:10.120/0
+	x: 40.41
+	y: -3.7008
+	h: Sat Dec 29 14:35:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1240.0.11:40.60/0
+	x: 40.41
+	y: -3.6994
+	h: Sat Dec 29 16:37:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+71  Cluster 987640545
+ numServices 7
+	Service: 35902.0.13:45.90/0
+	x: 40.407
+	y: -3.7012
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1434.0.08:30.30/0
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 08:31:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 1434.0.08:30.30/1
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 09:01:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 30.0
+
+	Service: 286.0.10:10.180/0
+	x: 40.405
+	y: -3.7069
+	h: Sat Dec 29 09:43:05 CET 2012
+	ini: Sat Dec 29 09:10:05 CET 2012
+	fin: Sat Dec 29 11:10:05 CET 2012
+	duration: 180.0
+
+	Service: 1815.0.12:35.90/0
+	x: 40.41
+	y: -3.706
+	h: Sat Dec 29 12:54:05 CET 2012
+	ini: Sat Dec 29 11:35:05 CET 2012
+	fin: Sat Dec 29 13:35:05 CET 2012
+	duration: 90.0
+
+	Service: 12493.0.14:00.30/0
+	x: 40.411
+	y: -3.7053
+	h: Sat Dec 29 14:26:05 CET 2012
+	ini: Sat Dec 29 13:00:05 CET 2012
+	fin: Sat Dec 29 15:00:05 CET 2012
+	duration: 30.0
+
+	Service: 16246.0.11:40.120/0
+	x: 40.407
+	y: -3.7003
+	h: Sat Dec 29 15:08:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+72  Cluster 1373532152
+ numServices 7
+	Service: 37973.0.12:30.120/0
+	x: 40.411
+	y: -3.6963
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 29021.0.09:40.60/0
+	x: 40.411
+	y: -3.6949
+	h: Sat Dec 29 09:02:05 CET 2012
+	ini: Sat Dec 29 08:40:05 CET 2012
+	fin: Sat Dec 29 10:40:05 CET 2012
+	duration: 60.0
+
+	Service: 52307.0.09:40.30/0
+	x: 40.411
+	y: -3.6948
+	h: Sat Dec 29 10:02:05 CET 2012
+	ini: Sat Dec 29 08:40:05 CET 2012
+	fin: Sat Dec 29 10:40:05 CET 2012
+	duration: 30.0
+
+	Service: 33641.0.17:20.90/0
+	x: 40.411
+	y: -3.694
+	h: Sat Dec 29 10:33:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 43308.0.12:10.120/0
+	x: 40.411
+	y: -3.6939
+	h: Sat Dec 29 12:03:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 8956.0.11:00.120/0
+	x: 40.409
+	y: -3.6955
+	h: Sat Dec 29 14:08:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 22083.0.11:40.90/0
+	x: 40.409
+	y: -3.6959
+	h: Sat Dec 29 16:08:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+73  Cluster 1653157061
+ numServices 7
+	Service: 33302.0.08:00.60/0
+	x: 40.413
+	y: -3.7088
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 33302.0.08:00.60/1
+	x: 40.413
+	y: -3.7088
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 34952.0.09:05.60/0
+	x: 40.415
+	y: -3.7083
+	h: Sat Dec 29 09:04:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 12410.0.10:45.90/0
+	x: 40.415
+	y: -3.7083
+	h: Sat Dec 29 10:04:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 984.0.11:40.120/0
+	x: 40.417
+	y: -3.7106
+	h: Sat Dec 29 11:39:05 CET 2012
+	ini: Sat Dec 29 10:40:05 CET 2012
+	fin: Sat Dec 29 12:40:05 CET 2012
+	duration: 120.0
+
+	Service: 50551.0.10:10.60/0
+	x: 40.417
+	y: -3.711
+	h: Sat Dec 29 13:39:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 48861.0.14:30.90/0
+	x: 40.406
+	y: -3.7018
+	h: Sat Dec 29 15:08:05 CET 2012
+	ini: Sat Dec 29 13:30:05 CET 2012
+	fin: Sat Dec 29 15:30:05 CET 2012
+	duration: 90.0
+
+
+74  Cluster 467299341
+ numServices 7
+	Service: 52331.0.12:10.150/0
+	x: 40.409
+	y: -3.7123
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 19:30:05 CET 2012
+	duration: 150.0
+
+	Service: 53086.0.10:30.90/0
+	x: 40.412
+	y: -3.7138
+	h: Sat Dec 29 09:37:05 CET 2012
+	ini: Sat Dec 29 09:30:05 CET 2012
+	fin: Sat Dec 29 11:30:05 CET 2012
+	duration: 90.0
+
+	Service: 29753.0.11:10.30/0
+	x: 40.41
+	y: -3.7133
+	h: Sat Dec 29 11:11:05 CET 2012
+	ini: Sat Dec 29 10:10:05 CET 2012
+	fin: Sat Dec 29 12:10:05 CET 2012
+	duration: 30.0
+
+	Service: 34049.0.11:00.60/0
+	x: 40.41
+	y: -3.7124
+	h: Sat Dec 29 11:42:05 CET 2012
+	ini: Sat Dec 29 10:00:05 CET 2012
+	fin: Sat Dec 29 12:00:05 CET 2012
+	duration: 60.0
+
+	Service: 18002.0.10:40.90/0
+	x: 40.409
+	y: -3.7127
+	h: Sat Dec 29 12:44:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 15315.0.11:15.120/0
+	x: 40.412
+	y: -3.713
+	h: Sat Dec 29 14:20:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 22820.0.12:45.120/0
+	x: 40.412
+	y: -3.713
+	h: Sat Dec 29 16:20:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+75  Cluster 552327108
+ numServices 7
+	Service: 2405.0.07:30.60/0
+	x: 40.409
+	y: -3.7072
+	h: Sat Dec 29 07:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 07:30:05 CET 2012
+	duration: 60.0
+
+	Service: 13044.0.08:00.60/0
+	x: 40.41
+	y: -3.7082
+	h: Sat Dec 29 08:32:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 37230.0.10:05.60/0
+	x: 40.408
+	y: -3.7138
+	h: Sat Dec 29 09:42:05 CET 2012
+	ini: Sat Dec 29 09:05:05 CET 2012
+	fin: Sat Dec 29 11:05:05 CET 2012
+	duration: 60.0
+
+	Service: 37275.0.12:50.150/0
+	x: 40.408
+	y: -3.7138
+	h: Sat Dec 29 10:42:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 19:30:05 CET 2012
+	duration: 150.0
+
+	Service: 2343.0.13:20.90/0
+	x: 40.409
+	y: -3.7091
+	h: Sat Dec 29 13:20:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1063.0.10:15.60/0
+	x: 40.409
+	y: -3.7071
+	h: Sat Dec 29 14:53:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 10950.0.11:40.90/0
+	x: 40.407
+	y: -3.7127
+	h: Sat Dec 29 16:03:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+76  Cluster 1537381822
+ numServices 7
+	Service: 18444.0.09:00.120/0
+	x: 40.412
+	y: -3.7
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 45852.0.11:00.30/0
+	x: 40.411
+	y: -3.7008
+	h: Sat Dec 29 10:02:05 CET 2012
+	ini: Sat Dec 29 10:00:05 CET 2012
+	fin: Sat Dec 29 12:00:05 CET 2012
+	duration: 30.0
+
+	Service: 13475.0.11:05.60/0
+	x: 40.411
+	y: -3.7008
+	h: Sat Dec 29 10:32:05 CET 2012
+	ini: Sat Dec 29 10:05:05 CET 2012
+	fin: Sat Dec 29 12:05:05 CET 2012
+	duration: 60.0
+
+	Service: 1292.0.11:00.150/0
+	x: 40.409
+	y: -3.6985
+	h: Sat Dec 29 11:37:05 CET 2012
+	ini: Sat Dec 29 10:00:05 CET 2012
+	fin: Sat Dec 29 12:00:05 CET 2012
+	duration: 150.0
+
+	Service: 13505.0.10:40.90/0
+	x: 40.414
+	y: -3.7023
+	h: Sat Dec 29 14:19:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 36325.0.12:25.120/0
+	x: 40.414
+	y: -3.7029
+	h: Sat Dec 29 15:50:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 36631.0.18:45.60/0
+	x: 40.409
+	y: -3.6983
+	h: Sat Dec 29 18:03:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+77  Cluster 253041650
+ numServices 7
+	Service: 1009.0.11:30.120/0
+	x: 40.409
+	y: -3.7072
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 12409.0.08:00.60/0
+	x: 40.409
+	y: -3.7073
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 52841.0.09:10.60/0
+	x: 40.409
+	y: -3.7072
+	h: Sat Dec 29 10:00:05 CET 2012
+	ini: Sat Dec 29 08:10:05 CET 2012
+	fin: Sat Dec 29 10:10:05 CET 2012
+	duration: 60.0
+
+	Service: 50456.0.10:10.120/0
+	x: 40.408
+	y: -3.706
+	h: Sat Dec 29 11:03:05 CET 2012
+	ini: Sat Dec 29 09:10:05 CET 2012
+	fin: Sat Dec 29 11:10:05 CET 2012
+	duration: 120.0
+
+	Service: 37626.0.12:25.120/0
+	x: 40.408
+	y: -3.706
+	h: Sat Dec 29 13:03:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 81.0.08:00.90/0
+	x: 40.409
+	y: -3.7073
+	h: Sat Dec 29 15:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 50044.0.10:40.90/0
+	x: 40.408
+	y: -3.7056
+	h: Sat Dec 29 16:39:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+78  Cluster 853390490
+ numServices 7
+	Service: 48388.0.08:50.80/0
+	x: 40.405
+	y: -3.7027
+	h: Sat Dec 29 07:50:05 CET 2012
+	ini: Sat Dec 29 07:50:05 CET 2012
+	fin: Sat Dec 29 09:50:05 CET 2012
+	duration: 80.0
+
+	Service: 48861.0.09:00.60/0
+	x: 40.406
+	y: -3.7018
+	h: Sat Dec 29 09:12:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 16768.0.09:40.90/0
+	x: 40.405
+	y: -3.702
+	h: Sat Dec 29 10:14:05 CET 2012
+	ini: Sat Dec 29 08:40:05 CET 2012
+	fin: Sat Dec 29 10:40:05 CET 2012
+	duration: 90.0
+
+	Service: 24724.0.11:10.60/0
+	x: 40.405
+	y: -3.7014
+	h: Sat Dec 29 11:45:05 CET 2012
+	ini: Sat Dec 29 10:10:05 CET 2012
+	fin: Sat Dec 29 12:10:05 CET 2012
+	duration: 60.0
+
+	Service: 10656.0.11:30.120/0
+	x: 40.405
+	y: -3.7014
+	h: Sat Dec 29 12:45:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 29311.0.09:35.120/0
+	x: 40.405
+	y: -3.7014
+	h: Sat Dec 29 14:45:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1993.0.13:15.90/0
+	x: 40.407
+	y: -3.7032
+	h: Sat Dec 29 16:50:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+79  Cluster 2038170764
+ numServices 7
+	Service: 487.0.07:50.60/0
+	x: 40.411
+	y: -3.6995
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:50:05 CET 2012
+	duration: 60.0
+
+	Service: 38384.0.09:00.60/0
+	x: 40.411
+	y: -3.6978
+	h: Sat Dec 29 08:02:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 47928.0.10:00.60/0
+	x: 40.411
+	y: -3.6959
+	h: Sat Dec 29 09:05:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 11:00:05 CET 2012
+	duration: 60.0
+
+	Service: 17194.0.10:20.90/0
+	x: 40.411
+	y: -3.6963
+	h: Sat Dec 29 10:05:05 CET 2012
+	ini: Sat Dec 29 09:20:05 CET 2012
+	fin: Sat Dec 29 11:20:05 CET 2012
+	duration: 90.0
+
+	Service: 47926.0.11:50.120/0
+	x: 40.411
+	y: -3.6978
+	h: Sat Dec 29 11:37:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 15988.0.12:40.90/0
+	x: 40.411
+	y: -3.6995
+	h: Sat Dec 29 13:39:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 30006.0.11:05.120/0
+	x: 40.411
+	y: -3.6994
+	h: Sat Dec 29 15:09:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+80  Cluster 1024377251
+ numServices 7
+	Service: 90.0.08:00.60/0
+	x: 40.408
+	y: -3.7094
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 90.0.08:00.60/1
+	x: 40.408
+	y: -3.7094
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 24567.0.09:05.60/0
+	x: 40.409
+	y: -3.7103
+	h: Sat Dec 29 09:02:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 60.0
+
+	Service: 15320.0.09:05.90/0
+	x: 40.409
+	y: -3.7102
+	h: Sat Dec 29 10:02:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 90.0
+
+	Service: 37178.0.12:40.120/0
+	x: 40.409
+	y: -3.7091
+	h: Sat Dec 29 11:33:05 CET 2012
+	ini: Sat Dec 29 11:40:05 CET 2012
+	fin: Sat Dec 29 13:40:05 CET 2012
+	duration: 120.0
+
+	Service: 47001.0.12:50.90/0
+	x: 40.409
+	y: -3.7087
+	h: Sat Dec 29 13:40:05 CET 2012
+	ini: Sat Dec 29 11:50:05 CET 2012
+	fin: Sat Dec 29 13:50:05 CET 2012
+	duration: 90.0
+
+	Service: 6806.0.10:10.120/0
+	x: 40.408
+	y: -3.7095
+	h: Sat Dec 29 15:12:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+81  Cluster 332059558
+ numServices 7
+	Service: 36454.0.07:50.60/0
+	x: 40.411
+	y: -3.7073
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:50:05 CET 2012
+	duration: 60.0
+
+	Service: 38374.0.08:00.60/0
+	x: 40.409
+	y: -3.7102
+	h: Sat Dec 29 08:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 24567.0.10:00.120/0
+	x: 40.409
+	y: -3.7103
+	h: Sat Dec 29 09:06:05 CET 2012
+	ini: Sat Dec 29 09:00:05 CET 2012
+	fin: Sat Dec 29 11:00:05 CET 2012
+	duration: 120.0
+
+	Service: 16051.0.10:10.60/0
+	x: 40.409
+	y: -3.7099
+	h: Sat Dec 29 11:06:05 CET 2012
+	ini: Sat Dec 29 09:10:05 CET 2012
+	fin: Sat Dec 29 11:10:05 CET 2012
+	duration: 60.0
+
+	Service: 1247.0.09:30.90/0
+	x: 40.409
+	y: -3.7099
+	h: Sat Dec 29 12:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 7537.0.09:40.90/0
+	x: 40.411
+	y: -3.7073
+	h: Sat Dec 29 13:42:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1105.0.10:05.120/0
+	x: 40.411
+	y: -3.7053
+	h: Sat Dec 29 15:15:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+82  Cluster 1762476400
+ numServices 7
+	Service: 24842.0.09:00.120/0
+	x: 40.413
+	y: -3.7137
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 1785.0.10:10.30/0
+	x: 40.413
+	y: -3.7133
+	h: Sat Dec 29 10:00:05 CET 2012
+	ini: Sat Dec 29 09:10:05 CET 2012
+	fin: Sat Dec 29 11:10:05 CET 2012
+	duration: 30.0
+
+	Service: 41126.0.10:15.60/0
+	x: 40.413
+	y: -3.7131
+	h: Sat Dec 29 10:30:05 CET 2012
+	ini: Sat Dec 29 09:15:05 CET 2012
+	fin: Sat Dec 29 11:15:05 CET 2012
+	duration: 60.0
+
+	Service: 12460.0.11:50.120/0
+	x: 40.412
+	y: -3.7138
+	h: Sat Dec 29 11:32:05 CET 2012
+	ini: Sat Dec 29 10:50:05 CET 2012
+	fin: Sat Dec 29 12:50:05 CET 2012
+	duration: 120.0
+
+	Service: 43103.0.09:40.90/0
+	x: 40.412
+	y: -3.7145
+	h: Sat Dec 29 13:33:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 26801.0.12:50.120/0
+	x: 40.41
+	y: -3.7032
+	h: Sat Dec 29 15:22:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 33816.0.09:05.120/0
+	x: 40.41
+	y: -3.7037
+	h: Sat Dec 29 17:22:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+83  Cluster 1698911729
+ numServices 7
+	Service: 45671.0.08:30.120/0
+	x: 40.417
+	y: -3.7094
+	h: Sat Dec 29 07:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 120.0
+
+	Service: 18440.0.09:00.60/0
+	x: 40.419
+	y: -3.7108
+	h: Sat Dec 29 09:35:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 45739.0.11:50.150/0
+	x: 40.413
+	y: -3.7131
+	h: Sat Dec 29 10:48:05 CET 2012
+	ini: Sat Dec 29 10:50:05 CET 2012
+	fin: Sat Dec 29 12:50:05 CET 2012
+	duration: 150.0
+
+	Service: 22290.0.13:00.60/0
+	x: 40.417
+	y: -3.7129
+	h: Sat Dec 29 13:28:05 CET 2012
+	ini: Sat Dec 29 12:00:05 CET 2012
+	fin: Sat Dec 29 14:00:05 CET 2012
+	duration: 60.0
+
+	Service: 1939.0.12:45.90/0
+	x: 40.419
+	y: -3.7111
+	h: Sat Dec 29 14:33:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 9768.0.10:40.60/0
+	x: 40.417
+	y: -3.7094
+	h: Sat Dec 29 16:08:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+	Service: 34312.0.10:45.120/0
+	x: 40.413
+	y: -3.7051
+	h: Sat Dec 29 17:19:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+84  Cluster 666858791
+ numServices 7
+	Service: 1413.0.08:00.60/0
+	x: 40.403
+	y: -3.7013
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 08:00:05 CET 2012
+	duration: 60.0
+
+	Service: 123.0.09:05.90/0
+	x: 40.403
+	y: -3.7013
+	h: Sat Dec 29 09:00:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 90.0
+
+	Service: 844.0.11:35.90/0
+	x: 40.409
+	y: -3.705
+	h: Sat Dec 29 10:44:05 CET 2012
+	ini: Sat Dec 29 10:35:05 CET 2012
+	fin: Sat Dec 29 12:35:05 CET 2012
+	duration: 90.0
+
+	Service: 1134.0.11:15.120/0
+	x: 40.409
+	y: -3.705
+	h: Sat Dec 29 12:14:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 120.0
+
+	Service: 1069.0.13:40.120/0
+	x: 40.408
+	y: -3.7044
+	h: Sat Dec 29 14:16:05 CET 2012
+	ini: Sat Dec 29 12:40:05 CET 2012
+	fin: Sat Dec 29 14:40:05 CET 2012
+	duration: 120.0
+
+	Service: 13249.0.13:25.90/0
+	x: 40.408
+	y: -3.7044
+	h: Sat Dec 29 16:16:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 1943.0.08:30.60/0
+	x: 40.407
+	y: -3.6992
+	h: Sat Dec 29 17:55:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:00:05 CET 2012
+	duration: 60.0
+
+
+85  Cluster 178546644
+ numServices 7
+	Service: 18444.0.07:55.60/0
+	x: 40.412
+	y: -3.7
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:55:05 CET 2012
+	duration: 60.0
+
+	Service: 24991.0.08:30.60/0
+	x: 40.408
+	y: -3.7156
+	h: Sat Dec 29 08:27:05 CET 2012
+	ini: Sat Dec 29 08:30:05 CET 2012
+	fin: Sat Dec 29 08:30:05 CET 2012
+	duration: 60.0
+
+	Service: 32931.0.09:20.60/0
+	x: 40.412
+	y: -3.6996
+	h: Sat Dec 29 09:58:05 CET 2012
+	ini: Sat Dec 29 08:20:05 CET 2012
+	fin: Sat Dec 29 10:20:05 CET 2012
+	duration: 60.0
+
+	Service: 103.0.18:00.120/0
+	x: 40.412
+	y: -3.6996
+	h: Sat Dec 29 10:58:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 17771.0.12:20.90/0
+	x: 40.412
+	y: -3.7003
+	h: Sat Dec 29 12:59:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 32645.0.12:15.90/0
+	x: 40.408
+	y: -3.7156
+	h: Sat Dec 29 14:56:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 24766.0.10:10.90/0
+	x: 40.407
+	y: -3.7127
+	h: Sat Dec 29 16:31:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+86  Cluster 798790849
+ numServices 7
+	Service: 32491.0.09:35.120/0
+	x: 40.408
+	y: -3.6983
+	h: Sat Dec 29 08:35:05 CET 2012
+	ini: Sat Dec 29 08:35:05 CET 2012
+	fin: Sat Dec 29 10:35:05 CET 2012
+	duration: 120.0
+
+	Service: 1439.0.11:05.60/0
+	x: 40.409
+	y: -3.6989
+	h: Sat Dec 29 10:37:05 CET 2012
+	ini: Sat Dec 29 10:05:05 CET 2012
+	fin: Sat Dec 29 12:05:05 CET 2012
+	duration: 60.0
+
+	Service: 12901.0.12:10.60/0
+	x: 40.41
+	y: -3.7015
+	h: Sat Dec 29 11:41:05 CET 2012
+	ini: Sat Dec 29 11:10:05 CET 2012
+	fin: Sat Dec 29 13:10:05 CET 2012
+	duration: 60.0
+
+	Service: 1569.0.12:10.90/0
+	x: 40.41
+	y: -3.7009
+	h: Sat Dec 29 12:42:05 CET 2012
+	ini: Sat Dec 29 11:10:05 CET 2012
+	fin: Sat Dec 29 13:10:05 CET 2012
+	duration: 90.0
+
+	Service: 1501.0.10:05.90/0
+	x: 40.413
+	y: -3.7008
+	h: Sat Dec 29 14:18:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 34936.0.09:00.180/0
+	x: 40.413
+	y: -3.701
+	h: Sat Dec 29 15:48:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 19:00:05 CET 2012
+	duration: 180.0
+
+	Service: 33138.0.11:50.90/0
+	x: 40.407
+	y: -3.7082
+	h: Sat Dec 29 19:06:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+
+87  Cluster 1357521746
+ numServices 7
+	Service: 32811.0.08:30.120/0
+	x: 40.416
+	y: -3.7074
+	h: Sat Dec 29 07:30:05 CET 2012
+	ini: Sat Dec 29 07:30:05 CET 2012
+	fin: Sat Dec 29 09:30:05 CET 2012
+	duration: 120.0
+
+	Service: 845.0.09:00.120/0
+	x: 40.41
+	y: -3.7002
+	h: Sat Dec 29 09:48:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 120.0
+
+	Service: 50296.0.12:15.120/0
+	x: 40.411
+	y: -3.707
+	h: Sat Dec 29 11:59:05 CET 2012
+	ini: Sat Dec 29 11:15:05 CET 2012
+	fin: Sat Dec 29 13:15:05 CET 2012
+	duration: 120.0
+
+	Service: 16278.0.14:05.30/0
+	x: 40.411
+	y: -3.7087
+	h: Sat Dec 29 14:01:05 CET 2012
+	ini: Sat Dec 29 13:05:05 CET 2012
+	fin: Sat Dec 29 15:05:05 CET 2012
+	duration: 30.0
+
+	Service: 32161.0.14:10.60/0
+	x: 40.41
+	y: -3.7094
+	h: Sat Dec 29 14:33:05 CET 2012
+	ini: Sat Dec 29 13:10:05 CET 2012
+	fin: Sat Dec 29 15:10:05 CET 2012
+	duration: 60.0
+
+	Service: 28885.0.13:05.90/0
+	x: 40.41
+	y: -3.7
+	h: Sat Dec 29 15:48:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 52091.0.12:05.120/0
+	x: 40.416
+	y: -3.7068
+	h: Sat Dec 29 17:35:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+88  Cluster 1001719294
+ numServices 7
+	Service: 46060.0.08:00.60/0
+	x: 40.409
+	y: -3.7121
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 47446.0.08:00.60/0
+	x: 40.41
+	y: -3.711
+	h: Sat Dec 29 08:02:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 09:00:05 CET 2012
+	duration: 60.0
+
+	Service: 750.0.10:15.120/0
+	x: 40.409
+	y: -3.7051
+	h: Sat Dec 29 09:12:05 CET 2012
+	ini: Sat Dec 29 09:15:05 CET 2012
+	fin: Sat Dec 29 11:15:05 CET 2012
+	duration: 120.0
+
+	Service: 1534.0.11:45.90/0
+	x: 40.409
+	y: -3.7052
+	h: Sat Dec 29 11:15:05 CET 2012
+	ini: Sat Dec 29 10:45:05 CET 2012
+	fin: Sat Dec 29 12:45:05 CET 2012
+	duration: 90.0
+
+	Service: 838.0.13:00.105/0
+	x: 40.409
+	y: -3.7046
+	h: Sat Dec 29 12:46:05 CET 2012
+	ini: Sat Dec 29 12:00:05 CET 2012
+	fin: Sat Dec 29 14:00:05 CET 2012
+	duration: 105.0
+
+	Service: 654.0.14:25.90/0
+	x: 40.41
+	y: -3.7133
+	h: Sat Dec 29 14:45:05 CET 2012
+	ini: Sat Dec 29 13:25:05 CET 2012
+	fin: Sat Dec 29 15:25:05 CET 2012
+	duration: 90.0
+
+	Service: 23410.0.11:45.120/0
+	x: 40.41
+	y: -3.7113
+	h: Sat Dec 29 16:18:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+89  Cluster 1771865425
+ numServices 7
+	Service: 36821.0.07:50.60/0
+	x: 40.416
+	y: -3.6996
+	h: Sat Dec 29 07:00:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 08:50:05 CET 2012
+	duration: 60.0
+
+	Service: 1196.0.09:00.60/0
+	x: 40.414
+	y: -3.7152
+	h: Sat Dec 29 08:26:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 10:00:05 CET 2012
+	duration: 60.0
+
+	Service: 22290.0.09:05.150/0
+	x: 40.417
+	y: -3.7129
+	h: Sat Dec 29 09:33:05 CET 2012
+	ini: Sat Dec 29 08:05:05 CET 2012
+	fin: Sat Dec 29 10:05:05 CET 2012
+	duration: 150.0
+
+	Service: 25171.0.11:15.90/0
+	x: 40.42
+	y: -3.7102
+	h: Sat Dec 29 12:11:05 CET 2012
+	ini: Sat Dec 29 10:15:05 CET 2012
+	fin: Sat Dec 29 12:15:05 CET 2012
+	duration: 90.0
+
+	Service: 16808.0.09:20.90/0
+	x: 40.415
+	y: -3.7014
+	h: Sat Dec 29 13:59:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 32000.0.13:25.120/0
+	x: 40.412
+	y: -3.7146
+	h: Sat Dec 29 15:52:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+	Service: 17380.0.12:10.120/0
+	x: 40.416
+	y: -3.7103
+	h: Sat Dec 29 18:03:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 20:00:05 CET 2012
+	duration: 120.0
+
+
+90  Cluster 586465026
+ numServices 7
+	Service: 15055.0.08:00.60/0
+	x: 40.408
+	y: -3.7004
+	h: Sat Dec 29 08:00:05 CET 2012
+	ini: Sat Dec 29 08:00:05 CET 2012
+	fin: Sat Dec 29 08:00:05 CET 2012
+	duration: 60.0
+
+	Service: 20898.0.08:25.90/0
+	x: 40.404
+	y: -3.7018
+	h: Sat Dec 29 09:09:05 CET 2012
+	ini: Sat Dec 29 07:25:05 CET 2012
+	fin: Sat Dec 29 09:25:05 CET 2012
+	duration: 90.0
+
+	Service: 8573.0.10:20.120/0
+	x: 40.404
+	y: -3.7012
+	h: Sat Dec 29 10:40:05 CET 2012
+	ini: Sat Dec 29 09:20:05 CET 2012
+	fin: Sat Dec 29 11:20:05 CET 2012
+	duration: 120.0
+
+	Service: 43134.0.19:30.90/0
+	x: 40.412
+	y: -3.7016
+	h: Sat Dec 29 12:57:05 CET 2012
+	ini: Sat Dec 29 18:30:05 CET 2012
+	fin: Sat Dec 29 20:30:05 CET 2012
+	duration: 90.0
+
+	Service: 276.0.20:20.30/0
+	x: 40.412
+	y: -3.7032
+	h: Sat Dec 29 20:02:05 CET 2012
+	ini: Sat Dec 29 19:20:05 CET 2012
+	fin: Sat Dec 29 21:20:05 CET 2012
+	duration: 30.0
+
+	Service: 276.0.20:20.30/1
+	x: 40.412
+	y: -3.7032
+	h: Sat Dec 29 20:32:05 CET 2012
+	ini: Sat Dec 29 19:20:05 CET 2012
+	fin: Sat Dec 29 21:20:05 CET 2012
+	duration: 30.0
+
+	Service: 32160.0.14:30.30/0
+	x: 40.405
+	y: -3.7027
+	h: Sat Dec 29 21:17:05 CET 2012
+	ini: Sat Dec 29 07:00:05 CET 2012
+	fin: Sat Dec 29 21:30:05 CET 2012
+	duration: 30.0
+
+
