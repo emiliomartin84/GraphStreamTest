@@ -174,7 +174,7 @@ public class GoogleMaps {
             for (int j = 0; j < lista.get(i).getServices().size(); j++) {
                 Service s = lista.get(i).getServices().get(j);
                 String[] aux = s.toString().replaceAll("\t", " ").split("\n");
-                tHtml.append(" ['" + s.getId() + "'," + s.getX() + "," + s.getY() + ",3," + color + "," + "'Cluster " + i + "','" + aux[3] + "','" + aux[4] + "','" + aux[5] + "'," + (j + 1) + "," + s.getDuration() + "]");
+                tHtml.append(" ['" + s.getId() + "'," + s.getX() + "," + s.getY() + ",3," + color + "," + "'Cluster " + i + "','" + s.getH().toLocaleString() + "','" + s.getIni().toLocaleString() + "','" + s.getFin().toLocaleString() + "'," + (j + 1) + "," + s.getDuration() + "]");
                 if (j != lista.get(i).getServices().size() - 1 || i != lista.size() - 1)
                     tHtml.append(",\n");
 
@@ -251,7 +251,7 @@ public class GoogleMaps {
                 "\n" +
                 "\t\t\t\t\n" +
                 "\t\t\t\tvar flightPath = new google.maps.Polyline({\n" +
-                "\t\t\t\t\tpath : flightPlanCoordinates.reverse(),\n" +
+                "\t\t\t\t\tpath : flightPlanCoordinates,\n" +
                 "\t\t\t\t\tstrokeColor : color,\n" +
                 "\t\t\t\t\tstrokeOpacity : 0.8,\n" +
                 "\t\t\t\t\tstrokeWeight : 2.5\n" +

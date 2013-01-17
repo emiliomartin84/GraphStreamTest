@@ -16,31 +16,30 @@ import java.util.Date;
  * To change this template use File | Settings | File Templates.
  */
 public class Service implements Cloneable, Comparable<Service> {
-    private static double  SPEED = 3.0;
+    private static double SPEED = 3.0;
     private String id;
     private double x;
     private double y;
     private double duration;
-    private Date h ;
+    private Date h;
     private Date ini;
     private Date fin;
 
-    public String toString()
-    {
+    public String toString() {
         String result = "";
-        result+="Service: "+getId()+"\n" +
-                "\tx: "+getX()+"\n" +
-                "\ty: "+getY()+"\n" +
-                "\th: "+getH().toString()+"\n" +
-                "\tini: "+getIni().toString()+"\n" +
-                "\tfin: "+getFin().toString()+"\n" +
-                "\tduration: "+getDuration()+"\n" ;
+        result += "Service: " + getId() + "\n" +
+                "\tx: " + getX() + "\n" +
+                "\ty: " + getY() + "\n" +
+                "\th: " + getH().toString() + "\n" +
+                "\tini: " + getIni().toString() + "\n" +
+                "\tfin: " + getFin().toString() + "\n" +
+                "\tduration: " + getDuration() + "\n";
 
 
-        return  result;
+        return result;
     }
-    public Service(String d )
-    {
+
+    public Service(String d) {
         setId(d);
     }
 
@@ -53,11 +52,11 @@ public class Service implements Cloneable, Comparable<Service> {
     }
 
     @Override
-    public Object clone(){
-        Object obj=null;
-        try{
-            obj=super.clone();
-        }catch(CloneNotSupportedException ex){
+    public Object clone() {
+        Object obj = null;
+        try {
+            obj = super.clone();
+        } catch (CloneNotSupportedException ex) {
             System.out.println(" no se puede duplicar");
         }
         return obj;
@@ -67,16 +66,35 @@ public class Service implements Cloneable, Comparable<Service> {
     public int compareTo(Service o1) {
         return this.getId().compareTo(o1.getId());
     }
-    public static String getOrderedID(ArrayList<Service> ser)
-    {
-        String result="";
+
+
+    public static String getOrderedID(ArrayList<Service> ser) {
+        String result = "";
         /*
         ArrayList<Service> a = new ArrayList<Service>();
         for(int i=0;i<ser.size();i++)
         {
             a.add((Service)ser.get(i).clone());
         } */
+
         Collections.sort(ser);
+
+        for (Service aSer : ser) {
+            result += aSer.getId();
+        }
+        return result;
+
+    }
+
+    public static String getOrderedID1(ArrayList<Service> ser) {
+        String result = "";
+
+        ArrayList<String> a = new ArrayList<String>();
+        for (int i = 0; i < ser.size(); i++) {
+            a.add(ser.get(i).getId());
+        }
+
+        Collections.sort(a);
 
         for (Service aSer : ser) {
             result += aSer.getId();
@@ -111,7 +129,6 @@ public class Service implements Cloneable, Comparable<Service> {
     }
 
 
-
     public Date getIni() {
         return ini;
     }
@@ -128,19 +145,18 @@ public class Service implements Cloneable, Comparable<Service> {
         this.fin = fin;
     }
 
-    public double calculateDistanceFromToMe (Service previous){
+    public double calculateDistanceFromToMe(Service previous) {
         double result = -1;
-        long myH = calculateH (previous);
+        long myH = calculateH(previous);
 
-        if(! getH().after(getFin()) )
-        {
-            double distance = Distance.distance(previous.getX(),previous.getY(), getX(), getY(),'K') / SPEED; //Distance in hours
+        if (!getH().after(getFin())) {
+            double distance = Distance.distance(previous.getX(), previous.getY(), getX(), getY(), 'K') / SPEED; //Distance in hours
             distance *= 60;            //Distance in minutes
             distance += getDuration();
             distance *= 60 * 1000; //Distance in milliseconds.
-            result =  ((getIni().getTime() - myH) + Math.abs( (getIni().getTime() - myH)) ) / 2.0;
-            result+=distance;
-        }else
+            result = ((getIni().getTime() - myH) + Math.abs((getIni().getTime() - myH))) / 2.0;
+            result += distance;
+        } else
             result = -1;
         return result;
     }
@@ -155,15 +171,15 @@ public class Service implements Cloneable, Comparable<Service> {
 
 
         double aux = (previous.getIni().getTime() - prevH.getTime());
-        aux += Math.abs( (previous.getIni().getTime() - prevH.getTime()));
-        aux /= 2.0 ;
+        aux += Math.abs((previous.getIni().getTime() - prevH.getTime()));
+        aux /= 2.0;
 
         calendar.add(Calendar.MILLISECOND, (int) aux);
         //
-            //    previous.getDuration() +
-        double distance = Distance.distance(previous.getX(),previous.getY(), getX(), getY(),'K') / SPEED;
+        //    previous.getDuration() +
+        double distance = Distance.distance(previous.getX(), previous.getY(), getX(), getY(), 'K') / SPEED;
         distance *= 60;
-        calendar.add(Calendar.MINUTE,(int)distance);
+        calendar.add(Calendar.MINUTE, (int) distance);
 
         this.setH(calendar.getTime());
 
@@ -179,21 +195,21 @@ public class Service implements Cloneable, Comparable<Service> {
     }
 
     public boolean fillIn(Node next) {
-        boolean  result = true;
+        boolean result = true;
         /*
         g.getNode(id).setAttribute("xyz",punto.y,punto.x,0);
         g.getNode(id).setAttribute("ini",datos[3]+":"+datos[4]);
         g.getNode(id).setAttribute("end",datos[5]+":"+datos[6]);
         g.getNode(id).setAttribute("duration"+datos[7]);*/
-        Object [] array = next.getArray("xyz");
+        Object[] array = next.getArray("xyz");
         //setX((Double)array[0]);
         //setY((Double)array[1]);
-        setX( (Double) next.getAttribute("latitude")) ;
+        setX((Double) next.getAttribute("latitude"));
 
-        setY((Double) next.getAttribute("longitude")) ;
+        setY((Double) next.getAttribute("longitude"));
 
-        String [] init = next.getAttribute("ini").toString().split(":");
-        String [] end = next.getAttribute("end").toString().split(":");
+        String[] init = next.getAttribute("ini").toString().split(":");
+        String[] end = next.getAttribute("end").toString().split(":");
 
         Calendar calendar = Calendar.getInstance();
 
@@ -213,10 +229,10 @@ public class Service implements Cloneable, Comparable<Service> {
 
         setDuration(Double.valueOf(next.getAttribute("duration").toString()));
 
-        setH((Date)this.getIni().clone());
+        setH((Date) this.getIni().clone());
 
-        if(date.after(dateEnd))
-            result=false;
+        if (date.after(dateEnd))
+            result = false;
         return result;
     }
 }

@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771840dd-80da-403d-81d3-435e725a3c6b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/export_full.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/clustering/ClusterWertDistance.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prueba.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prueba1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pruebaSat Jan 05 12:42:19 CET 2013.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resultado" afterPath="$PROJECT_DIR$/resultado" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/export_lunesCOPY.txt" afterPath="$PROJECT_DIR$/files/export_lunesCOPY.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestWert.java" afterPath="$PROJECT_DIR$/src/Test/TestWert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/GoogleMaps.java" afterPath="$PROJECT_DIR$/src/utils/GoogleMaps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MovesReader.java" afterPath="$PROJECT_DIR$/src/utils/MovesReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" afterPath="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" afterPath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/Service.java" afterPath="$PROJECT_DIR$/src/utils/clustering/Service.java" />
     </list>
     <ignored path="GraphStreamTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +73,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="92" class="utils.clustering.ClusterWert" package="utils.clustering">
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="146" class="utils.clustering.ClusterWert" package="utils.clustering">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -73,7 +86,33 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="110" class="utils.clustering.ClusterWert" package="utils.clustering">
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="164" class="utils.clustering.ClusterWert" package="utils.clustering">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Test/TestWert.java" line="60" class="Test.TestWert" package="Test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Test/TestWert.java" line="155" class="Test.TestWert" package="Test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -127,90 +166,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClusterWert.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="8" selection-start="8207" selection-end="8207" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1028#1036#0" expanded="true" />
-                <element signature="e#2248#2257#0" expanded="true" />
-                <element signature="e#2321#2330#0" expanded="true" />
-                <element signature="e#3398#3407#0" expanded="true" />
-                <element signature="e#5117#5137#0" expanded="true" />
-                <element signature="e#5290#5299#0" expanded="true" />
-                <element signature="e#5572#5581#0" expanded="true" />
-                <element signature="e#6365#6385#0" expanded="true" />
-                <element signature="e#6490#6499#0" expanded="true" />
-                <element signature="e#6555#6564#0" expanded="true" />
-                <element signature="e#6700#6709#0" expanded="true" />
-                <element signature="e#7097#7106#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export_lunes.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/export_lunes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="984" column="0" selection-start="52358" selection-end="52408" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovesReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/MovesReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="24" selection-start="2304" selection-end="2304" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/clustering/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="25" selection-start="5644" selection-end="5644" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrictMath.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1366" column="25" selection-start="51965" selection-end="51965" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestWert.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/TestWert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="72" selection-start="3736" selection-end="3736" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#914#927#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="export_lunesCOPY.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/export_lunesCOPY.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="1" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CachedDistance.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils/clustering/CachedDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="15" selection-start="2002" selection-end="2002" vertical-scroll-proportion="-2.0379746">
+            <state line="16" column="17" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +178,84 @@
       <file leaf-file-name="GoogleMaps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/GoogleMaps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="252" column="33" selection-start="10805" selection-end="10805" vertical-scroll-proportion="0.0">
+            <state line="176" column="178" selection-start="6522" selection-end="6522" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestWert.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestWert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="155" column="0" selection-start="6600" selection-end="6600" vertical-scroll-proportion="0.3079848">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#985#998#0" expanded="true" />
+                <element signature="e#1861#1889#0" expanded="true" />
+                <element signature="e#4437#4450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="594" column="0" selection-start="21967" selection-end="21967" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClusterWertDistance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWertDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="68" selection-start="2350" selection-end="2355" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClusterWert.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="18" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="0" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comparable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="15" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="268" column="0" selection-start="9809" selection-end="9809" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CachedDistance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/clustering/CachedDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="135" column="12" selection-start="4355" selection-end="4355" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -241,22 +277,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/tutorial3/MobileDevice.java" />
         <option value="$PROJECT_DIR$/src/Tutorial2.java" />
         <option value="$PROJECT_DIR$/src/Test/TestGraph.java" />
         <option value="$PROJECT_DIR$/src/Test/Tutorial2.java" />
         <option value="$PROJECT_DIR$/src/Test/TestMoves.java" />
         <option value="$PROJECT_DIR$/src/utils/Distance.java" />
-        <option value="$PROJECT_DIR$/src/utils/MovesReader.java" />
         <option value="$PROJECT_DIR$/out/production/GraphStreamTest/visualizer/html.html" />
         <option value="$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java" />
-        <option value="$PROJECT_DIR$/files/export_lunesCOPY.txt" />
-        <option value="$PROJECT_DIR$/src/utils/clustering/Service.java" />
         <option value="$PROJECT_DIR$/prueba1.html" />
-        <option value="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" />
+        <option value="$PROJECT_DIR$/src/utils/clustering/Service.java" />
+        <option value="$PROJECT_DIR$/src/utils/MovesReader.java" />
         <option value="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
+        <option value="$PROJECT_DIR$/files/export_lunesCOPY.txt" />
+        <option value="$PROJECT_DIR$/src/utils/clustering/CachedDistance.java" />
         <option value="$PROJECT_DIR$/src/utils/GoogleMaps.java" />
         <option value="$PROJECT_DIR$/src/Test/TestWert.java" />
+        <option value="$PROJECT_DIR$/src/utils/clustering/ClusterWertDistance.java" />
       </list>
     </option>
   </component>
@@ -264,9 +300,9 @@
     <option name="jreName" value="1.6" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1600" />
+    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -294,16 +330,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -350,60 +376,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphStreamTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -424,24 +396,34 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="72" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="73" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="164" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="72" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="72" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/GraphStreamTest/visualizer" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="75" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="441" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="441" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="437" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="346" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="75" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="73" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -451,17 +433,17 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="copyright.profiles" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -541,11 +523,11 @@
     </configuration>
     <configuration default="false" name="TestWert" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Test.TestWert" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Xmx4096M" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -600,24 +582,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -643,6 +607,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -824,28 +806,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1600" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13478819" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49679077" sideWeight="0.8728448" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32862645" sideWeight="0.54956895" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21912351" sideWeight="0.7385057" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21912351" sideWeight="0.25646552" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32862645" sideWeight="0.4454023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49425286" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32734275" sideWeight="0.43390805" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.49712643" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2593391" sideWeight="0.19654715" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19396552" sideWeight="0.24037185" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19181034" sideWeight="0.67137355" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36200258" sideWeight="0.5718391" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19396552" sideWeight="0.5312085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31606907" sideWeight="0.69037354" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.4827586" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.48002577" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.63213813" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.6113506" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -920,34 +902,19 @@
         <state line="733" column="0" selection-start="27168" selection-end="27168" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestGraph.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" />
+        <state line="1366" column="25" selection-start="51965" selection-end="51965" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestMoves.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" />
+        <state line="14" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualizer/html.html">
+    <entry file="file://$PROJECT_DIR$/files/export_full.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-25.25" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/GraphStreamTest/visualizer/html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="719" column="14" selection-start="41740" selection-end="41740" vertical-scroll-proportion="-11.833333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualizer/JavaFX_GoogleMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="127" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prueba1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.61962134" />
+        <state line="131" column="20" selection-start="7664" selection-end="7664" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/export_lunes.txt">
@@ -957,66 +924,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/MovesReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="24" selection-start="2304" selection-end="2304" vertical-scroll-proportion="0.0" />
+        <state line="88" column="0" selection-start="2955" selection-end="2955" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="15" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="0" selection-start="9809" selection-end="9809" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="594" column="0" selection-start="21967" selection-end="21967" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/clustering/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="25" selection-start="5644" selection-end="5644" vertical-scroll-proportion="0.0" />
+        <state line="47" column="0" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/clustering/CachedDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1366" column="25" selection-start="51965" selection-end="51965" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/export_lunesCOPY.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="1" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" />
+        <state line="135" column="12" selection-start="4355" selection-end="4355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/GoogleMaps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="33" selection-start="10805" selection-end="10805" vertical-scroll-proportion="0.0">
+        <state line="176" column="178" selection-start="6522" selection-end="6522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/export_lunesCOPY.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWertDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="68" selection-start="2350" selection-end="2355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="18" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestWert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="72" selection-start="3736" selection-end="3736" vertical-scroll-proportion="0.0">
+        <state line="155" column="0" selection-start="6600" selection-end="6600" vertical-scroll-proportion="0.3079848">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#914#927#0" expanded="true" />
+            <element signature="e#985#998#0" expanded="true" />
+            <element signature="e#1861#1889#0" expanded="true" />
+            <element signature="e#4437#4450#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="8" selection-start="8207" selection-end="8207" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1028#1036#0" expanded="true" />
-            <element signature="e#2248#2257#0" expanded="true" />
-            <element signature="e#2321#2330#0" expanded="true" />
-            <element signature="e#3398#3407#0" expanded="true" />
-            <element signature="e#5117#5137#0" expanded="true" />
-            <element signature="e#5290#5299#0" expanded="true" />
-            <element signature="e#5572#5581#0" expanded="true" />
-            <element signature="e#6365#6385#0" expanded="true" />
-            <element signature="e#6490#6499#0" expanded="true" />
-            <element signature="e#6555#6564#0" expanded="true" />
-            <element signature="e#6700#6709#0" expanded="true" />
-            <element signature="e#7097#7106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/clustering/CachedDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="15" selection-start="2002" selection-end="2002" vertical-scroll-proportion="-2.0379746">
-          <folding />
         </state>
       </provider>
     </entry>

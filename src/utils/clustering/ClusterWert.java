@@ -30,22 +30,76 @@ public class ClusterWert implements Comparable {
     public String getOrderedId(ClusterWert other) {
         String result = "";
         for (Service s : services) {
-            result += s.getId() + ":";
+            result += s.getId() + "-";
         }
         for (Service s : other.getServices()) {
-            result += s.getId() + ":";
+            result += s.getId() + "-";
         }
-        String[] splitedString = result.split(":");
+        String[] splitedString = result.split("-");
         ArrayList<String> aux = new ArrayList<String>();
         Collections.addAll(aux, splitedString);
         Collections.sort(aux);
         result = "";
         for (String s : aux)
-            result += s + ":";
+            result += s + "-";
+        return result;
+    }
+
+
+    public String getId() {
+        String result = "";
+        for (Service s : services) {
+            result += s.getId() + "-";
+        }
 
         return result;
+    }
+
+
+    public double peekServiceOther(Service s) {
+        CachedDistance cache = CachedDistance.getInstance();
+        double distance = -1;
+        getServices().add((Service) s.clone());
+
+        if (services.size() < 9) {
+            String id = Service.getOrderedID(getServices());
+
+            ArrayList<ArrayList<Service>> permutations = getMyPermutation();
+            int best = 0;
+
+            double bestDistance = Double.MAX_VALUE;
+
+
+            for (int i = 0; i < permutations.size(); i++) {
+                double auxDistance = calculateDistance(permutations.get(i));
+
+                if (auxDistance != MAX_DISTANCE && auxDistance < bestDistance) {
+                    bestDistance = auxDistance;
+                    distance = auxDistance;
+                    best = i;
+                }
+            }
+            if (distance != MAX_DISTANCE) {
+                ArrayList<Service> copyA = new ArrayList<Service>();
+                for (int i = 0; i < permutations.get(best).size(); i++) {
+
+                    copyA.add((Service) permutations.get(best).get(i).clone());
+                }
+                setServices(copyA);
+                this.distance = calculateMyOwnDistance();
+                distance = this.distance;
+            }
+
+
+        } else {
+            //calculateMyOwnDistance();
+            this.distance = -1;
+
+        }
+        return distance;
 
     }
+
 
     public double peekService(Service s) {
         CachedDistance cache = CachedDistance.getInstance();
@@ -189,11 +243,6 @@ public class ClusterWert implements Comparable {
     }
 
 
-    @Override
-    public int compareTo(Object o) {
-        return 0;  //To change body of implemented methods use File | Settings | File Templates.
-    }
-
     public static void main(String args[]) {
         ArrayList<Service> services1 = new ArrayList<Service>();
         for (int i = 0; i < 3; i++) {
@@ -239,6 +288,17 @@ public class ClusterWert implements Comparable {
             resultado += "\t" + services.get(i).toString() + "\n";
         }
         return resultado;
+
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (!(o instanceof ClusterWert))
+            return this.compareTo(o);
+        else {
+            return getId().compareTo(((ClusterWert) o).getId());
+        }
+
 
     }
 }
