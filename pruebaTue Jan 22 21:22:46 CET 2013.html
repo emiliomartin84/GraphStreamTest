@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0; padding: 0 }
+        #map_canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQXIE3yBRjyhTHjvZYNsJJKn2mfWxub_M&sensor=true">
+    </script>
+    <script type="text/javascript">
+
+        var map;
+var markers = [];
+var polylines = [];        function initialize() {
+
+
+        var mapDiv = document.getElementById('map-canvas');
+
+
+        var latlng = new google.maps.LatLng(40.409,-3.7073);
+
+        var myOptions = {
+        zoom: 11,
+        center: latlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        map = new google.maps.Map(mapDiv,myOptions);
+
+        google.maps.event.addListenerOnce(map, 'tilesloaded', addMarkers);
+
+        }
+
+        function addMarkers() {
+        var bounds = map.getBounds();
+        var southWest = bounds.getSouthWest();
+        var northEast = bounds.getNorthEast();
+        var lngSpan = northEast.lng() - southWest.lng();
+        var latSpan = northEast.lat() - southWest.lat();
+
+        var hotels = [
+ ['81.0.08:00.90/0',40.409,-3.7073,3,'C94844','Cluster 0',' h: Tue Jan 22 07:00:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 20:30:45 CET 2013',1,90.0],
+ ['90.0.08:00.60/0',40.408,-3.7094,3,'C94844','Cluster 0',' h: Tue Jan 22 08:34:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 09:00:45 CET 2013',2,60.0],
+ ['36325.0.12:25.120/0',40.414,-3.7029,3,'C94844','Cluster 0',' h: Tue Jan 22 09:51:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 20:00:45 CET 2013',3,120.0],
+ ['36331.0.10:30.60/0',40.417,-3.7003,3,'C94844','Cluster 0',' h: Tue Jan 22 11:58:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 21:00:45 CET 2013',4,60.0],
+ ['91.0.07:50.60/0',40.417,-3.7003,3,'C94844','Cluster 0',' h: Tue Jan 22 12:58:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 21:00:45 CET 2013',5,60.0],
+ ['36302.0.12:00.60/0',40.438,-3.7142,3,'C94844','Cluster 0',' h: Tue Jan 22 14:50:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 21:00:45 CET 2013',6,60.0],
+ ['82.0.18:45.60/0',40.427,-3.7035,3,'C94844','Cluster 0',' h: Tue Jan 22 16:20:45 CET 2013',' ini: Tue Jan 22 17:45:45 CET 2013',' fin: Tue Jan 22 19:45:45 CET 2013',7,60.0],
+ ['36361.0.11:30.180/0',40.428,-3.7341,3,'2BA6CC','Cluster 1',' h: Tue Jan 22 07:00:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 19:00:45 CET 2013',1,180.0],
+ ['36341.0.13:20.120/0',40.411,-3.7131,3,'2BA6CC','Cluster 1',' h: Tue Jan 22 10:51:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 20:00:45 CET 2013',2,120.0],
+ ['87.0.12:50.60/0',40.411,-3.7087,3,'2BA6CC','Cluster 1',' h: Tue Jan 22 12:58:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 21:00:45 CET 2013',3,60.0],
+ ['36363.0.08:00.60/0',40.505,-3.6657,3,'2BA6CC','Cluster 1',' h: Tue Jan 22 17:39:45 CET 2013',' ini: Tue Jan 22 07:00:45 CET 2013',' fin: Tue Jan 22 21:00:45 CET 2013',4,60.0],
+ ['36217.0.16:25.90/0',40.408,-3.6994,3,'D69360','Cluster 2',' h: Tue Jan 22 15:25:45 CET 2013',' ini: Tue Jan 22 15:25:45 CET 2013',' fin: Tue Jan 22 17:25:45 CET 2013',1,90.0],
+ ['36402.0.19:40.60/0',40.407,-3.6955,3,'D69360','Cluster 2',' h: Tue Jan 22 17:01:45 CET 2013',' ini: Tue Jan 22 18:40:45 CET 2013',' fin: Tue Jan 22 20:40:45 CET 2013',2,60.0]        ];
+
+ for (var i = 0; i < hotels.length; i++) {
+
+var hotel = hotels [i]
+var pinColor = hotel[4] ;
+    var icon = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+        new google.maps.Size(21, 34),
+        new google.maps.Point(0,0),
+        new google.maps.Point(10, 34));
+var marker = new google.maps.Marker({
+        position: new google.maps.LatLng (hotel[1], hotel[2]),
+        map: map,
+icon: icon,        title: hotel[5] +'_'+ hotel[9],
+        zIndex: hotel[3]
+        });
+
+marker.html = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<div id="bodyContent">' + '<p> ' + hotel[5] + '<br />' + 'Servicio: ' + hotel[0] + '<br />' + 'Orden de visita: ' + hotel[9] + '<br />' + hotel[6] + '<br />' + hotel[7] + '<br />' + hotel[8] + '<br />' + 'Duraci&oacuten: ' + hotel[10] + '</p>' + '</div>' + '</div>';
+
+					marker.infoWindow = new google.maps.InfoWindow({
+						content : marker.html,
+						maxWidth : 230
+					});
+					marker.cluster = hotel[5];
+					marker.orden = hotel[9];
+					marker.color = pinColor;
+					marker.listener = makeClosure(i, marker);
+					markers.push(marker);
+				}google.maps.event.addListener(map, "rightclick", redrawAll);
+
+			}
+
+			// Make a simple closure with the listener...
+
+			function makeClosure(i, marker) {
+				var listener = google.maps.event.addListener(marker, 'click', function() {
+
+					openInfoWindow(i);
+					// <-- this is the key to making it work
+				});
+				return listener;
+			}
+
+			
+
+			function openInfoWindow(i) {
+
+				if ( typeof (lastI) == 'number' && typeof (markers[lastI].infoWindow) == 'object') {
+					markers[lastI].infoWindow.close();
+				}
+				lastI = i;
+				markers[i].infoWindow.open(map, markers[i]);
+				var cluster = markers[i].cluster;
+				var flightPlanCoordinates = [];
+				var color = "#" + markers[i].color;
+				for (var i = 0; i < markers.length; i++) {
+
+					if (markers[i].cluster == cluster) {
+						if(flightPlanCoordinates.indexOf(markers[i].getPosition()) == -1 )
+						flightPlanCoordinates.push(markers[i].getPosition());
+					} else {
+						markers[i].setMap(null);
+					}
+				}
+
+				
+				var flightPath = new google.maps.Polyline({
+					path : flightPlanCoordinates,
+					strokeColor : color,
+					strokeOpacity : 0.8,
+					strokeWeight : 2.5
+				});
+				flightPath.cluster = cluster;
+				var find = false;
+				for(var i =0; i< polylines.length;i++){
+					if(polylines[i].cluster != cluster){
+						polylines[i].setMap(null);
+					}else{
+						polylines[i].setMap(map);
+						find=true;
+					}	
+				}
+				
+				if(!find)
+				{
+					flightPath.setMap(map);
+					polylines.push(flightPath);
+				}
+			}
+
+			function redrawAll(){
+				for (var i = 0; i < markers.length; i++) {
+					markers[i].setMap(map);
+				}
+				for (var i = 0; i < polylines.length; i++) {
+					polylines[i].setMap(null);
+				}
+				
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body onload="initialize()">
+
+		<div id="map-canvas" tabindex="0" style="width:100%; height:100%"></div>
+
+	</body>
+</html>

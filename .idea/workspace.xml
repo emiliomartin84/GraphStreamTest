@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771840dd-80da-403d-81d3-435e725a3c6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/locations_export.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resultado" afterPath="$PROJECT_DIR$/resultado" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestWert.java" afterPath="$PROJECT_DIR$/src/Test/TestWert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/GoogleMaps.java" afterPath="$PROJECT_DIR$/src/utils/GoogleMaps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MovesReader.java" afterPath="$PROJECT_DIR$/src/utils/MovesReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" afterPath="$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/clustering/Service.java" afterPath="$PROJECT_DIR$/src/utils/clustering/Service.java" />
     </list>
     <ignored path="GraphStreamTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +60,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="146" class="utils.clustering.ClusterWert" package="utils.clustering">
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="149" class="utils.clustering.ClusterWert" package="utils.clustering">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -80,7 +73,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="164" class="utils.clustering.ClusterWert" package="utils.clustering">
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="167" class="utils.clustering.ClusterWert" package="utils.clustering">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -93,7 +86,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Test/TestWert.java" line="173" class="Test.TestWert" package="Test">
+      <breakpoint url="file://$PROJECT_DIR$/src/Test/TestWert.java" line="171" class="Test.TestWert" package="Test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -106,7 +99,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="257" class="utils.clustering.ClusterWert" package="utils.clustering">
+      <breakpoint url="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java" line="259" class="utils.clustering.ClusterWert" package="utils.clustering">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -176,12 +169,12 @@
       <file leaf-file-name="TestWert.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/TestWert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="0" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.0">
+            <state line="174" column="0" selection-start="8101" selection-end="8101" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#985#998#0" expanded="true" />
-                <element signature="e#2015#2044#0" expanded="true" />
-                <element signature="e#5087#5100#0" expanded="true" />
+                <element signature="e#2004#2033#0" expanded="true" />
+                <element signature="e#5042#5055#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,7 +192,7 @@
       <file leaf-file-name="GoogleMaps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/GoogleMaps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="52" selection-start="3083" selection-end="3083" vertical-scroll-proportion="0.0">
+            <state line="108" column="52" selection-start="3082" selection-end="3082" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,13 +228,22 @@
       <file leaf-file-name="ClusterWert.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="269" column="18" selection-start="9492" selection-end="9492" vertical-scroll-proportion="0.41666666">
+            <state line="271" column="16" selection-start="9573" selection-end="9573" vertical-scroll-proportion="5.545977">
               <folding>
-                <element signature="method#peekServiceOther#0;class#ClusterWert#0" expanded="false" />
-                <element signature="method#peekService#0;class#ClusterWert#0" expanded="false" />
-                <element signature="method#main#0;class#ClusterWert#0" expanded="false" />
-                <element signature="method#toString#0;class#ClusterWert#0" expanded="false" />
-                <element signature="method#compareTo#0;class#ClusterWert#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1121#1129#0" expanded="true" />
+                <element signature="e#2414#2423#0" expanded="true" />
+                <element signature="e#3902#3911#0" expanded="true" />
+                <element signature="e#3975#3984#0" expanded="true" />
+                <element signature="e#5052#5061#0" expanded="true" />
+                <element signature="e#6988#7008#0" expanded="true" />
+                <element signature="e#7161#7170#0" expanded="true" />
+                <element signature="e#7443#7452#0" expanded="true" />
+                <element signature="e#8236#8256#0" expanded="true" />
+                <element signature="e#8361#8370#0" expanded="true" />
+                <element signature="e#8426#8435#0" expanded="true" />
+                <element signature="e#8571#8580#0" expanded="true" />
+                <element signature="e#9938#9947#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -250,7 +252,7 @@
       <file leaf-file-name="Service.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/clustering/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="43" selection-start="3393" selection-end="3393" vertical-scroll-proportion="0.0">
+            <state line="153" column="44" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -767,7 +769,11 @@
       <created>1358457426064</created>
       <updated>1358457426064</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changed TestWert procedure. Non working version. In some iterations best distance is lower than in previous iteration.">
+      <created>1358886764537</created>
+      <updated>1358886764537</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -930,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/GoogleMaps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="52" selection-start="3083" selection-end="3083" vertical-scroll-proportion="0.0">
+        <state line="108" column="52" selection-start="3082" selection-end="3082" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -958,32 +964,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestWert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="0" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.0">
+        <state line="174" column="0" selection-start="8101" selection-end="8101" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#985#998#0" expanded="true" />
-            <element signature="e#2015#2044#0" expanded="true" />
-            <element signature="e#5087#5100#0" expanded="true" />
+            <element signature="e#2004#2033#0" expanded="true" />
+            <element signature="e#5042#5055#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/clustering/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="43" selection-start="3393" selection-end="3393" vertical-scroll-proportion="0.0">
+        <state line="153" column="44" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/clustering/ClusterWert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="18" selection-start="9492" selection-end="9492" vertical-scroll-proportion="0.41666666">
+        <state line="271" column="16" selection-start="9573" selection-end="9573" vertical-scroll-proportion="5.545977">
           <folding>
-            <element signature="method#peekServiceOther#0;class#ClusterWert#0" expanded="false" />
-            <element signature="method#peekService#0;class#ClusterWert#0" expanded="false" />
-            <element signature="method#main#0;class#ClusterWert#0" expanded="false" />
-            <element signature="method#toString#0;class#ClusterWert#0" expanded="false" />
-            <element signature="method#compareTo#0;class#ClusterWert#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1121#1129#0" expanded="true" />
+            <element signature="e#2414#2423#0" expanded="true" />
+            <element signature="e#3902#3911#0" expanded="true" />
+            <element signature="e#3975#3984#0" expanded="true" />
+            <element signature="e#5052#5061#0" expanded="true" />
+            <element signature="e#6988#7008#0" expanded="true" />
+            <element signature="e#7161#7170#0" expanded="true" />
+            <element signature="e#7443#7452#0" expanded="true" />
+            <element signature="e#8236#8256#0" expanded="true" />
+            <element signature="e#8361#8370#0" expanded="true" />
+            <element signature="e#8426#8435#0" expanded="true" />
+            <element signature="e#8571#8580#0" expanded="true" />
+            <element signature="e#9938#9947#0" expanded="true" />
           </folding>
         </state>
       </provider>
