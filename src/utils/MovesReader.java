@@ -122,28 +122,30 @@ public class MovesReader {
         String[] datos = strLine.split(",");
         String[] daysToSkip = filterDays.split(",");
         if (!Arrays.asList(daysToSkip).contains(datos[3])) {
-            String id = datos[2];
-            double lat = Double.parseDouble(datos[9]);
-            double longi = Double.parseDouble(datos[10]);
-            Point2D p = new Point2D.Double();
-            p.setLocation(lat, longi);
-            lat *= Math.PI / 180.0;
-            longi *= Math.PI / 180.0;
-            MercatorProjection projection = new MercatorProjection();
-            Point2D.Double punto = projection.project(lat, longi, new Point2D.Double());
+            if (datos[11].equals("0")) {
+                String id = datos[2];
+                double lat = Double.parseDouble(datos[9]);
+                double longi = Double.parseDouble(datos[10]);
+                Point2D p = new Point2D.Double();
+                p.setLocation(lat, longi);
+                lat *= Math.PI / 180.0;
+                longi *= Math.PI / 180.0;
+                MercatorProjection projection = new MercatorProjection();
+                Point2D.Double punto = projection.project(lat, longi, new Point2D.Double());
 
-            vector.add(p);
-            try {
-                g.addNode(id);
-                g.getNode(id).setAttribute("xyz", punto.y, punto.x, 0);
-                g.getNode(id).setAttribute("ini", datos[4] + ":" + datos[5]);
-                g.getNode(id).setAttribute("end", datos[6] + ":" + datos[7]);
-                g.getNode(id).setAttribute("duration", datos[8]);
-                g.getNode(id).setAttribute("latitude", Double.parseDouble(datos[9]));
-                g.getNode(id).setAttribute("longitude", Double.parseDouble(datos[10]));
+                vector.add(p);
+                try {
+                    g.addNode(id);
+                    g.getNode(id).setAttribute("xyz", punto.y, punto.x, 0);
+                    g.getNode(id).setAttribute("ini", datos[4] + ":" + datos[5]);
+                    g.getNode(id).setAttribute("end", datos[6] + ":" + datos[7]);
+                    g.getNode(id).setAttribute("duration", datos[8]);
+                    g.getNode(id).setAttribute("latitude", Double.parseDouble(datos[9]));
+                    g.getNode(id).setAttribute("longitude", Double.parseDouble(datos[10]));
 
-            } catch (Exception e) {
-                System.out.println(e.toString());
+                } catch (Exception e) {
+                    System.out.println(e.toString());
+                }
             }
         }
 

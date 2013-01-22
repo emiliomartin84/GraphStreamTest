@@ -1,6 +1,8 @@
 package utils.clustering;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 
@@ -16,6 +18,7 @@ public class ClusterWert implements Comparable {
     private ArrayList<Service> services;
     private static final double MAX_DISTANCE = -1;
     private double distance = MAX_DISTANCE;
+    private double travelTime;
 
 
     public ClusterWert() {
@@ -61,7 +64,7 @@ public class ClusterWert implements Comparable {
         double distance = -1;
         getServices().add((Service) s.clone());
 
-        if (services.size() < 9) {
+        if (services.size() < 8) {
             String id = Service.getOrderedID(getServices());
 
             ArrayList<ArrayList<Service>> permutations = getMyPermutation();
@@ -187,13 +190,19 @@ public class ClusterWert implements Comparable {
         double distance = 0;
         Service previous = services.get(0);
         previous.setH(previous.getIni());
+        this.travelTime = 0;
         for (int i = 1; i < services.size() && distance != MAX_DISTANCE; i++) {
-            double aux = services.get(i).calculateDistanceFromToMe(previous);
-            if (aux == -1) {
+            //It returns at [0] distance plus wait time, at [1] just travel time.
+            double[] aux = services.get(i).calculateDistanceFromToMe(previous);
+
+            if (aux[0] == -1) {
+                this.travelTime = -1;
                 distance = -1;
                 break;
-            } else
-                distance += aux;
+            } else {
+                this.travelTime += aux[1];
+                distance += aux[0];
+            }
             previous = services.get(i);
         }
         return distance;
@@ -242,6 +251,30 @@ public class ClusterWert implements Comparable {
         return result;
     }
 
+    public String toCSV() {
+        String result = "";
+        double serviceTime = 0;
+        double awaitTime = 0;
+        for (Service s : services) {
+            serviceTime += s.getDuration();
+            awaitTime += ((s.getIni().getTime() - s.getH().getTime()) > 0) ? s.getIni().getTime() - s.getH().getTime() : 0;
+        }
+        SimpleDateFormat sDF = new SimpleDateFormat("HH:mm:ss");
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(services.get(services.size() - 1).getH());
+        result += this.getId() + "\t" +
+                services.size() + "\t" +
+                sDF.format(services.get(0).getH()) + "\t" +
+                sDF.format(cal.getTime()) + "\t";
+
+        cal.add(Calendar.MINUTE, (int) services.get(services.size() - 1).getDuration());
+        result += sDF.format(cal.getTime()) + "\t" +
+                String.valueOf(getDistance() / (60 * 1000) + "\t" +
+                        String.valueOf(serviceTime).replace(',', '.') + "\t" +
+                        travelTime / (60 * 1000) + "\t" +
+                        awaitTime / (60 * 1000);
+        return result;
+    }
 
     public static void main(String args[]) {
         ArrayList<Service> services1 = new ArrayList<Service>();

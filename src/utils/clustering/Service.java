@@ -145,19 +145,20 @@ public class Service implements Cloneable, Comparable<Service> {
         this.fin = fin;
     }
 
-    public double calculateDistanceFromToMe(Service previous) {
-        double result = -1;
+    public double[] calculateDistanceFromToMe(Service previous) {
+        double[] result = new double[2];
         long myH = calculateH(previous);
 
         if (!getH().after(getFin())) {
             double distance = Distance.distance(previous.getX(), previous.getY(), getX(), getY(), 'K') / SPEED; //Distance in hours
-            distance *= 60;            //Distance in minutes
-            distance += getDuration();
-            distance *= 60 * 1000; //Distance in milliseconds.
-            result = ((getIni().getTime() - myH) + Math.abs((getIni().getTime() - myH))) / 2.0;
-            result += distance;
+            distance = distance * 60 * 60 * 1000;//Distance in milliseconds
+            result[1] = distance;
+            distance += getDuration() * 60 * 1000;
+            result[0] = ((getIni().getTime() - myH) + Math.abs((getIni().getTime() - myH))) / 2.0;
+            result[0] += distance;
+
         } else
-            result = -1;
+            result[0] = -1;
         return result;
     }
 

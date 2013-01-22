@@ -32,8 +32,10 @@ public class TestWert {
         Iterator<Node> it = reader.getG().iterator();
         ArrayList<ClusterWert> services = new ArrayList<ClusterWert>();
 
+        Date date = new Date();
+
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("resultado"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("resultado" + date.toString() + ".csv"));
 
 
             //Transforming data stored into GraphStream into ClusterWert data structure
@@ -49,130 +51,140 @@ public class TestWert {
 
             CachedDistance cache = CachedDistance.getInstance();
             double lastBestdistance = Double.MAX_VALUE;
-            //HashSet<ClusterWertDistance> distances = new HashSet<ClusterWertDistance>();
-            TreeMap<ClusterWertDistance, Double> distances = new TreeMap<ClusterWertDistance, Double>();
-            do {
-                int bestPosI = 0;
-                int bestPosJ = 0;
-                double bestDistance = Double.MAX_VALUE;
-                ClusterWertDistance best = new ClusterWertDistance();
-                int skiped = 0;
-                if (services.size() == 7)
-                    System.out.println("SDA");
-                for (int j = 0; j < services.size(); j++) {
+            long startTime = System.nanoTime();
+            if (true) {
 
-                    ClusterWert cIni = services.get(j);
-                    ClusterWertDistance distance = new ClusterWertDistance(cIni);
+                //HashSet<ClusterWertDistance> distances = new HashSet<ClusterWertDistance>();
+                TreeMap<ClusterWertDistance, Double> distances = new TreeMap<ClusterWertDistance, Double>();
+                do {
+                    if (services.size() == 497)
+                        System.out.println("a");
+
+                    int bestPosI = 0;
+                    int bestPosJ = 0;
+                    double bestDistance = Double.MAX_VALUE;
+                    ClusterWertDistance best = new ClusterWertDistance();
+                    int skiped = 0;
 
 
-                    if (!distances.containsKey(distance))//|| (distances.containsKey(distance) && distances.))
-                    {
-                        for (int i = j + 1; i < services.size(); i++) {
-                            ClusterWert aux = cache.getMinimumDistanceOther(cIni, services.get(i));
-                            double auxDistance = aux.getDistance();
-                            if (auxDistance != -1) {
-                                distance.addElement(auxDistance, aux, services.get(i));
+                    for (int j = 0; j < services.size(); j++) {
 
-                                /*if(auxDistance < bestDistance){
-                                    bestDistance = auxDistance;
-                                    bestPosI = i;
-                                    bestPosJ = j;
-                                    best = distance;
-                                } */
+                        ClusterWert cIni = services.get(j);
+                        ClusterWertDistance distance = new ClusterWertDistance(cIni);
+                        //Distance measured in milliseconds.
+                        double lowerBoundDistance = (cIni.getDistance() == -1) ? cIni.getServices().get(0).getDuration() * 60 * 1000 : cIni.getDistance();
+                        double lowerDistance = (distances.firstEntry() != null) ? distances.firstEntry().getValue() : Double.MAX_VALUE;
+
+                        if (!distances.containsKey(distance) && lowerBoundDistance < lowerDistance) {
+
+                            for (int i = j + 1; i < services.size(); i++) {
+                                //lowerBoundDistance += (services.get(j).getDistance()==-1) ? services.get(j).getServices().get(0).getDuration()*60*1000 : services.get(j).getDistance();
+                                //if(lowerBoundDistance < lowerDistance){
+                                ClusterWert aux = cache.getMinimumDistanceOther(cIni, services.get(i));
+                                double auxDistance = aux.getDistance();
+                                if (auxDistance != -1) {
+                                    distance.addElement(auxDistance, aux, services.get(i));
+                                }
+                                //}
                             }
-                        }
-                        if (distance.getBest_distance() != -1)
-                            distances.put(distance, distance.getBest_distance());
-                    } else
-                        skiped++;
-                }
-                Iterator<Map.Entry<ClusterWertDistance, Double>> iter = distances.entrySet().iterator();
-
-
-                while (iter.hasNext()) {
-                    Map.Entry<ClusterWertDistance, Double> pair = iter.next();
-                    ClusterWertDistance aux = pair.getKey();
-                    double auxDistance = aux.getBest_distance();
-                    if (auxDistance != -1 && auxDistance < bestDistance) {
-                        if (services.contains(aux.getOrigin())) {
-                            bestDistance = auxDistance;
-                            best = pair.getKey();
+                            if (distance.getBest_distance() != -1)
+                                distances.put(distance, distance.getBest_distance());
                         } else
-                            distances.remove(pair.getKey());
+                            skiped++;
                     }
-                }
-
-                if (bestDistance < lastBestdistance)
-                    System.out.println("ASDAS");
+                    Iterator<Map.Entry<ClusterWertDistance, Double>> iter = distances.entrySet().iterator();
 
 
-                ArrayList<ClusterWert> toDelete = new ArrayList<ClusterWert>();
-                if (bestDistance != Double.MAX_VALUE) {
-                    Double firstKey = best.getDistances().firstKey();
-                    ClusterWert original = best.getOriginal().get(best.getDistances().get(firstKey));
+                    while (iter.hasNext()) {
+                        Map.Entry<ClusterWertDistance, Double> pair = iter.next();
+                        ClusterWertDistance aux = pair.getKey();
+                        double auxDistance = aux.getBest_distance();
+                        if (auxDistance != -1 && auxDistance < bestDistance) {
+                            if (services.contains(aux.getOrigin())) {
+                                bestDistance = auxDistance;
+                                best = pair.getKey();
+                            } else
+                                distances.remove(pair.getKey());
+                        }
+                    }
 
-                    System.out.println("MIx " + services.indexOf(best.getOrigin()) + " con " + services.indexOf(original) + " currentSize " + services.size() + " distance: " + bestDistance + " skipped: " + skiped);
-                    System.out.println("Cache Size " + cache.getCache1().size() + " A: " + cache.getAciertos() + " F: " + cache.getFallos());
-
-                    services.remove(best.getOrigin());
-                    toDelete.add(best.getOrigin());
-                    services.remove(original);
-                    toDelete.add(original);
-                    Double bestKey = best.getDistances().firstKey();
-                    services.add(best.getDistances().get(bestKey));
-                    distances.remove(best);
-                    lastBestdistance = bestDistance;
-                } else {
-                    System.out.println("TODOS LEJOS");
-                    break;
-
-                }
-
-                iter = distances.entrySet().iterator();
-                /*
-              while(iter.hasNext())
-              {
-                  Map.Entry<ClusterWertDistance,Double> pair = iter.next();
-                  ClusterWertDistance aux = pair.getKey();
-                  double auxDistance = aux.getBest_distance();
-                  if(auxDistance!=-1 && auxDistance < bestDistance){
-                      if(services.contains(aux.getOrigin())){
-                          bestDistance = auxDistance;
-                          best = pair.getKey();
-                      }else
-                          distances.remove(pair);
-                  }
-              }  */
-
-                while (iter.hasNext()) {
-                    Map.Entry<ClusterWertDistance, Double> pair = iter.next();
-                    double auxDistance = pair.getValue();
-                    ClusterWertDistance aux = pair.getKey();
-                    for (ClusterWert w : toDelete)
-                        aux.removeOriginalCluster(w);
-                    if (!services.contains(aux.getOrigin()) || aux.getDistances().size() == 0)
-                        iter.remove();
-                }
-
-                //equals.remove(i);
+                    if (bestDistance < lastBestdistance)
+                        System.out.println("ERRROR ");
 
 
-                //TODO iterate over equals in order to mix all other elements up.
-            } while (services.size() > 1);
+                    ArrayList<ClusterWert> toDelete = new ArrayList<ClusterWert>();
+                    if (bestDistance != Double.MAX_VALUE) {
+                        Double firstKey = best.getDistances().firstKey();
+                        ClusterWert original = best.getOriginal().get(best.getDistances().get(firstKey));
 
+                        System.out.println("MIx " + services.indexOf(best.getOrigin()) + " con " + services.indexOf(original) + " currentSize " + services.size() + " distance: " + bestDistance + " skipped: " + skiped);
+                        System.out.println("Cache Size " + cache.getCache1().size() + " A: " + cache.getAciertos() + " F: " + cache.getFallos());
+
+                        services.remove(best.getOrigin());
+                        toDelete.add(best.getOrigin());
+                        services.remove(original);
+                        toDelete.add(original);
+                        Double bestKey = best.getDistances().firstKey();
+                        services.add(0, best.getDistances().get(bestKey));
+                        distances.remove(best);
+                        lastBestdistance = bestDistance;
+                    } else {
+                        System.out.println("TODOS LEJOS");
+                        break;
+
+                    }
+
+                    iter = distances.entrySet().iterator();
+                    /*
+                  while(iter.hasNext())
+                  {
+                      Map.Entry<ClusterWertDistance,Double> pair = iter.next();
+                      ClusterWertDistance aux = pair.getKey();
+                      double auxDistance = aux.getBest_distance();
+                      if(auxDistance!=-1 && auxDistance < bestDistance){
+                          if(services.contains(aux.getOrigin())){
+                              bestDistance = auxDistance;
+                              best = pair.getKey();
+                          }else
+                              distances.remove(pair);
+                      }
+                  }  */
+
+                    while (iter.hasNext()) {
+                        Map.Entry<ClusterWertDistance, Double> pair = iter.next();
+                        double auxDistance = pair.getValue();
+                        ClusterWertDistance aux = pair.getKey();
+                        for (ClusterWert w : toDelete)
+                            aux.removeOriginalCluster(w);
+                        if (!services.contains(aux.getOrigin()) || aux.getDistances().size() == 0)
+                            iter.remove();
+                        pair.setValue(pair.getKey().getBest_distance());
+                    }
+
+                    //equals.remove(i);
+
+
+                    //TODO iterate over equals in order to mix all other elements up.
+                } while (services.size() > 1);
+            }
             String strLine;
             int i = 1;
+            writer.write("ID\tIDServices\tNum Services\tH first \tH last\tLast Service  Time (includes duration)\tDistance\tService Time\tTravel Time\tWaiting time");
+            writer.newLine();
             for (ClusterWert c : services) {
-                writer.write(i + " " + c.toString());
+                writer.write(i + "\t" + c.toCSV());
                 writer.newLine();
                 i++;
             }
+            long elapsedTime = System.nanoTime() - startTime;
+
+            writer.write(String.valueOf(elapsedTime / 1000000));
             writer.flush();
             writer.close();
 
-            GoogleMaps google = new GoogleMaps();
-            Date date = new Date();
-            date.setTime(System.currentTimeMillis());
+            GoogleMaps google = new GoogleMaps(false);
+
+            date = new Date();
             google.generateHtml(services, "prueba" + date.toString() + ".html");
 
             System.out.print("ASDASD");

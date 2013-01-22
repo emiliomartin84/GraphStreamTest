@@ -40,6 +40,7 @@ public class GoogleMaps {
 
 
     private boolean reading_services;
+    private boolean cluster;
     /*
    public MyBrowser(){
 
@@ -49,7 +50,8 @@ public class GoogleMaps {
        getChildren().add(webView);
    } */
 
-    public GoogleMaps() {
+    public GoogleMaps(boolean clustered) {
+        this.cluster = clustered;
         //read();
         //generateHtml();
         //final URL urlGoogleMaps = getClass().getResource("html.html");
@@ -104,7 +106,7 @@ public class GoogleMaps {
             // navega(aux);
             FileWriter writer = new FileWriter(file, false);
             BufferedWriter output = new BufferedWriter(writer);
-            output.write(genHtml(lista));
+            output.write(genHtml(lista, this.cluster));
             output.flush();
             output.close();
 
@@ -117,7 +119,7 @@ public class GoogleMaps {
 
     }
 
-    private String genHtml(ArrayList<ClusterWert> lista) {
+    private String genHtml(ArrayList<ClusterWert> lista, boolean clustered) {
         //To change body of created methods use File | Settings | File Templates.
         StringBuilder tHtml = new StringBuilder();
 
@@ -129,8 +131,11 @@ public class GoogleMaps {
                 "        html { height: 100% }\n" +
                 "        body { height: 100%; margin: 0; padding: 0 }\n" +
                 "        #map_canvas { height: 100% }\n" +
-                "    </style>\n" +
-                "    <script type=\"text/javascript\"\n" +
+                "    </style>\n");
+        if (clustered)
+            tHtml.append("<script src=\"http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer.js\" type=\"text/javascript\"></script>");
+
+        tHtml.append("    <script type=\"text/javascript\"\n" +
                 "\n" +
                 "            src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCQXIE3yBRjyhTHjvZYNsJJKn2mfWxub_M&sensor=true\">\n" +
                 "    </script>\n" +
@@ -174,7 +179,7 @@ public class GoogleMaps {
             for (int j = 0; j < lista.get(i).getServices().size(); j++) {
                 Service s = lista.get(i).getServices().get(j);
                 String[] aux = s.toString().replaceAll("\t", " ").split("\n");
-                tHtml.append(" ['" + s.getId() + "'," + s.getX() + "," + s.getY() + ",3," + color + "," + "'Cluster " + i + "','" + s.getH().toLocaleString() + "','" + s.getIni().toLocaleString() + "','" + s.getFin().toLocaleString() + "'," + (j + 1) + "," + s.getDuration() + "]");
+                tHtml.append(" ['" + s.getId() + "'," + s.getX() + "," + s.getY() + ",3," + color + "," + "'Cluster " + i + "','" + aux[3] + "','" + aux[4] + "','" + aux[5] + "'," + (j + 1) + "," + s.getDuration() + "]");
                 if (j != lista.get(i).getServices().size() - 1 || i != lista.size() - 1)
                     tHtml.append(",\n");
 
@@ -193,9 +198,11 @@ public class GoogleMaps {
                 //      "        var icon = new google.maps.MarkerImage(\"http://web4support.com/images/red_icon.png\"); \n" +
                 //             "icon.scaledSize = new google.maps.Size(8,8);\n" +
                 "var marker = new google.maps.Marker({\n" +
-                "        position: new google.maps.LatLng (hotel[1], hotel[2]),\n" +
-                "        map: map,\n" +
-                "icon: icon," +
+                "        position: new google.maps.LatLng (hotel[1], hotel[2]),\n");
+        if (!clustered)
+            tHtml.append("        map: map,\n");
+
+        tHtml.append("icon: icon," +
                 "        title: hotel[5] +'_'+ hotel[9],\n" +
                 "        zIndex: hotel[3]\n" +
                 "        });\n" +
@@ -208,12 +215,23 @@ public class GoogleMaps {
                 "\t\t\t\t\t});\n" +
                 "\t\t\t\t\tmarker.cluster = hotel[5];\n" +
                 "\t\t\t\t\tmarker.orden = hotel[9];\n" +
-                "\t\t\t\t\tmarker.color = pinColor;\n" +
-                "\t\t\t\t\tmarker.listener = makeClosure(i, marker);\n" +
-                "\t\t\t\t\tmarkers.push(marker);\n" +
-                "\t\t\t\t}" +
-                "google.maps.event.addListener(map, \"rightclick\", redrawAll);\n" +
-                "\n" +
+                "\t\t\t\t\tmarker.color = pinColor;\n");
+
+
+        tHtml.append("\t\t\t\t\tmarker.listener = makeClosure(i, marker);\n");
+
+        tHtml.append("\t\t\t\t\tmarkers.push(marker);\n" +
+                "\t\t\t\t}");
+        if (clustered) {
+            tHtml.append("mc = new MarkerClusterer(map, markers, {\n" +
+                    "          maxZoom: 17,\n" +
+                    "          gridSize: 50\n" +
+                    "          \n" +
+                    "        });");
+        } else {
+            tHtml.append("google.maps.event.addListener(map, \"rightclick\", redrawAll);\n");
+        }
+        tHtml.append("\n" +
                 "\t\t\t}\n" +
                 "\n" +
                 "\t\t\t// Make a simple closure with the listener...\n" +
@@ -283,7 +301,9 @@ public class GoogleMaps {
                 "\t\t\t\t}\n" +
                 "\t\t\t\t\n" +
                 "\t\t\t}\n" +
+
                 "\t\t\tgoogle.maps.event.addDomListener(window, 'load', initialize);\n" +
+
                 "\t\t</script>\n" +
                 "\t</head>\n" +
                 "\t<body onload=\"initialize()\">\n" +
